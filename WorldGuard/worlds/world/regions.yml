@@ -77,7 +77,8 @@ regions:
         max: {x: 1314, y: 83, z: -207}
         members: {}
         flags: {}
-        owners: {}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
         type: cuboid
         priority: 0
     __global__:
