@@ -88,3 +88,11 @@ regions:
         owners: {}
         type: global
         priority: 0
+    tarzancube4663:
+        min: {x: 1244, y: 62, z: -197}
+        max: {x: 1251, y: 68, z: -191}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
