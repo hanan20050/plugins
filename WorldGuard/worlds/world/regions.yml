@@ -23,7 +23,7 @@ regions:
         min: {x: 1296, y: 80, z: -219}
         max: {x: 1298, y: 82, z: -217}
         members: {}
-        flags: {other-explosion: allow, pvp: allow, tnt: allow}
+        flags: {other-explosion: deny, creeper-explosion: deny, pvp: deny, tnt: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -34,6 +34,15 @@ regions:
         flags: {other-explosion: allow, pvp: allow, tnt: allow}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
+        type: cuboid
+        priority: 0
+    mon_jin_deku:
+        min: {x: 1264, y: 62, z: -191}
+        max: {x: 1271, y: 68, z: -183}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01fa2d270090]
         type: cuboid
         priority: 0
     hastybag7675_manansaleh2007:
