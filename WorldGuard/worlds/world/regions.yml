@@ -26,7 +26,7 @@ regions:
         flags: {other-explosion: deny, creeper-explosion: deny, pvp: deny, tnt: deny}
         owners: {}
         type: cuboid
-        priority: 0
+        priority: 10
     mustafahacker67:
         min: {x: 1292, y: 78, z: -214}
         max: {x: 1299, y: 86, z: -207}
