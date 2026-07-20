@@ -1,0 +1,1157 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 4|2|4903
+'1':
+  uniqueId: 149ce7e3-d907-4b7c-9b90-302484745505
+  world: world
+  x: 1297
+  y: 80
+  z: -218
+  yaw: 88.36158
+  type: admin
+  open: true
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:stone_axe
+        count: 1
+        components:
+          minecraft:damage: '40'
+      item1:
+        DataVersion: 4903
+        id: minecraft:leaf_litter
+        count: 21
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:leaf_litter
+        count: 10
+      item1:
+        DataVersion: 4903
+        id: minecraft:stone_axe
+        count: 1
+    '3':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:diamond_sword
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 25
+    '4':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 15
+      item1:
+        DataVersion: 4903
+        id: minecraft:diamond_sword
+        count: 1
+    '5':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:golden_apple
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 15
+    '6':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 3
+      item1:
+        DataVersion: 4903
+        id: minecraft:golden_apple
+        count: 1
+    '7':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:shield
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 5
+    '8':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:shield
+        count: 1
+    '9':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:coal
+        count: 15
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '10':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:coal
+        count: 15
+    '11':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:iron_pickaxe
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '12':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:iron_pickaxe
+        count: 1
+    '13':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:shears
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+    '14':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:shears
+        count: 2
+    '15':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:torch
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '16':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:torch
+        count: 24
+    '17':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:bread
+        count: 6
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '18':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:bread
+        count: 12
+    '19':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:cooked_beef
+        count: 5
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '20':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:cooked_beef
+        count: 10
+    '21':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:paper
+        count: 24
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '22':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:paper
+        count: 24
+    '23':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:bucket
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 6
+    '24':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:bucket
+        count: 1
+    '25':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:iron_chestplate
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 12
+    '26':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 3
+      item1:
+        DataVersion: 4903
+        id: minecraft:iron_chestplate
+        count: 1
+    '27':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:arrow
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '28':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:arrow
+        count: 32
+    '29':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:book
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '30':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:book
+        count: 3
+    '31':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:clay_ball
+        count: 10
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '32':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:clay_ball
+        count: 10
+    '33':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:stone
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '34':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:stone
+        count: 16
+    '35':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:stick
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '36':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:stick
+        count: 32
+    '37':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:clock
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '38':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:clock
+        count: 1
+    '39':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:compass
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '40':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:compass
+        count: 1
+    '41':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:rotten_flesh
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '42':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:rotten_flesh
+        count: 32
+    '43':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:raw_iron
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '44':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:raw_iron
+        count: 4
+    '45':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:glass
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '46':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:glass
+        count: 8
+    '47':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:dirt
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '48':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:dirt
+        count: 64
+    '49':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:white_wool
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '50':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:white_wool
+        count: 32
+    '51':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:white_bed
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:oak_planks
+        count: 3
+    '52':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:oak_planks
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:white_bed
+        count: 1
+    '53':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:diamond_pickaxe
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 35
+    '54':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 20
+      item1:
+        DataVersion: 4903
+        id: minecraft:diamond_pickaxe
+        count: 1
+    '55':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:diamond_chestplate
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '56':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 50
+      item1:
+        DataVersion: 4903
+        id: minecraft:diamond_chestplate
+        count: 1
+    '57':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:bow
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 6
+    '58':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:bow
+        count: 1
+    '59':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:ender_pearl
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+    '60':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:ender_pearl
+        count: 1
+    '61':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:gold_ingot
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '62':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:gold_ingot
+        count: 4
+    '63':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:iron_ingot
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '64':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:iron_ingot
+        count: 4
+    '65':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:diamond
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 10
+    '66':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 5
+      item1:
+        DataVersion: 4903
+        id: minecraft:diamond
+        count: 1
+    '67':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '68':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+    '69':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:golden_carrot
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '70':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:golden_carrot
+        count: 16
+    '71':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:glistering_melon_slice
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '72':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:glistering_melon_slice
+        count: 16
+    '73':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:obsidian
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '74':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:obsidian
+        count: 8
+    '75':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:lapis_lazuli
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '76':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:lapis_lazuli
+        count: 32
+    '77':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:redstone
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '78':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:redstone
+        count: 32
+    '79':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:glowstone_dust
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '80':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:glowstone_dust
+        count: 32
+    '81':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:slime_ball
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '82':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:slime_ball
+        count: 8
+    '83':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:leather
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '84':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:leather
+        count: 16
+    '85':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:feather
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '86':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:feather
+        count: 32
+    '87':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:gunpowder
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '88':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:gunpowder
+        count: 16
+    '89':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:rotten_flesh
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '90':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:rotten_flesh
+        count: 64
+    '91':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:blaze_rod
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 3
+    '92':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:blaze_rod
+        count: 2
+    '93':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:ghast_tear
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '94':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:ghast_tear
+        count: 1
+    '95':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:nether_star
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '96':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:nether_star
+        count: 1
+    '97':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:shulker_shell
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '98':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:shulker_shell
+        count: 2
+    '99':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:totem_of_undying
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 32
+    '100':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:totem_of_undying
+        count: 1
+    '101':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:saddle
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '102':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:saddle
+        count: 1
+    '103':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:oak_log
+        count: 3
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '104':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:oak_log
+        count: 32
+    '105':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:cobblestone
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '106':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:cobblestone
+        count: 64
+    '107':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:quartz
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '108':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:quartz
+        count: 8
+    '109':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:copper_ingot
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '110':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:copper_ingot
+        count: 16
+    '111':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:sugar_cane
+        count: 12
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '112':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:sugar_cane
+        count: 24
+    '113':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:wheat
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '114':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:wheat
+        count: 32
+    '115':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:carrot
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '116':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:carrot
+        count: 32
+    '117':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:potato
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '118':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:potato
+        count: 32
+    '119':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:string
+        count: 12
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '120':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:string
+        count: 24
+    '121':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:bone
+        count: 12
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '122':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:bone
+        count: 24
+    '123':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:name_tag
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+    '124':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:name_tag
+        count: 1
+    '125':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:lead
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 2
+    '126':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:lead
+        count: 2
+  snapshots: []
