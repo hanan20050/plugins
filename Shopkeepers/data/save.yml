@@ -397,7 +397,7 @@ data-version: 4|2|4903
       item1:
         DataVersion: 4903
         id: minecraft:rotten_flesh
-        count: 32
+        count: 64
     '43':
       resultItem:
         DataVersion: 4903
@@ -991,7 +991,7 @@ data-version: 4|2|4903
       item1:
         DataVersion: 4903
         id: minecraft:quartz
-        count: 8
+        count: 32
     '109':
       resultItem:
         DataVersion: 4903
@@ -1154,4 +1154,241 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:lead
         count: 2
+    '127':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:netherrack
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '128':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherrack
+        count: 64
+    '129':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:nether_bricks
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '130':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:nether_bricks
+        count: 32
+    '131':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:nether_wart
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '132':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:nether_wart
+        count: 16
+    '133':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:soul_sand
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '134':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:soul_sand
+        count: 16
+    '135':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:glowstone
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '136':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:glowstone
+        count: 8
+    '137':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:quartz
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '138':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:quartz
+        count: 32
+    '139':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:basalt
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '140':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:basalt
+        count: 64
+    '141':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:blackstone
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '142':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:blackstone
+        count: 64
+    '143':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:magma_block
+        count: 8
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '144':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:magma_block
+        count: 16
+    '145':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:crying_obsidian
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+    '146':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:crying_obsidian
+        count: 4
   snapshots: []
+'2':
+  uniqueId: a28b74c2-9b2f-4889-bdc0-f4b6794bb71b
+  world: world
+  x: 1297
+  y: 80
+  z: -216
+  yaw: 180.0
+  type: admin
+  open: true
+  name: '&6Plot Expansions'
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:librarian
+    villagerType: minecraft:plains
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:custom_name: '{"text":"Normal Plot Expansion Certificate","color":"gold","bold":true}'
+          minecraft:written_book_content: '{"author":"Server Admin","title":"Normal Plot Expansion","pages":["This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (50x50)."]}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:custom_name: '{"text":"Big Plot Expansion Certificate","color":"dark_purple","bold":true}'
+          minecraft:written_book_content: '{"author":"Server Admin","title":"Big Plot Expansion","pages":["This document certifies that the bearer is entitled to one Big Plot Expansion (100x100)."]}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 2
+    '3':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:custom_name: '{"text":"Small Plot Expansion Certificate","color":"green","bold":true}'
+          minecraft:written_book_content: '{"author":"Server Admin","title":"Small Plot Expansion","pages":["This document certifies that the bearer is entitled to one Small-sized Plot Expansion (25x25)."]}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 32
+
+
+
+

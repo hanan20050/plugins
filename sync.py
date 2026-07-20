@@ -82,6 +82,8 @@ def clean_path(path):
     path = path.replace("\\", "/")
     if path.startswith("./"):
         path = path[2:]
+    if path == ".":
+        return ""
     return path.strip("/")
 
 def pull_item(remote_rel_path):
@@ -96,7 +98,8 @@ def pull_item(remote_rel_path):
     data = info_res.get("data", {})
     if data.get("isDirectory"):
         # Create local directory if not exists
-        os.makedirs(remote_rel_path, exist_ok=True)
+        if remote_rel_path:
+            os.makedirs(remote_rel_path, exist_ok=True)
         children = data.get("children", [])
         if children is None:
             # Re-fetch directory children if not loaded
@@ -132,8 +135,8 @@ def push_item(local_rel_path):
     if os.path.isdir(local_rel_path):
         # Recursively push files in directory
         for item in os.listdir(local_rel_path):
-            # Ignore hidden files, git, and sync/env scripts
-            if item.startswith(".") or item in ("sync.py", "__pycache__"):
+            # Ignore hidden files, git, recipes, and sync/env/cheat-sheet scripts
+            if item.startswith(".") or item in ("sync.py", "__pycache__", "recipes_26.2", "worldguard_worldedit_commands.md"):
                 continue
             child_rel = os.path.join(local_rel_path, item)
             push_item(child_rel)

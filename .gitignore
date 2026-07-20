@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
+recipes_26.2/
+worldguard_worldedit_commands.md
