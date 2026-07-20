@@ -75,7 +75,8 @@ regions:
     mustafahacker67_expand:
         min: {x: 1300, y: 78, z: -214}
         max: {x: 1314, y: 83, z: -207}
-        members: {}
+        members:
+            unique-ids: [b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
         flags: {}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
