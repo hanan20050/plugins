@@ -268,7 +268,7 @@ def audit_tradelog_for_land():
             rows = cursor.fetchall()
             for r in rows:
                 timestamp, player_name, result_type, metadata = str(r[0]), str(r[1]), str(r[2]), str(r[3] or "")
-                trade_key = f"{timestamp}_{player_name}_{result_type}_{hash(metadata)}"
+                trade_key = f"{timestamp}_{player_name}_{result_type}"
 
                 if trade_key in processed:
                     continue
