@@ -212,22 +212,12 @@ def main():
             try:
                 sync_tradelog()
                 audit_and_apply_upgrades()
-                try:
-                    import land_claim_sign
-                    land_claim_sign.audit_tradelog_for_land()
-                except Exception as land_err:
-                    print(f"Land claim sign audit error: {land_err}")
             except Exception as e:
                 print(f"Error during check iteration: {e}")
             time.sleep(poll_interval)
     else:
         sync_tradelog()
         audit_and_apply_upgrades()
-        try:
-            import land_claim_sign
-            land_claim_sign.audit_tradelog_for_land()
-        except Exception as e:
-            print(f"Land claim sign audit error: {e}")
 
 if __name__ == "__main__":
     main()
