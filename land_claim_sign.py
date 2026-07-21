@@ -174,12 +174,34 @@ def create_land_claim(player_name, center_x, center_y, center_z, radius=12, heig
     # Replace outer perimeter floor blocks with gray concrete
     send_exaroton_command(f"//walls gray_concrete")
     
-    # Save WorldGuard data
+    # Save WorldGuard & WorldEdit changes to disk and server memory
     send_exaroton_command(f"rg save -w {world}")
     send_exaroton_command("wg save")
+    send_exaroton_command("rg reload")
     
     real_name = PLAYER_MAP.get(player_name, player_name)
     send_exaroton_command(f'say §6[Land Claim] §a{real_name} §ehas placed a Land Ownership Sign! Claimed §b{cand_max_x - cand_min_x + 1}x{cand_max_z - cand_min_z + 1} §earea (Max Height: 10 blocks) with floor outline!')
+    return True
+
+def undo_land_claim(player_name, world="world"):
+    """
+    Undoes a land claim for a player: removes WorldGuard region and reverts floor blocks if needed.
+    """
+    clean_player = player_name.lower().replace(".", "").strip()
+    region_name = f"{clean_player}_land"
+    
+    print(f"🔄 Undoing Land Claim for '{region_name}'...")
+    
+    # 1. Delete region from WorldGuard
+    send_exaroton_command(f"rg delete -w {world} {region_name}")
+    
+    # 2. Always save WorldGuard configuration immediately
+    send_exaroton_command(f"rg save -w {world}")
+    send_exaroton_command("wg save")
+    send_exaroton_command("rg reload")
+    
+    real_name = PLAYER_MAP.get(player_name, player_name)
+    send_exaroton_command(f'say §c[Land Claim] §eLand claim for §a{real_name} §ehas been undone and region removed.')
     return True
 
 def give_custom_claim_sign(player_name):
@@ -268,6 +290,14 @@ def main():
             create_land_claim(player, x, y, z, radius=radius)
         else:
             print("Usage: python3 land_claim_sign.py claim <player> <x> <y> <z> [radius]")
+        return
+
+    if len(sys.argv) > 1 and sys.argv[1] == "undo":
+        # Undo CLI mode: python3 land_claim_sign.py undo <player>
+        if len(sys.argv) >= 3:
+            undo_land_claim(sys.argv[2])
+        else:
+            print("Usage: python3 land_claim_sign.py undo <player>")
         return
 
     if len(sys.argv) > 1 and sys.argv[1] == "give":
