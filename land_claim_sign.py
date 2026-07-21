@@ -174,6 +174,9 @@ def create_land_claim(player_name, center_x, center_y, center_z, radius=12, heig
     # Replace outer perimeter floor blocks with gray concrete
     send_exaroton_command(f"//walls gray_concrete")
     
+    # 3. Disappear/remove the claim sign at center_x, center_y, center_z so it cannot be reused
+    send_exaroton_command(f"setblock {center_x} {center_y} {center_z} air")
+    
     # Save WorldGuard & WorldEdit changes to disk and server memory
     send_exaroton_command(f"rg save -w {world}")
     send_exaroton_command("wg save")
@@ -206,12 +209,17 @@ def undo_land_claim(player_name, world="world"):
 
 def give_custom_claim_sign(player_name):
     """
-    Gives a player a custom named claim sign when they purchase land ownership,
+    Removes the purchased certificate book from player inventory, gives the custom claim sign,
     and sends detailed instructions in chat.
     """
+    # Remove any written_book / certificate book from player inventory
+    send_exaroton_command(f'clear {player_name} written_book 1')
+    send_exaroton_command(f'clear {player_name} book 1')
+
+    # Give custom Land Claim Sign
     sign_item = f'oak_sign[item_name=\'"§6Land Claim Sign"\',lore=[\'"§7Place this sign to claim your land!"\',\'"§7Creates a 25x25 protected area centered on sign."\']]'
     cmd = f'give {player_name} {sign_item} 1'
-    print(f"🎁 Giving custom Land Claim Sign to {player_name}...")
+    print(f"🎁 Giving custom Land Claim Sign to {player_name} (replaced certificate book)...")
     send_exaroton_command(cmd)
 
     real_name = PLAYER_MAP.get(player_name, player_name)
