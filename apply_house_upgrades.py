@@ -198,16 +198,20 @@ def audit_and_apply_upgrades():
         conn.close()
 
 def main():
-    loop_mode = "--loop" in sys.argv or "-l" in sys.argv
+    loop_mode = "--loop" in sys.argv or "-l" in sys.argv or os.environ.get("LOOP_MODE") == "true"
+    duration = int(os.environ.get("LOOP_DURATION", "270")) if loop_mode else 0
+    poll_interval = int(os.environ.get("POLL_INTERVAL", "5"))
+
     if loop_mode:
-        print("🔄 Upgrade checker running (broadcasting public chat messages to everyone, polling every 10s)...")
-        while True:
+        print(f"🔄 Upgrade checker running (polling every {poll_interval}s for {duration}s)...")
+        start_time = time.time()
+        while time.time() - start_time < duration:
             try:
                 sync_tradelog()
                 audit_and_apply_upgrades()
             except Exception as e:
                 print(f"Error during check iteration: {e}")
-            time.sleep(10)
+            time.sleep(poll_interval)
     else:
         sync_tradelog()
         audit_and_apply_upgrades()

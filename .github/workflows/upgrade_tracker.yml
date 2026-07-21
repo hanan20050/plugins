@@ -18,10 +18,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Run Upgrade Tracker Script
+      - name: Run Upgrade Tracker Script (5s Polling Loop)
         env:
           EXAROTON_TOKEN: ${{ secrets.EXAROTON_TOKEN }}
           EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
+          LOOP_MODE: "true"
+          LOOP_DURATION: "270"
+          POLL_INTERVAL: "5"
         run: python3 apply_house_upgrades.py
 
       - name: Commit and Push Processed Trades Changes
