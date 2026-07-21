@@ -148,7 +148,13 @@ def create_land_claim(player_name, center_x, center_y, center_z, radius=12, heig
     clean_player = player_name.lower().replace(".", "").strip()
     region_name = f"{clean_player}_land"
     
-    # Check if region already exists or if overlapping
+    # Strictly prevent duplicate plots: check if player already owns this land region
+    if region_name in regions:
+        print(f"⚠️ Player {player_name} already has an active land claim '{region_name}'. Cannot create another duplicate plot.")
+        send_exaroton_command(f'say §c[Land Claim] {player_name} already has an active land claim ({region_name})!')
+        return False
+        
+    # Check if region overlaps with any existing non-global region
     overlapping = check_overlap(cand_min_x, cand_min_z, cand_max_x, cand_max_z, regions, ignore_region=region_name)
     if overlapping:
         print(f"❌ Cannot create claim for {player_name}: overlaps with existing region '{overlapping}'!")
