@@ -10,6 +10,58 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    shop:
+        min: {x: 1293, y: 79, z: -221}
+        max: {x: 1300, y: 81, z: -215}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    mon_jin_deku:
+        min: {x: 1264, y: 62, z: -191}
+        max: {x: 1271, y: 68, z: -183}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01fa2d270090]
+        type: cuboid
+        priority: 0
+    hastybag7675_manansaleh2007:
+        min: {x: 1256, y: 73, z: -229}
+        max: {x: 1272, y: 79, z: -221}
+        members: {}
+        flags: {other-explosion: allow, tnt: deny}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8]
+        type: cuboid
+        priority: 0
+    mustafa_farm:
+        min: {x: 1231, y: 61, z: -176}
+        max: {x: 1249, y: 75, z: -161}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
+        type: cuboid
+        priority: 0
+    hanansaleh:
+        min: {x: 1292, y: 78, z: -230}
+        max: {x: 1299, y: 86, z: -223}
+        members: {}
+        flags: {other-explosion: deny, tnt: deny}
+        owners:
+            unique-ids: [b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
+        type: cuboid
+        priority: 0
+    fill:
+        min: {x: 1246, y: 61, z: -193}
+        max: {x: 1264, y: 61, z: -177}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
     wirycircle3938:
         min: {x: 1283, y: 75, z: -207}
         max: {x: 1288, y: 85, z: -198}
@@ -28,55 +80,20 @@ regions:
             unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1]
         type: cuboid
         priority: 0
-    shop:
-        min: {x: 1293, y: 79, z: -221}
-        max: {x: 1300, y: 81, z: -215}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    mon_jin_deku:
-        min: {x: 1264, y: 62, z: -191}
-        max: {x: 1271, y: 68, z: -183}
-        members: {}
-        flags: {}
-        owners:
-            unique-ids: [00000000-0000-0000-0009-01fa2d270090]
-        type: cuboid
-        priority: 0
     mustafahacker67:
         min: {x: 1292, y: 78, z: -214}
         max: {x: 1299, y: 86, z: -207}
         members: {}
-        flags: {other-explosion: allow, tnt: allow, pvp: allow}
+        flags: {other-explosion: allow, tnt: allow}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
-        type: cuboid
-        priority: 0
-    hastybag7675_manansaleh2007:
-        min: {x: 1256, y: 73, z: -229}
-        max: {x: 1272, y: 79, z: -221}
-        members: {}
-        flags: {other-explosion: allow, tnt: deny, pvp: allow}
-        owners:
-            unique-ids: [00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8]
-        type: cuboid
-        priority: 0
-    hanansaleh:
-        min: {x: 1292, y: 78, z: -230}
-        max: {x: 1299, y: 86, z: -223}
-        members: {}
-        flags: {other-explosion: deny, tnt: deny, pvp: deny, pvp-group: NON_OWNERS}
-        owners:
-            unique-ids: [b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
         type: cuboid
         priority: 0
     nightmaredady:
         min: {x: 1302, y: 79, z: -240}
         max: {x: 1311, y: 86, z: -230}
         members: {}
-        flags: {other-explosion: allow, tnt: allow, pvp: allow}
+        flags: {other-explosion: allow, tnt: deny}
         owners:
             unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
         type: cuboid
