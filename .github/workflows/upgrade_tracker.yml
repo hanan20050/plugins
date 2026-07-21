@@ -24,6 +24,9 @@ jobs:
         env:
           EXAROTON_TOKEN: ${{ secrets.EXAROTON_TOKEN }}
           EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
           LOOP_MODE: "true"
           LOOP_DURATION: "270"
           POLL_INTERVAL: "2"

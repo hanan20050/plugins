@@ -210,12 +210,24 @@ def main():
         start_time = time.time()
         while time.time() - start_time < duration:
             try:
+                try:
+                    import notify_server_start
+                    notify_server_start.check_and_notify()
+                except Exception as notify_err:
+                    print(f"Status check error: {notify_err}")
+
                 sync_tradelog()
                 audit_and_apply_upgrades()
             except Exception as e:
                 print(f"Error during check iteration: {e}")
             time.sleep(poll_interval)
     else:
+        try:
+            import notify_server_start
+            notify_server_start.check_and_notify()
+        except Exception as notify_err:
+            print(f"Status check error: {notify_err}")
+
         sync_tradelog()
         audit_and_apply_upgrades()
 
