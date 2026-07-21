@@ -184,12 +184,32 @@ def create_land_claim(player_name, center_x, center_y, center_z, radius=12, heig
 
 def give_custom_claim_sign(player_name):
     """
-    Gives a player a custom named claim sign when they purchase land ownership.
+    Gives a player a custom named claim sign when they purchase land ownership,
+    and sends detailed instructions in chat.
     """
     sign_item = f'oak_sign[item_name=\'"§6Land Claim Sign"\',lore=[\'"§7Place this sign to claim your land!"\',\'"§7Creates a 25x25 protected area centered on sign."\']]'
     cmd = f'give {player_name} {sign_item} 1'
     print(f"🎁 Giving custom Land Claim Sign to {player_name}...")
     send_exaroton_command(cmd)
+
+    real_name = PLAYER_MAP.get(player_name, player_name)
+    # Direct tellraw instruction message to player
+    tell_cmd = (
+        f'tellraw {player_name} ['
+        f'{{"text":"\\n§6§l=== 📜 LAND CLAIM SIGN INSTRUCTIONS ===\\n","bold":true}},'
+        f'{{"text":"§eCongratulations §a{real_name}§e! You received a §6Land Claim Sign§e.\\n"}},'
+        f'{{"text":"§b1. §fPlace the sign in the center of where you want your plot.\\n"}},'
+        f'{{"text":"§b2. §fIt automatically creates a §a25x25 §fprotected area around it.\\n"}},'
+        f'{{"text":"§b3. §fMax height protection is §a10 blocks §fabove the sign.\\n"}},'
+        f'{{"text":"§b4. §fA §7smooth cement outline §fwill mark your floor border!\\n"}},'
+        f'{{"text":"§cNote: Make sure not to place it inside someone else\'s claim!\\n"}},'
+        f'{{"text":"§6§l========================================\\n"}}'
+        f']'
+    )
+    send_exaroton_command(tell_cmd)
+    
+    # Public announcement broadcast
+    send_exaroton_command(f'say §6[Land Claim] §a{real_name} §epurchased a §6Land Claim Sign§e! Check your inventory and chat for placement instructions.')
 
 def audit_tradelog_for_land():
     """
