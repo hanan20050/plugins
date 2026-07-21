@@ -203,7 +203,7 @@ def audit_and_apply_upgrades():
 def main():
     loop_mode = "--loop" in sys.argv or "-l" in sys.argv or os.environ.get("LOOP_MODE") == "true"
     duration = int(os.environ.get("LOOP_DURATION", "270")) if loop_mode else 0
-    poll_interval = int(os.environ.get("POLL_INTERVAL", "5"))
+    poll_interval = int(os.environ.get("POLL_INTERVAL", "2"))
 
     if loop_mode:
         print(f"🔄 Upgrade checker running (polling every {poll_interval}s for {duration}s)...")

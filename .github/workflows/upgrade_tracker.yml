@@ -24,7 +24,7 @@ jobs:
           EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
           LOOP_MODE: "true"
           LOOP_DURATION: "270"
-          POLL_INTERVAL: "5"
+          POLL_INTERVAL: "2"
         run: python3 apply_house_upgrades.py
 
       - name: Commit and Push Processed Trades Changes
