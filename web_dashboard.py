@@ -1,23 +1,48 @@
 #!/usr/bin/env python3
 """
-Lightweight Web Dashboard Server (No Dependencies Required)
-------------------------------------------------------------
+Lightweight Web Dashboard Server (with Dynamic Searchable Datalists)
+---------------------------------------------------------------------
 Uses Python's built-in `http.server` module to run a web dashboard UI.
-Provides an interactive web interface to control:
-  1. Plot Sizer & Cutter (resize_plot.py)
-  2. Upgrade Refund & Rollback (refund_upgrade.py)
-  3. Floor Block Generator (add_region_floor.py)
-  4. Region Player & Access Manager (manage_region_players.py)
+Includes dynamic search dropdown menus (<datalist>) populated directly from
+WorldGuard regions.yml and player identity maps!
 """
 
 import os
 import sys
 import json
+import re
 import subprocess
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+REGIONS_FILE = os.path.join(BASE_DIR, "WorldGuard/worlds/world/regions.yml")
+
+PLAYER_LIST = [
+    {"name": "mustafa", "username": ".mustafahacker67"},
+    {"name": "muhammad saleh", "username": ".HastyBag7675"},
+    {"name": "omer saleh", "username": ".WiryCircle3938"},
+    {"name": "hanan saleh", "username": "hanansaleh"},
+    {"name": "manan saleh", "username": "manansaleh2007"},
+    {"name": "rayan saleh", "username": "NightmareDady"},
+    {"name": "azan saleh", "username": "azansalehhh"}
+]
+
+def get_region_list():
+    if not os.path.exists(REGIONS_FILE):
+        return []
+    regions = []
+    try:
+        with open(REGIONS_FILE, "r") as f:
+            for line in f:
+                reg_match = re.match(r"^ {4}([a-zA-Z0-9_\-]+):", line)
+                if reg_match:
+                    rname = reg_match.group(1)
+                    if rname not in regions and rname != "__global__":
+                        regions.append(rname)
+    except Exception:
+        pass
+    return regions
 
 def run_script(cmd_list):
     try:
@@ -299,6 +324,15 @@ HTML_PAGE = """<!DOCTYPE html>
 </head>
 <body>
 
+    <!-- Shared Searchable Datalists -->
+    <datalist id="region-list">
+        <!-- Populated via API -->
+    </datalist>
+
+    <datalist id="player-list">
+        <!-- Populated via API -->
+    </datalist>
+
     <div class="sidebar">
         <div class="brand">
             <div class="brand-badge">🎮</div>
@@ -331,8 +365,8 @@ HTML_PAGE = """<!DOCTYPE html>
                 <form id="form-sizer">
                     <div class="form-grid">
                         <div class="form-group">
-                            <label>Region ID</label>
-                            <input type="text" name="region" placeholder="e.g. hanansaleh, mustafahacker67" required>
+                            <label>Region ID (Search & Select)</label>
+                            <input type="text" name="region" list="region-list" placeholder="Type or select region..." required>
                         </div>
                         <div class="form-group">
                             <label>Target Category</label>
@@ -371,8 +405,8 @@ HTML_PAGE = """<!DOCTYPE html>
                 <form id="form-refund">
                     <div class="form-grid">
                         <div class="form-group">
-                            <label>Player Name</label>
-                            <input type="text" name="player" placeholder="e.g. hanansaleh, mustafahacker67" required>
+                            <label>Player Name (Search & Select)</label>
+                            <input type="text" name="player" list="player-list" placeholder="Type or select player..." required>
                         </div>
                         <div class="form-group">
                             <label>Upgrade Type</label>
@@ -423,8 +457,8 @@ HTML_PAGE = """<!DOCTYPE html>
                 <form id="form-floor">
                     <div class="form-grid">
                         <div class="form-group">
-                            <label>Region Name</label>
-                            <input type="text" name="region" placeholder="e.g. hanansaleh, wirycircle3938" required>
+                            <label>Region Name (Search & Select)</label>
+                            <input type="text" name="region" list="region-list" placeholder="Type or select region..." required>
                         </div>
                         <div class="form-group">
                             <label>Floor Material Block</label>
@@ -455,8 +489,8 @@ HTML_PAGE = """<!DOCTYPE html>
                 <form id="form-members">
                     <div class="form-grid">
                         <div class="form-group">
-                            <label>Region Name</label>
-                            <input type="text" name="region" placeholder="e.g. hastybag7675_manansaleh2007" required>
+                            <label>Region Name (Search & Select)</label>
+                            <input type="text" name="region" list="region-list" placeholder="Type or select region..." required>
                         </div>
                         <div class="form-group">
                             <label>Action</label>
@@ -468,8 +502,8 @@ HTML_PAGE = """<!DOCTYPE html>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Player Name (Real or Username)</label>
-                            <input type="text" name="player" placeholder="e.g. rayan, mustafa, hanan">
+                            <label>Player Name (Search & Select)</label>
+                            <input type="text" name="player" list="player-list" placeholder="Type or select player..." required>
                         </div>
                     </div>
                     <div class="checkbox-group">
@@ -489,6 +523,35 @@ HTML_PAGE = """<!DOCTYPE html>
     </div>
 
     <script>
+        // Load Search Datalists on page load
+        async function loadDatalists() {
+            try {
+                const resp = await fetch('/api/datalists');
+                const data = await resp.json();
+                
+                const regList = document.getElementById('region-list');
+                regList.innerHTML = '';
+                data.regions.forEach(r => {
+                    const opt = document.createElement('option');
+                    opt.value = r;
+                    regList.appendChild(opt);
+                });
+
+                const playList = document.getElementById('player-list');
+                playList.innerHTML = '';
+                data.players.forEach(p => {
+                    const opt = document.createElement('option');
+                    opt.value = p.name;
+                    opt.label = p.name + ' (' + p.username + ')';
+                    playList.appendChild(opt);
+                });
+            } catch(e) {
+                console.error("Failed to load datalists:", e);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadDatalists);
+
         function showTab(tabId, evt) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
@@ -574,6 +637,15 @@ class DashboardRequestHandler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
             self.wfile.write(HTML_PAGE.encode("utf-8"))
+        elif self.path == "/api/datalists":
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+            result = {
+                "regions": get_region_list(),
+                "players": PLAYER_LIST
+            }
+            self.wfile.write(json.dumps(result).encode("utf-8"))
         else:
             self.send_error(404, "File Not Found")
 
@@ -627,7 +699,7 @@ class DashboardRequestHandler(BaseHTTPRequestHandler):
             result = run_script(cmd)
 
         self.send_response(200)
-        self.send_header("Content-Type", "json/application")
+        self.send_header("Content-Type", "application/json")
         self.end_headers()
         self.wfile.write(json.dumps(result).encode("utf-8"))
 
