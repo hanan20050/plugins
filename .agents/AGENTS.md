@@ -3,7 +3,7 @@
 - Emerald is the base currency for this file (`save.yml`).
 - Netherite Ingot is the bigger currency (1 Netherite Ingot = 64 Emeralds).
 - Always check Shopkeepers trade recipes and verify there are no infinite money glitches (e.g., selling price per unit > buying price per unit for any item).
-- For broadcasting announcements to all players, use title/subtitle commands so they fit nicely on the screen (e.g., `/title @a title {"text":"New Features","color":"gold"}` followed by `/title @a subtitle {"text":"Coming Soon!","color":"yellow"}`).
+- DO NOT broadcast title/subtitle announcements on screen unless explicitly asked by the user.
 
 
 # Player Identity Reference (Real Names vs. Bedrock/Geyser Usernames)
@@ -38,10 +38,29 @@
     -H "Content-Type: application/json" \
     -d '{"command": "<command_here>"}'
 
+# Automatic Data Pulling Rule
+- ALWAYS pull the latest configuration/region/trade log files from the Exaroton server via `sync.py pull <filepath>` whenever the user asks for updates, status checks, region queries, or server state verification before giving an answer.
+
+# Region Size Categorization Formula & Rules
+- Region Dimensions Calculation Formula:
+  - Width (X): `(max_x - min_x) + 1`
+  - Length (Z): `(max_z - min_z) + 1`
+- Size Categories:
+  - **Starter / Base Plot**: Under 15x15 blocks
+  - **Small Plot**: Up to 25x25 blocks (e.g. 22x22 falls into Small Plot)
+  - **Normal Plot**: Up to 50x50 blocks
+  - **Big Plot**: Up to 100x100 blocks
+
 # Automatic Sync & Plugin Reloading Rule
 - Whenever any plugin configuration or data file (e.g. `Shopkeepers/data/save.yml`, `config.yml`, etc.) is created or modified, ALWAYS immediately upload/push the updated file to the Exaroton server via the API and execute the corresponding plugin reload command on the Exaroton server console (e.g., `shopkeeper reload`).
 
 # Server Restart Permission Rule (STRICT)
 - NEVER restart or stop the Exaroton server without obtaining explicit permission from the user first. Always ask the user and wait for their confirmation before issuing any server restart or stop command.
+
+
+# Undo & Rollback Requirement (STRICT)
+- ALWAYS implement and maintain a strictly operational undo/rollback mechanism for any scripts or commands that edit the Minecraft world (blocks/floors) or WorldGuard regions (redefining bounds, membership changes, flag changes).
+- Region-modifying scripts must back up the region data before editing and support an `--undo` option.
+- World/block modifying scripts must keep a history of the commands run and support a command to revert changes.
 
 
