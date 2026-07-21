@@ -176,8 +176,11 @@ def audit_and_apply_upgrades():
 
                         print(f"🎯 Processing new upgrade {label} for {player_name} -> Region: {region_name}")
 
-                        # 1. Apply WorldGuard flag
-                        flag_cmd = f"rg flag -w \"world\" {region_name} {flag} deny"
+                        # 1. Apply WorldGuard flag (for PvP, allow owners to defend against non-owners)
+                        if flag == "pvp":
+                            flag_cmd = f"rg flag -w \"world\" {region_name} pvp -g non_owners deny"
+                        else:
+                            flag_cmd = f"rg flag -w \"world\" {region_name} {flag} deny"
                         send_exaroton_command(flag_cmd)
 
                         # 2. Save WorldGuard data to disk
