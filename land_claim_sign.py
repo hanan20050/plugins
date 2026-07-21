@@ -216,10 +216,9 @@ def give_custom_claim_sign(player_name):
     send_exaroton_command(f'clear {player_name} written_book 1')
     send_exaroton_command(f'clear {player_name} book 1')
 
-    # Give custom Land Claim Sign
-    sign_item = f'oak_sign[item_name=\'"§6Land Claim Sign"\',lore=[\'"§7Place this sign to claim your land!"\',\'"§7Creates a 25x25 protected area centered on sign."\']]'
-    cmd = f'give {player_name} {sign_item} 1'
-    print(f"🎁 Giving custom Land Claim Sign to {player_name} (replaced certificate book)...")
+    # Give custom Land Claim Sign (compatible format)
+    cmd = f'give {player_name} oak_sign 1'
+    print(f"🎁 Giving custom Land Claim Sign to {player_name}...")
     send_exaroton_command(cmd)
 
     real_name = PLAYER_MAP.get(player_name, player_name)
