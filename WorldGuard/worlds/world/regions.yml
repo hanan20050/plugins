@@ -36,15 +36,6 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    mustafahacker67:
-        min: {x: 1292, y: 78, z: -214}
-        max: {x: 1299, y: 86, z: -207}
-        members: {}
-        flags: {other-explosion: allow, tnt: allow, pvp: allow}
-        owners:
-            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
-        type: cuboid
-        priority: 0
     mon_jin_deku:
         min: {x: 1264, y: 62, z: -191}
         max: {x: 1271, y: 68, z: -183}
@@ -54,11 +45,20 @@ regions:
             unique-ids: [00000000-0000-0000-0009-01fa2d270090]
         type: cuboid
         priority: 0
+    mustafahacker67:
+        min: {x: 1292, y: 78, z: -214}
+        max: {x: 1299, y: 86, z: -207}
+        members: {}
+        flags: {other-explosion: allow, tnt: allow, pvp: allow}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
+        type: cuboid
+        priority: 0
     hastybag7675_manansaleh2007:
         min: {x: 1256, y: 73, z: -229}
         max: {x: 1272, y: 79, z: -221}
         members: {}
-        flags: {other-explosion: allow, tnt: allow, pvp: allow}
+        flags: {other-explosion: allow, tnt: deny, pvp: allow}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8]
         type: cuboid
@@ -67,7 +67,7 @@ regions:
         min: {x: 1292, y: 78, z: -230}
         max: {x: 1299, y: 86, z: -223}
         members: {}
-        flags: {other-explosion: allow, tnt: deny, pvp: allow}
+        flags: {other-explosion: deny, tnt: deny, pvp: deny, pvp-group: NON_OWNERS}
         owners:
             unique-ids: [b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
         type: cuboid
@@ -79,6 +79,25 @@ regions:
         flags: {other-explosion: allow, tnt: allow, pvp: allow}
         owners:
             unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
+        type: cuboid
+        priority: 0
+    hanansaleh_land:
+        min: {x: 1103, y: 63, z: -162}
+        max: {x: 1124, y: 63, z: -141}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [326a36ea-b465-3192-a4f7-c313f347edc9, 28dd928d-7a83-35c0-9598-6b39b0d1b422,
+                b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
+        type: cuboid
+        priority: 0
+    manansaleh2007_farm:
+        min: {x: 1088, y: 63, z: -177}
+        max: {x: 1137, y: 77, z: -128}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8, 97963ed5-6305-3b45-9639-beba47f9afe4]
         type: cuboid
         priority: 0
     mustafahacker67_expand:
