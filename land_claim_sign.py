@@ -268,14 +268,14 @@ def audit_tradelog_for_land():
             rows = cursor.fetchall()
             for r in rows:
                 timestamp, player_name, result_type, metadata = str(r[0]), str(r[1]), str(r[2]), str(r[3] or "")
-                trade_key = f"{timestamp}_{player_name}_{result_type}"
+                trade_key = f"{timestamp}_{player_name}_{result_type}_{hash(metadata)}"
 
                 if trade_key in processed:
                     continue
 
                 metadata_lower = metadata.lower()
                 # Check for Land / Plot / Claim keywords in trade result item
-                if "land" in metadata_lower or "claim" in metadata_lower or "ownership" in metadata_lower or "plot" in metadata_lower:
+                if "land" in metadata_lower or "claim" in metadata_lower or "ownership" in metadata_lower or "plot" in metadata_lower or "expansion" in metadata_lower:
                     print(f"🛒 Land purchase detected for player: {player_name}")
                     give_custom_claim_sign(player_name)
                     
