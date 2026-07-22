@@ -76,13 +76,27 @@ CERT_FLAG_MAP = {
     "fire spread": ("fire-spread", "Fire Spread Protection")
 }
 
+def get_regions_for_player_owner(player_name):
+    primary = PLAYER_REGION_MAP.get(player_name) or PLAYER_REGION_MAP.get(player_name.lower()) or player_name.lower().replace(".", "")
+    target_regions = [primary]
+
+    regions_file = "WorldGuard/worlds/world/regions.yml"
+    if os.path.exists(regions_file):
+        clean_p = player_name.lower().replace(".", "")
+        with open(regions_file, "r") as f:
+            lines = f.readlines()
+        curr = None
+        for line in lines:
+            match = re.match(r"^ {4}([a-zA-Z0-9_\-]+):", line)
+            if match:
+                curr = match.group(1)
+                if clean_p in curr.lower() and curr not in target_regions:
+                    target_regions.append(curr)
+    return target_regions
+
 def get_region_for_player(player_name):
-    if player_name in PLAYER_REGION_MAP:
-        return PLAYER_REGION_MAP[player_name]
-    clean = player_name.lower().replace(".", "")
-    if clean in PLAYER_REGION_MAP:
-        return PLAYER_REGION_MAP[clean]
-    return clean
+    regs = get_regions_for_player_owner(player_name)
+    return regs[0] if regs else player_name
 
 def get_region_flags(regions_file="WorldGuard/worlds/world/regions.yml"):
     pull_cmd = [sys.executable, "sync.py", "pull", regions_file]
