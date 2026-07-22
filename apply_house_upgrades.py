@@ -77,12 +77,12 @@ CERT_FLAG_MAP = {
 }
 
 def get_regions_for_player_owner(player_name):
-    primary = PLAYER_REGION_MAP.get(player_name) or PLAYER_REGION_MAP.get(player_name.lower()) or player_name.lower().replace(".", "")
+    clean_p = player_name.lower().lstrip(".")
+    primary = PLAYER_REGION_MAP.get(player_name) or PLAYER_REGION_MAP.get(player_name.lower()) or clean_p
     target_regions = [primary]
 
     regions_file = "WorldGuard/worlds/world/regions.yml"
     if os.path.exists(regions_file):
-        clean_p = player_name.lower().replace(".", "")
         with open(regions_file, "r") as f:
             lines = f.readlines()
         curr = None
@@ -90,7 +90,10 @@ def get_regions_for_player_owner(player_name):
             match = re.match(r"^ {4}([a-zA-Z0-9_\-]+):", line)
             if match:
                 curr = match.group(1)
-                if clean_p in curr.lower() and curr not in target_regions:
+                curr_lower = curr.lower()
+                if curr_lower in ("shop", "fill", "__global__"):
+                    continue
+                if (clean_p in curr_lower or curr_lower in clean_p) and curr not in target_regions:
                     target_regions.append(curr)
     return target_regions
 
@@ -218,7 +221,7 @@ def audit_and_apply_upgrades():
                         send_exaroton_command("wg save")
 
                         # 4. Broadcast public confirmation message to everyone
-                        real_name = PLAYER_MAP.get(player_name) or PLAYER_MAP.get(player_name.lower()) or player_name
+                        real_name = PLAYER_MAP.get(player_name) or PLAYER_MAP.get(player_name.lower()) or player_name.lstrip(".")
                         done_msg = f'§6[Upgrade] §a{real_name} §e(§b{player_name}§e) activated §b{label} §eprotection on §b{", ".join(target_regions)}§e!'
                         notify_player_in_chat(player_name, done_msg)
                         break
