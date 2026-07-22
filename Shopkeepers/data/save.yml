@@ -338,22 +338,13 @@ data-version: 4|2|4903
     '36':
       resultItem:
         DataVersion: 4903
-        id: minecraft:netherite_ingot
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 64
-    '37':
-      resultItem:
-        DataVersion: 4903
         id: minecraft:golden_carrot
         count: 8
       item1:
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '38':
+    '37':
       resultItem:
         DataVersion: 4903
         id: minecraft:glistering_melon_slice
@@ -362,7 +353,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '39':
+    '38':
       resultItem:
         DataVersion: 4903
         id: minecraft:obsidian
@@ -371,7 +362,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '40':
+    '39':
       resultItem:
         DataVersion: 4903
         id: minecraft:lapis_lazuli
@@ -380,7 +371,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '41':
+    '40':
       resultItem:
         DataVersion: 4903
         id: minecraft:redstone
@@ -389,7 +380,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '42':
+    '41':
       resultItem:
         DataVersion: 4903
         id: minecraft:glowstone_dust
@@ -398,7 +389,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '43':
+    '42':
       resultItem:
         DataVersion: 4903
         id: minecraft:slime_ball
@@ -407,7 +398,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '44':
+    '43':
       resultItem:
         DataVersion: 4903
         id: minecraft:leather
@@ -416,7 +407,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '45':
+    '44':
       resultItem:
         DataVersion: 4903
         id: minecraft:feather
@@ -425,7 +416,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '46':
+    '45':
       resultItem:
         DataVersion: 4903
         id: minecraft:gunpowder
@@ -434,7 +425,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '47':
+    '46':
       resultItem:
         DataVersion: 4903
         id: minecraft:rotten_flesh
@@ -443,7 +434,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '48':
+    '47':
       resultItem:
         DataVersion: 4903
         id: minecraft:blaze_rod
@@ -452,7 +443,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 3
-    '49':
+    '48':
       resultItem:
         DataVersion: 4903
         id: minecraft:ghast_tear
@@ -461,7 +452,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '50':
+    '49':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_star
@@ -470,7 +461,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '51':
+    '50':
       resultItem:
         DataVersion: 4903
         id: minecraft:shulker_shell
@@ -479,7 +470,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '52':
+    '51':
       resultItem:
         DataVersion: 4903
         id: minecraft:totem_of_undying
@@ -488,7 +479,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 32
-    '53':
+    '52':
       resultItem:
         DataVersion: 4903
         id: minecraft:saddle
@@ -497,7 +488,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '54':
+    '53':
       resultItem:
         DataVersion: 4903
         id: minecraft:oak_log
@@ -506,7 +497,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '55':
+    '54':
       resultItem:
         DataVersion: 4903
         id: minecraft:cobblestone
@@ -515,7 +506,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '56':
+    '55':
       resultItem:
         DataVersion: 4903
         id: minecraft:quartz
@@ -524,7 +515,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '57':
+    '56':
       resultItem:
         DataVersion: 4903
         id: minecraft:copper_ingot
@@ -533,7 +524,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '58':
+    '57':
       resultItem:
         DataVersion: 4903
         id: minecraft:sugar_cane
@@ -542,7 +533,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '59':
+    '58':
       resultItem:
         DataVersion: 4903
         id: minecraft:wheat
@@ -551,7 +542,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '60':
+    '59':
       resultItem:
         DataVersion: 4903
         id: minecraft:carrot
@@ -560,7 +551,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '61':
+    '60':
       resultItem:
         DataVersion: 4903
         id: minecraft:potato
@@ -569,7 +560,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '62':
+    '61':
       resultItem:
         DataVersion: 4903
         id: minecraft:string
@@ -578,7 +569,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '63':
+    '62':
       resultItem:
         DataVersion: 4903
         id: minecraft:bone
@@ -587,7 +578,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '64':
+    '63':
       resultItem:
         DataVersion: 4903
         id: minecraft:name_tag
@@ -596,7 +587,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 4
-    '65':
+    '64':
       resultItem:
         DataVersion: 4903
         id: minecraft:lead
@@ -605,7 +596,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 2
-    '66':
+    '65':
       resultItem:
         DataVersion: 4903
         id: minecraft:netherrack
@@ -614,7 +605,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '67':
+    '66':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_bricks
@@ -623,7 +614,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '68':
+    '67':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_wart
@@ -632,7 +623,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '69':
+    '68':
       resultItem:
         DataVersion: 4903
         id: minecraft:soul_sand
@@ -641,7 +632,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '70':
+    '69':
       resultItem:
         DataVersion: 4903
         id: minecraft:glowstone
@@ -650,7 +641,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '71':
+    '70':
       resultItem:
         DataVersion: 4903
         id: minecraft:quartz
@@ -659,7 +650,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '72':
+    '71':
       resultItem:
         DataVersion: 4903
         id: minecraft:basalt
@@ -668,7 +659,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '73':
+    '72':
       resultItem:
         DataVersion: 4903
         id: minecraft:blackstone
@@ -677,7 +668,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '74':
+    '73':
       resultItem:
         DataVersion: 4903
         id: minecraft:magma_block
@@ -686,7 +677,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '75':
+    '74':
       resultItem:
         DataVersion: 4903
         id: minecraft:crying_obsidian
@@ -695,7 +686,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '76':
+    '75':
       resultItem:
         DataVersion: 4903
         id: minecraft:villager_spawn_egg
@@ -704,7 +695,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '77':
+    '76':
       resultItem:
         DataVersion: 4903
         id: minecraft:allay_spawn_egg
@@ -713,7 +704,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '92':
+    '77':
       resultItem:
         DataVersion: 4903
         id: minecraft:end_stone
@@ -1205,21 +1196,12 @@ snapshots: []
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 64
-      item1:
-        DataVersion: 4903
-        id: minecraft:netherite_ingot
-        count: 1
-    '33':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
         count: 1
       item1:
         DataVersion: 4903
         id: minecraft:golden_carrot
         count: 16
-    '34':
+    '33':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1228,7 +1210,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glistering_melon_slice
         count: 16
-    '35':
+    '34':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1237,7 +1219,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:obsidian
         count: 8
-    '36':
+    '35':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1246,7 +1228,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:lapis_lazuli
         count: 32
-    '37':
+    '36':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1255,7 +1237,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:redstone
         count: 32
-    '38':
+    '37':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1264,7 +1246,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glowstone_dust
         count: 32
-    '39':
+    '38':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1273,7 +1255,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:slime_ball
         count: 8
-    '40':
+    '39':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1282,7 +1264,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:leather
         count: 16
-    '41':
+    '40':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1291,7 +1273,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:feather
         count: 32
-    '42':
+    '41':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1300,16 +1282,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:gunpowder
         count: 16
-    '43':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:rotten_flesh
-        count: 64
-    '44':
+    '42':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1318,7 +1291,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:blaze_rod
         count: 2
-    '45':
+    '43':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1327,7 +1300,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:ghast_tear
         count: 1
-    '46':
+    '44':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1336,7 +1309,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_star
         count: 1
-    '47':
+    '45':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1345,7 +1318,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:shulker_shell
         count: 2
-    '48':
+    '46':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1354,7 +1327,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:totem_of_undying
         count: 1
-    '49':
+    '47':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1363,7 +1336,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:saddle
         count: 2
-    '50':
+    '48':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1372,7 +1345,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:oak_log
         count: 32
-    '51':
+    '49':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1381,7 +1354,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:cobblestone
         count: 64
-    '52':
+    '50':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1390,7 +1363,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:quartz
         count: 32
-    '53':
+    '51':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1399,7 +1372,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:copper_ingot
         count: 16
-    '54':
+    '52':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1408,7 +1381,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:sugar_cane
         count: 24
-    '55':
+    '53':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1417,7 +1390,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:wheat
         count: 32
-    '56':
+    '54':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1426,7 +1399,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:carrot
         count: 32
-    '57':
+    '55':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1435,7 +1408,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:potato
         count: 32
-    '58':
+    '56':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1444,7 +1417,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:string
         count: 24
-    '59':
+    '57':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1453,7 +1426,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:bone
         count: 24
-    '60':
+    '58':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1462,7 +1435,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:name_tag
         count: 1
-    '61':
+    '59':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1471,7 +1444,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:lead
         count: 5
-    '62':
+    '60':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1480,7 +1453,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:netherrack
         count: 64
-    '63':
+    '61':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1489,7 +1462,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_bricks
         count: 32
-    '64':
+    '62':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1498,7 +1471,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_wart
         count: 16
-    '65':
+    '63':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1507,7 +1480,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:soul_sand
         count: 16
-    '66':
+    '64':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1516,16 +1489,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glowstone
         count: 8
-    '67':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:quartz
-        count: 32
-    '68':
+    '65':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1534,7 +1498,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:basalt
         count: 64
-    '69':
+    '66':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1543,7 +1507,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:blackstone
         count: 64
-    '70':
+    '67':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1552,7 +1516,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:magma_block
         count: 16
-    '71':
+    '68':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1561,7 +1525,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:crying_obsidian
         count: 4
-    '74':
+    '69':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald

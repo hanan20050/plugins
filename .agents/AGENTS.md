@@ -6,6 +6,8 @@
   - Netherite Ingot (`minecraft:netherite_ingot`) = 64 Emeralds
   - Netherite Block (`minecraft:netherite_block`) = 576 Emeralds (9 Netherite Ingots)
 - Always check Shopkeepers trade recipes and verify there are no infinite money glitches (e.g., selling price per unit > buying price per unit for any item).
+- **Currency Exchange & Sales Rule (STRICT)**: NEVER apply sales or discounts to currency exchange trades (e.g. trading Emeralds <-> Emerald Blocks, Netherite Ingots, or Netherite Blocks). Currency exchange rates are fixed (1 Netherite Ingot = 64 Emeralds, 1 Emerald Block = 9 Emeralds, 1 Netherite Block = 576 Emeralds) and must never be altered during sales or offers.
+- **Shopkeeper Trade Cleanliness Rule (STRICT)**: Currency exchange trades must ONLY exist in the dedicated `Money Exchange` shopkeeper (Shopkeeper ID 5). Regular shops (e.g., General Store or Sell Drops shop) must NOT contain exchange trades. Duplicate trades within any shopkeeper must be removed.
 - DO NOT send any chat messages, announcements, or notifications (via tellraw, say, title, or msg) unless the user explicitly requests to notify/broadcast to players.
 - **Timer-Based Offer Rule**: Whenever creating or launching any timed offer/discount (e.g. 1-minute sale, 3-minute offer, etc.), ALWAYS run a background script that broadcasts `tellraw` chat updates every **10 seconds**, explicitly stating how much time has passed and how much time is remaining, before automatically ending the offer and restoring original prices.
 
