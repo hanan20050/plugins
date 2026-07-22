@@ -17,8 +17,11 @@ if os.path.exists(ENV_FILE):
                 key, val = line.split("=", 1)
                 CONFIG[key.strip()] = val.strip()
 
-TOKEN = os.environ.get("EXAROTON_TOKEN") or CONFIG.get("EXAROTON_TOKEN")
-SERVER_ID = os.environ.get("EXAROTON_SERVER_ID") or CONFIG.get("EXAROTON_SERVER_ID")
+HARDCODED_TOKEN = "NovL7NzAL8zzsWVKIxC1JFAdVOoQfpI3ej7oyorsHlLVOe0joLeiJ7aopethRcSUrED0p2dqkz1RxfPaZKGV31un15PrdP8Zk4RJ"
+HARDCODED_SERVER_ID = "cEuS61sZvNEFS3aB"
+
+TOKEN = os.environ.get("EXAROTON_TOKEN") or CONFIG.get("EXAROTON_TOKEN") or HARDCODED_TOKEN
+SERVER_ID = os.environ.get("EXAROTON_SERVER_ID") or CONFIG.get("EXAROTON_SERVER_ID") or HARDCODED_SERVER_ID
 
 if not TOKEN or not SERVER_ID:
     print("Error: EXAROTON_TOKEN or EXAROTON_SERVER_ID not found in .env")
