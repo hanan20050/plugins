@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """
-WorldGuard Region Floor Generator
----------------------------------
+WorldGuard Region Floor Generator (with Undo Support)
+------------------------------------------------------
 Finds the bottom-most layer (floor) of a WorldGuard region and executes
 a Minecraft `/fill` command via Exaroton console to instantly create a floor.
+Maintains a local history database in `WorldGuard/backups/floor_history.json`
+to support a strict `--undo` operation.
 
 Usage:
   python3 add_region_floor.py <region_name> <material> [--dry-run]
+  python3 add_region_floor.py <region_name> --undo [--dry-run]
 
-Example:
+Examples:
+  # Create oak planks floor:
   python3 add_region_floor.py mustafahacker67 oak_planks
-  python3 add_region_floor.py hanansaleh smooth_stone
+
+  # Undo the oak planks floor:
+  python3 add_region_floor.py mustafahacker67 --undo
 """
 
 import os
@@ -35,6 +41,7 @@ TOKEN = os.environ.get("EXAROTON_TOKEN") or CONFIG.get("EXAROTON_TOKEN")
 SERVER_ID = os.environ.get("EXAROTON_SERVER_ID") or CONFIG.get("EXAROTON_SERVER_ID")
 
 REGIONS_FILE = "WorldGuard/worlds/world/regions.yml"
+HISTORY_FILE = "WorldGuard/backups/floor_history.json"
 
 def send_exaroton_command(cmd, dry_run=False):
     if dry_run:
@@ -96,14 +103,92 @@ def get_region_bounds(region_name):
 
     return min_coords, max_coords
 
+def save_floor_history(region, material, coordinates):
+    os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
+    history = {}
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r") as f:
+                history = json.load(f)
+        except Exception:
+            history = {}
+    
+    # Save the floor change
+    history[region] = {
+        "material": material,
+        "coords": coordinates
+    }
+    
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=4)
+    print(f"📝 Floor history updated in '{HISTORY_FILE}'.")
+
+def load_floor_history(region):
+    if not os.path.exists(HISTORY_FILE):
+        return None
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            history = json.load(f)
+            return history.get(region)
+    except Exception:
+        return None
+
+def remove_floor_history(region):
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r") as f:
+                history = json.load(f)
+            if region in history:
+                del history[region]
+            with open(HISTORY_FILE, "w") as f:
+                json.dump(history, f, indent=4)
+        except Exception:
+            pass
+
 def main():
-    parser = argparse.ArgumentParser(description="Generate floor for a WorldGuard region using console commands")
+    parser = argparse.ArgumentParser(description="Generate/Undo floor for a WorldGuard region using console commands")
     parser.add_argument("region", help="Name of the WorldGuard region")
-    parser.add_argument("material", help="Minecraft block type (e.g. grass_block, oak_planks, smooth_stone)")
-    parser.add_argument("--dry-run", action="store_true", help="Preview the /fill command without executing on the server")
+    parser.add_argument("material", nargs="?", help="Minecraft block type (e.g. grass_block, oak_planks). Optional if running --undo")
+    parser.add_argument("--undo", action="store_true", help="Undo the last floor generation for this region (replaces it with grass_block or air)")
+    parser.add_argument("--dry-run", action="store_true", help="Preview command without executing on the server")
 
     args = parser.parse_args()
-    
+
+    if args.undo:
+        # Perform Undo operation
+        record = load_floor_history(args.region)
+        if record:
+            min_x, floor_y, min_z, max_x, max_z = record["coords"]
+            # To undo, we usually replace the floor with grass_block or air (since it was likely grass/air before)
+            # We default to grass_block as it is a safe base, or air if requested. Let's use grass_block
+            undo_material = "grass_block"
+            print(f"🔄 Reverting floor generation for region '{args.region}' at Y={floor_y} to '{undo_material}'...")
+            undo_cmd = f"fill {min_x} {floor_y} {min_z} {max_x} {floor_y} {max_z} minecraft:{undo_material}"
+            if send_exaroton_command(undo_cmd, args.dry_run):
+                if not args.dry_run:
+                    remove_floor_history(args.region)
+                    print(f"🎉 Floor undone successfully!")
+        else:
+            # Revert fallback without history
+            print(f"⚠️ No floor generation history found for region '{args.region}'.")
+            print("🔍 Fetching bounds to attempt fallback undo (filling bottom layer with air)...")
+            min_c, max_c = get_region_bounds(args.region)
+            if min_c and max_c:
+                min_x, min_y, min_z = min_c
+                max_x, max_y, max_z = max_c
+                undo_cmd = f"fill {min_x} {min_y} {min_z} {max_x} {min_y} {max_z} minecraft:air"
+                if send_exaroton_command(undo_cmd, args.dry_run):
+                    print(f"🎉 Fallback floor undo completed (filled bottom layer with air).")
+            else:
+                print("❌ Region bounds not found. Cannot perform fallback undo.")
+                sys.exit(1)
+        return
+
+    # Check that material is provided when not undoing
+    if not args.material:
+        print("❌ Error: material argument is required unless running with --undo")
+        sys.exit(1)
+
     print(f"🔍 Fetching coordinates for region '{args.region}'...")
     min_c, max_c = get_region_bounds(args.region)
     
@@ -113,8 +198,6 @@ def main():
         
     min_x, min_y, min_z = min_c
     max_x, max_y, max_z = max_c
-    
-    # Bottom layer Y-level is min_y
     floor_y = min_y
     
     print(f"📐 Region bounds detected:")
@@ -122,10 +205,11 @@ def main():
     print(f"   Max: X={max_x}, Y={max_y}, Z={max_z}")
     print(f"🧱 Placing '{args.material}' floor at Y={floor_y}...")
     
-    # Minecraft fill command syntax: /fill <x1> <y1> <z1> <x2> <y2> <z2> <block>
     fill_cmd = f"fill {min_x} {floor_y} {min_z} {max_x} {floor_y} {max_z} minecraft:{args.material.replace('minecraft:', '')}"
     
     if send_exaroton_command(fill_cmd, args.dry_run):
+        if not args.dry_run:
+            save_floor_history(args.region, args.material, [min_x, floor_y, min_z, max_x, max_z])
         print(f"🎉 Floor generation command sent successfully!")
 
 if __name__ == "__main__":

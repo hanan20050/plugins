@@ -1,0 +1,22 @@
+{
+  "region_name": "hanansaleh_land",
+  "raw_yaml": "    hanansaleh_land:\n        min: {x: 1103, y: 63, z: -162}\n        max: {x: 1124, y: 63, z: -141}\n        members: {}\n        flags: {item-drop: allow, item-pickup: allow, interact: allow, ride: allow}\n        owners:\n            unique-ids: [326a36ea-b465-3192-a4f7-c313f347edc9, 28dd928d-7a83-35c0-9598-6b39b0d1b422,\n                b78d8ea3-3bf5-30b0-b412-db4d5894dca7]\n        type: cuboid\n        priority: 0\n",
+  "parsed_bounds": {
+    "min": {
+      "x": 1103,
+      "y": 63,
+      "z": -162
+    },
+    "max": {
+      "x": 1124,
+      "y": 63,
+      "z": -141
+    },
+    "owners": [
+      "326a36ea-b465-3192-a4f7-c313f347edc9",
+      "28dd928d-7a83-35c0-9598-6b39b0d1b422",
+      "b78d8ea3-3bf5-30b0-b412-db4d5894dca7"
+    ]
+  },
+  "timestamp": "2026-07-22T07:47:51Z"
+}

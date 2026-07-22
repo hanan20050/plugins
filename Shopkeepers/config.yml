@@ -759,7 +759,7 @@ shop-member-trade-notification-sound:
 # - 'CSV': Logs all trades to daily CSV files inside the plugin folder.
 # Note: The "/shopkeeper history" command is current only supported for the
 # storage type 'SQLITE'.
-trade-log-storage: DISABLED
+trade-log-storage: SQLITE
 
 # Players can trigger many equal trades in quick succession. For example, when
 # players trade by shift clicking the result slot, they can trigger up to 64
@@ -793,7 +793,7 @@ trade-log-next-merge-timeout-ticks: 100
 # display name, lore, enchantments, etc. This data will be logged in Spigot's
 # YAML format. Enabling this setting can, however, noticeably increase the
 # storage space requirements.
-log-item-metadata: false
+log-item-metadata: true
 
 # *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 # Currencies

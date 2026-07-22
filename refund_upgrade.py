@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-Advanced Minecraft Server Refund & Rollback Script
---------------------------------------------------
+Advanced Minecraft Server Refund & Rollback Script (with Mandatory Book Check)
+-------------------------------------------------------------------------------
 Automates the process of removing region protections (WorldGuard flags),
 downsizing plots, removing trade records from Shopkeepers processed trades,
 and issuing full or partial emerald refunds to players.
+
+MANDATORY RULE: Always takes the upgrade certificate book (`minecraft:written_book`)
+from the player's inventory first. If the book is missing or cannot be removed,
+the refund is IMMEDIATELY STOPPED.
 
 Usage:
   python3 refund_upgrade.py <player_name> <upgrade_type> [options]
@@ -24,6 +28,7 @@ import os
 import sys
 import json
 import re
+import time
 import subprocess
 import argparse
 
@@ -131,6 +136,55 @@ def send_exaroton_command(cmd, dry_run=False):
         print(f"Response: {res.stdout}")
         return False
 
+def check_server_logs_for_clear(player_name):
+    """Fetches server logs via Exaroton API to confirm item clear success."""
+    url = f"https://api.exaroton.com/v1/servers/{SERVER_ID}/logs/"
+    curl_cmd = [
+        "curl", "-s",
+        "--resolve", "api.exaroton.com:443:104.26.12.211",
+        "-X", "GET", url,
+        "-H", f"Authorization: Bearer {TOKEN}"
+    ]
+    res = subprocess.run(curl_cmd, capture_output=True, text=True)
+    try:
+        data = json.loads(res.stdout)
+        content = data.get("data", {}).get("content", "")
+        lines = content.splitlines()[-20:] # Inspect last 20 log lines
+        for line in reversed(lines):
+            line_lower = line.lower()
+            if player_name.lower() in line_lower:
+                if "removed" in line_lower and "item(s)" in line_lower:
+                    if not "removed 0 item(s)" in line_lower:
+                        return True, line
+                if "cleared" in line_lower and ("item" in line_lower or "items" in line_lower):
+                    if not "cleared 0" in line_lower:
+                        return True, line
+                if "no items were found" in line_lower or "could not clear" in line_lower or "removed 0 item(s)" in line_lower:
+                    return False, line
+    except Exception as e:
+        print(f"⚠️ Log parsing error: {e}")
+    return False, "No definitive log line found"
+
+def verify_and_take_book(player_name, dry_run=False):
+    """Takes 1 written_book from player inventory. Stops refund if missing."""
+    print(f"🔍 Checking and retrieving upgrade certificate book from {player_name}'s inventory...")
+    if dry_run:
+        print(f"[DRY-RUN] Would execute: clear {player_name} minecraft:written_book 1")
+        return True
+
+    send_exaroton_command(f"clear {player_name} minecraft:written_book 1")
+    time.sleep(1.5)
+
+    book_taken, log_evidence = check_server_logs_for_clear(player_name)
+    if book_taken:
+        print(f"✅ Upgrade certificate book successfully retrieved from {player_name}! Log: {log_evidence}")
+        return True
+    else:
+        print(f"❌ REFUND STOPPED: Upgrade certificate book missing from {player_name}'s inventory.")
+        print(f"   Evidence: {log_evidence}")
+        send_exaroton_command(f"msg {player_name} §6[Refund Stopped] §cCertificate missing! §ePlease place your upgrade certificate book in your inventory to process refund.")
+        return False
+
 def pull_region_file():
     pull_cmd = [sys.executable, "sync.py", "pull", REGIONS_FILE]
     subprocess.run(pull_cmd, capture_output=True)
@@ -192,6 +246,11 @@ def refund_upgrade(player, upgrade_type, percent=100, downsize_category=None, dr
     region_name = get_region_for_player(player)
     print(f"🔄 Starting refund process for {player} (Region: {region_name})...")
     
+    # MANDATORY CHECK: Must take book back from player inventory or STOP refund
+    if not verify_and_take_book(player, dry_run):
+        print("⛔ REFUND CANCELLED because upgrade certificate book was not found in player inventory.")
+        sys.exit(1)
+
     # 1. Gather active flags
     active_flags = get_region_flags(region_name)
     
@@ -221,7 +280,6 @@ def refund_upgrade(player, upgrade_type, percent=100, downsize_category=None, dr
                 if "extra_flags" in cfg:
                     flags_to_remove.extend(cfg["extra_flags"])
         else:
-            # For non-flag upgrades like plot expansions, we check if they want to downsize or refund it anyway
             is_active = True
             
         if is_active:
@@ -269,17 +327,8 @@ def refund_upgrade(player, upgrade_type, percent=100, downsize_category=None, dr
         initial_len = len(processed)
         new_processed = []
         for key in processed:
-            # Key format: timestamp_player_result_type
             match_player = f"_{player}_" in key or key.endswith(f"_{player}")
-            
-            # Match upgrade type keywords in the trade key or results
-            match_upgrade = False
-            if upgrade_type == "all":
-                match_upgrade = True
-            else:
-                # We check if this key corresponds to the target upgrades
-                # Since the original trade was a WRITTEN_BOOK, player matches are usually sufficient to clear their upgrades
-                match_upgrade = True 
+            match_upgrade = True
             
             if match_player and match_upgrade:
                 print(f"🗑️ Removing trade record from history: {key}")
@@ -295,7 +344,7 @@ def refund_upgrade(player, upgrade_type, percent=100, downsize_category=None, dr
             else:
                 print(f"[DRY-RUN] Would remove {initial_len - len(new_processed)} trade record(s) from processed_trades.json")
 
-    print("🎉 Refund and rollback process completed!")
+    print("🎉 Certificate retrieved, refund and rollback process completed!")
 
 def main():
     parser = argparse.ArgumentParser(description="Advanced Upgrade Refund & Rollback Tool")
