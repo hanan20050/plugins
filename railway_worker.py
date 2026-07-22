@@ -15,7 +15,7 @@ os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
 # Import existing scripts safely
 import save_player_messages
 import apply_house_upgrades
-import notify_manan_farm
+import notify_server_start
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "1"))
 
@@ -43,8 +43,8 @@ def main():
             # 2. Process house trade upgrades
             run_task("Apply House Upgrades", apply_house_upgrades.main)
 
-            # 3. Check player join notifications
-            run_task("Notify Manan Farm", notify_manan_farm.main)
+            # 3. Check server startup & notify
+            run_task("Notify Server Start", notify_server_start.check_and_notify)
 
         except Exception as e:
             print(f"Error in main loop iteration: {e}")
