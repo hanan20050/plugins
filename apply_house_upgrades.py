@@ -130,15 +130,16 @@ def send_exaroton_command(cmd):
     else:
         print(f"❌ Failed: {cmd} | Response: {res.stdout}")
 
-def broadcast_upgrade_in_chat(player_name, upgrade_title):
-    # Broadcasts public chat message to ALL players
-    display_name = PLAYER_MAP.get(player_name, player_name)
-    msg_cmd = f'say §6[Upgrade] §a{display_name} §eunlocked §b{upgrade_title} §efor their house!'
+def notify_player_in_chat(player_name, message):
+    # Sends private chat message ONLY to the specific player
+    msg_cmd = f'msg {player_name} {message}'
     send_exaroton_command(msg_cmd)
 
 def sync_tradelog():
     pull_cmd = [sys.executable, "sync.py", "pull", DB_PATH]
     subprocess.run(pull_cmd, capture_output=True)
+    pull_proc = [sys.executable, "sync.py", "pull", PROCESSED_FILE]
+    subprocess.run(pull_proc, capture_output=True)
 
 def audit_and_apply_upgrades():
     if not os.path.exists(DB_PATH):
@@ -176,10 +177,9 @@ def audit_and_apply_upgrades():
 
                         print(f"🎯 Processing new upgrade {label} for {player_name} -> Region: {region_name}")
 
-                        # 1. First notify on buying in public chat
-                        display_name = PLAYER_MAP.get(player_name, player_name)
-                        buy_msg = f'say §6[Shop] §a{display_name} §ejust bought §b{label}§e! Applying house upgrade...'
-                        send_exaroton_command(buy_msg)
+                        # 1. First notify player privately on buying
+                        buy_msg = f'§6[Shop] §eYou bought §b{label}§e! Applying your house upgrade...'
+                        notify_player_in_chat(player_name, buy_msg)
 
                         # 2. Apply WorldGuard flag (for PvP, allow owners to defend against non-owners)
                         if flag == "pvp":
@@ -191,14 +191,16 @@ def audit_and_apply_upgrades():
                         # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")
 
-                        # 4. Broadcast upgrade completed in public chat
-                        done_msg = f'say §6[Upgrade] §a{display_name}\'s §ehouse protection for §b{label} §eis now ACTIVE!'
-                        send_exaroton_command(done_msg)
+                        # 4. Notify player privately upgrade is active
+                        done_msg = f'§6[Upgrade] §eYour house protection for §b{label} §eis now ACTIVE!'
+                        notify_player_in_chat(player_name, done_msg)
 
-                        # 5. Record as processed immediately
+                        # 5. Record as processed immediately and sync
                         processed.add(trade_key)
                         with open(PROCESSED_FILE, "w") as f:
                             json.dump(list(processed), f)
+                        push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE]
+                        subprocess.run(push_proc, capture_output=True)
                         break
 
     except Exception as e:

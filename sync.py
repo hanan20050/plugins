@@ -2,6 +2,7 @@
 import os
 import sys
 import json
+import subprocess
 import urllib.request
 import urllib.error
 
@@ -37,38 +38,46 @@ STATUS_MAP = {
 
 def api_request(endpoint, method="GET", data=None, is_binary=False):
     url = f"https://api.exaroton.com/v1{endpoint}"
-    req = urllib.request.Request(url, method=method)
-    req.add_header("Authorization", f"Bearer {TOKEN}")
-    req.add_header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36")
-    
+    curl_cmd = [
+        "curl", "-s",
+        "--resolve", "api.exaroton.com:443:104.26.12.211",
+        "-X", method, url,
+        "-H", f"Authorization: Bearer {TOKEN}",
+        "-H", "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    ]
+
+    temp_file = None
     if data is not None:
         if is_binary:
-            req.add_header("Content-Type", "application/octet-stream")
-            req.data = data
+            import tempfile
+            tf = tempfile.NamedTemporaryFile(delete=False)
+            tf.write(data)
+            tf.close()
+            temp_file = tf.name
+            curl_cmd.extend(["-H", "Content-Type: application/octet-stream", "--data-binary", f"@{temp_file}"])
         else:
-            req.add_header("Content-Type", "application/json")
-            req.data = json.dumps(data).encode("utf-8")
+            curl_cmd.extend(["-H", "Content-Type: application/json", "-d", json.dumps(data)])
 
     try:
-        with urllib.request.urlopen(req) as res:
-            if is_binary and method == "GET":
-                return res.read()
-            
-            body = res.read().decode("utf-8")
-            if not body:
-                return {"success": True}
-            return json.loads(body)
-    except urllib.error.HTTPError as e:
-        err_body = e.read().decode("utf-8")
-        try:
-            err_json = json.loads(err_body)
-            print(f"API Error ({e.code}): {err_json.get('error', 'Unknown error')}")
-        except Exception:
-            print(f"HTTP Error ({e.code}): {e.reason}")
-        sys.exit(1)
+        if is_binary and method == "GET":
+            res = subprocess.run(curl_cmd, capture_output=True)
+            if temp_file and os.path.exists(temp_file):
+                os.remove(temp_file)
+            return res.stdout
+
+        res = subprocess.run(curl_cmd, capture_output=True, text=True)
+        if temp_file and os.path.exists(temp_file):
+            os.remove(temp_file)
+
+        body = res.stdout.strip()
+        if not body:
+            return {"success": True}
+        return json.loads(body)
     except Exception as e:
+        if temp_file and os.path.exists(temp_file):
+            os.remove(temp_file)
         print(f"Error: {e}")
-        sys.exit(1)
+        return {"success": False, "error": str(e)}
 
 def get_server_status():
     res = api_request(f"/servers/{SERVER_ID}")

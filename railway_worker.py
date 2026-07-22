@@ -17,7 +17,7 @@ EXAROTON_SERVER_ID = os.getenv("EXAROTON_SERVER_ID", "cEuS61sZvNEFS3aB")
 os.environ["EXAROTON_TOKEN"] = EXAROTON_TOKEN
 os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
 
-POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "2"))
+POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "1"))
 
 def run_task(name, func):
     """Executes a function and logs exceptions without crashing the main loop."""
