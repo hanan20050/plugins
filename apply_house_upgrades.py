@@ -186,7 +186,7 @@ def audit_and_apply_upgrades():
 
                 metadata_lower = metadata.lower()
                 for keyword, (flag, label) in CERT_FLAG_MAP.items():
-                    if keyword in metadata_lower or (result_type == "WRITTEN_BOOK" and not metadata):
+                    if keyword in metadata_lower:
                         target_regions = get_regions_for_player_owner(player_name)
 
                         print(f"🎯 Processing new upgrade {label} for {player_name} -> Regions: {target_regions}")
