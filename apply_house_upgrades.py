@@ -173,26 +173,27 @@ def audit_and_apply_upgrades():
                 metadata_lower = metadata.lower()
                 for keyword, (flag, label) in CERT_FLAG_MAP.items():
                     if keyword in metadata_lower or (result_type == "WRITTEN_BOOK" and not metadata):
-                        region_name = get_region_for_player(player_name)
+                        target_regions = get_regions_for_player_owner(player_name)
 
-                        print(f"🎯 Processing new upgrade {label} for {player_name} -> Region: {region_name}")
+                        print(f"🎯 Processing new upgrade {label} for {player_name} -> Regions: {target_regions}")
 
                         # 1. First notify player privately on buying
-                        buy_msg = f'§6[Shop] §eYou bought §b{label}§e! Applying your house upgrade...'
+                        buy_msg = f'§6[Shop] §eYou bought §b{label}§e! Applying upgrade to your region(s): {", ".join(target_regions)}...'
                         notify_player_in_chat(player_name, buy_msg)
 
-                        # 2. Apply WorldGuard flag (for PvP, allow owners to defend against non-owners)
-                        if flag == "pvp":
-                            flag_cmd = f"rg flag -w \"world\" {region_name} pvp -g non_owners deny"
-                        else:
-                            flag_cmd = f"rg flag -w \"world\" {region_name} {flag} deny"
-                        send_exaroton_command(flag_cmd)
+                        # 2. Apply WorldGuard flag to ALL regions owned by player
+                        for reg in target_regions:
+                            if flag == "pvp":
+                                flag_cmd = f"rg flag -w \"world\" {reg} pvp -g non_owners deny"
+                            else:
+                                flag_cmd = f"rg flag -w \"world\" {reg} {flag} deny"
+                            send_exaroton_command(flag_cmd)
 
                         # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")
 
                         # 4. Notify player privately upgrade is active
-                        done_msg = f'§6[Upgrade] §eYour house protection for §b{label} §eis now ACTIVE!'
+                        done_msg = f'§6[Upgrade] §eYour protection for §b{label} §eis now ACTIVE on {", ".join(target_regions)}!'
                         notify_player_in_chat(player_name, done_msg)
 
                         # 5. Record as processed immediately and sync
