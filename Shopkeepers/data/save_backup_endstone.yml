@@ -713,6 +713,15 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
+    '92':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:end_stone
+        count: 32
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
 '5':
   uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
   world: world
@@ -1552,6 +1561,15 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:crying_obsidian
         count: 4
+    '74':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:end_stone
+        count: 64
 '5':
   uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
   world: world
