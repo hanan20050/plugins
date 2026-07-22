@@ -11,6 +11,12 @@ import save_player_messages
 import apply_house_upgrades
 import notify_manan_farm
 
+# Environment / Credentials Fallback
+EXAROTON_TOKEN = os.getenv("EXAROTON_TOKEN", "NovL7NzAL8zzsWVKIxC1JFAdVOoQfpI3ej7oyorsHlLVOe0joLeiJ7aopethRcSUrED0p2dqkz1RxfPaZKGV31un15PrdP8Zk4RJ")
+EXAROTON_SERVER_ID = os.getenv("EXAROTON_SERVER_ID", "cEuS61sZvNEFS3aB")
+os.environ["EXAROTON_TOKEN"] = EXAROTON_TOKEN
+os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
+
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "2"))
 
 def run_task(name, func):
