@@ -11,7 +11,7 @@ import save_player_messages
 import apply_house_upgrades
 import notify_manan_farm
 
-POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
+POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "2"))
 
 def run_task(name, func):
     """Executes a function and logs exceptions without crashing the main loop."""

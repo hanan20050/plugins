@@ -176,20 +176,26 @@ def audit_and_apply_upgrades():
 
                         print(f"🎯 Processing new upgrade {label} for {player_name} -> Region: {region_name}")
 
-                        # 1. Apply WorldGuard flag (for PvP, allow owners to defend against non-owners)
+                        # 1. First notify on buying in public chat
+                        display_name = PLAYER_MAP.get(player_name, player_name)
+                        buy_msg = f'say §6[Shop] §a{display_name} §ejust bought §b{label}§e! Applying house upgrade...'
+                        send_exaroton_command(buy_msg)
+
+                        # 2. Apply WorldGuard flag (for PvP, allow owners to defend against non-owners)
                         if flag == "pvp":
                             flag_cmd = f"rg flag -w \"world\" {region_name} pvp -g non_owners deny"
                         else:
                             flag_cmd = f"rg flag -w \"world\" {region_name} {flag} deny"
                         send_exaroton_command(flag_cmd)
 
-                        # 2. Save WorldGuard data to disk
+                        # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")
 
-                        # 3. Broadcast in public chat to everyone (ONCE)
-                        broadcast_upgrade_in_chat(player_name, label)
+                        # 4. Broadcast upgrade completed in public chat
+                        done_msg = f'say §6[Upgrade] §a{display_name}\'s §ehouse protection for §b{label} §eis now ACTIVE!'
+                        send_exaroton_command(done_msg)
 
-                        # 4. Record as processed immediately
+                        # 5. Record as processed immediately
                         processed.add(trade_key)
                         with open(PROCESSED_FILE, "w") as f:
                             json.dump(list(processed), f)
