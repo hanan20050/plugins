@@ -10,6 +10,7 @@ from datetime import datetime
 import save_player_messages
 import apply_house_upgrades
 import notify_manan_farm
+import demo_test_messaging
 
 # Environment / Credentials Fallback
 EXAROTON_TOKEN = os.getenv("EXAROTON_TOKEN", "NovL7NzAL8zzsWVKIxC1JFAdVOoQfpI3ej7oyorsHlLVOe0joLeiJ7aopethRcSUrED0p2dqkz1RxfPaZKGV31un15PrdP8Zk4RJ")
@@ -34,6 +35,9 @@ def main():
     print(f"Polling Interval: {POLL_INTERVAL} seconds")
     print("=" * 60)
     sys.stdout.flush()
+
+    # Run demo test messaging on Railway start
+    run_task("Railway Demo Messaging Test", demo_test_messaging.main)
 
     while True:
         try:
