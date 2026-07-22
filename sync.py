@@ -187,15 +187,19 @@ def main():
     if cmd == "pull":
         pull_item(target_path)
     elif cmd == "push":
+        force = "-y" in sys.argv or "--force" in sys.argv or not sys.stdin.isatty()
         status = get_server_status()
         print(f"Current server status: {status}")
-        if status != "OFFLINE":
+        if status != "OFFLINE" and not force:
             print("\nWARNING: The Minecraft server is currently running/changing state.")
             print("Modifying files while the server is active can result in lost progress or corruption.")
-            confirm = input("Are you sure you want to push files anyway? (y/N): ")
-            if confirm.lower() != "y":
-                print("Push cancelled.")
-                return
+            try:
+                confirm = input("Are you sure you want to push files anyway? (y/N): ")
+                if confirm.lower() != "y":
+                    print("Push cancelled.")
+                    return
+            except EOFError:
+                pass
         push_item(target_path)
     else:
         print(f"Unknown command: {cmd}")

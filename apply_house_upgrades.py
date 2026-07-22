@@ -154,6 +154,8 @@ def sync_tradelog():
     subprocess.run(pull_cmd, capture_output=True)
     pull_proc = [sys.executable, "sync.py", "pull", PROCESSED_FILE]
     subprocess.run(pull_proc, capture_output=True)
+    pull_regions = [sys.executable, "sync.py", "pull", "WorldGuard/worlds/world/regions.yml"]
+    subprocess.run(pull_regions, capture_output=True)
 
 GLOBAL_PROCESSED_KEYS = set()
 
@@ -201,7 +203,7 @@ def audit_and_apply_upgrades():
                         GLOBAL_PROCESSED_KEYS.add(trade_key)
                         with open(PROCESSED_FILE, "w") as f:
                             json.dump(list(processed), f)
-                        push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE]
+                        push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE, "-y"]
                         subprocess.run(push_proc, capture_output=True)
 
                         # 2. Apply WorldGuard flag to ALL regions owned by player
