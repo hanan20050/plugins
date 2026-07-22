@@ -36,8 +36,8 @@ def main():
     print("=" * 60)
     sys.stdout.flush()
 
-    # Run demo test messaging on Railway start
-    run_task("Railway Demo Messaging Test", demo_test_messaging.main)
+    # Demo test messaging (commented out after successful verification)
+    # run_task("Railway Demo Messaging Test", demo_test_messaging.main)
 
     while True:
         try:
