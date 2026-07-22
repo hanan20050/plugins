@@ -713,7 +713,42 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-  snapshots: []
+'5':
+  uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
+  world: world
+  x: 1299
+  y: 80
+  z: -218
+  yaw: 88.36158
+  type: admin
+  open: true
+  name: '&6Money Exchange'
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:cleric
+    villagerType: minecraft:desert
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+snapshots: []
 '2':
   uniqueId: a28b74c2-9b2f-4889-bdc0-f4b6794bb71b
   world: world
@@ -1499,4 +1534,39 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:crying_obsidian
         count: 4
-  snapshots: []
+'5':
+  uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
+  world: world
+  x: 1299
+  y: 80
+  z: -218
+  yaw: 88.36158
+  type: admin
+  open: true
+  name: '&6Money Exchange'
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:cleric
+    villagerType: minecraft:desert
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 64
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+snapshots: []
