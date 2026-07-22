@@ -15,20 +15,32 @@ def clean_save_file(filepath):
 
     currency_items = {'minecraft:emerald', 'minecraft:emerald_block', 'minecraft:netherite_ingot', 'minecraft:netherite_block'}
 
-    # Split shopkeeper blocks
-    # We match top-level shopkeeper definitions: e.g., '1':, '2':, '4':, '5':
+    # Split top-level blocks by shopkeeper keys (e.g. '1':, '2':, '4':, '5':)
     sk_blocks = re.split(r'\n(?=\'\d+\':)', content)
+    
+    seen_sk_ids = set()
     cleaned_blocks = []
 
     for block in sk_blocks:
         if not block.strip():
             continue
+        
         m_id = re.match(r'^\s*\'(\d+)\':', block)
         if not m_id:
             cleaned_blocks.append(block)
             continue
         
         sk_id = m_id.group(1)
+        
+        # Deduplicate top-level shopkeepers by ID
+        if sk_id in seen_sk_ids:
+            m_name = re.search(r'name:\s*([^\n]+)', block)
+            sk_name = m_name.group(1) if m_name else 'Unknown'
+            print(f"[Deduplication] Removing duplicate top-level Shopkeeper ID {sk_id} ({sk_name})")
+            continue
+        
+        seen_sk_ids.add(sk_id)
+        
         m_name = re.search(r'name:\s*([^\n]+)', block)
         sk_name = m_name.group(1) if m_name else 'Unknown'
 
@@ -56,7 +68,6 @@ def clean_save_file(filepath):
 
         seen_signatures = set()
         kept_recipe_chunks = []
-        removed_count = 0
 
         for r_chunk in recipe_chunks:
             i1_id = re.search(r'item1:\s*\n\s*DataVersion:\s*\d+\s*\n\s*id:\s*([^\n]+)', r_chunk)
@@ -79,13 +90,11 @@ def clean_save_file(filepath):
             # Remove exchange trades from non-Money Exchange shopkeepers
             if sk_id != '5' and is_exchange:
                 print(f"[Shopkeeper {sk_id} ({sk_name})] Removing exchange trade: {c1}x {id1} -> {c_res}x {id_res}")
-                removed_count += 1
                 continue
 
             # Remove duplicate trades within the same shopkeeper
             if signature in seen_signatures:
                 print(f"[Shopkeeper {sk_id} ({sk_name})] Removing duplicate trade: {c1}x {id1} -> {c_res}x {id_res}")
-                removed_count += 1
                 continue
 
             seen_signatures.add(signature)
@@ -94,7 +103,6 @@ def clean_save_file(filepath):
         # Re-index remaining recipes starting from 1
         new_recipes_str = ""
         for idx, r_chunk in enumerate(kept_recipe_chunks, start=1):
-            # Replace the top line "    'X':\n" with "    'idx':\n"
             reindexed_chunk = re.sub(r'^\s{4}\'\d+\':', f"    '{idx}':", r_chunk.lstrip('\n'))
             new_recipes_str += "    " + reindexed_chunk.lstrip()
 
