@@ -46,14 +46,6 @@ def main():
             # 3. Check server startup & notify
             run_task("Notify Server Start", notify_server_start.check_and_notify)
 
-            # 4. Check single-run Railway offer trigger
-            if os.path.exists("trigger_offer.flag"):
-                try:
-                    os.remove("trigger_offer.flag")
-                except Exception:
-                    pass
-                import run_offer_railway
-                run_task("Railway End Stone Offer", run_offer_railway.run_offer)
 
 
         except Exception as e:
