@@ -104,16 +104,6 @@ regions:
             unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
         type: cuboid
         priority: 0
-    hanansaleh_land:
-        min: {x: 1103, y: 63, z: -162}
-        max: {x: 1124, y: 63, z: -141}
-        members: {}
-        flags: {item-drop: allow, item-pickup: allow, interact: allow, ride: allow}
-        owners:
-            unique-ids: [326a36ea-b465-3192-a4f7-c313f347edc9, 28dd928d-7a83-35c0-9598-6b39b0d1b422,
-                b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
-        type: cuboid
-        priority: 0
     manansaleh2007_farm:
         min: {x: 1088, y: 63, z: -177}
         max: {x: 1137, y: 77, z: -128}
