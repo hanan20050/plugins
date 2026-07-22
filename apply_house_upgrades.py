@@ -155,17 +155,22 @@ def sync_tradelog():
     pull_proc = [sys.executable, "sync.py", "pull", PROCESSED_FILE]
     subprocess.run(pull_proc, capture_output=True)
 
+GLOBAL_PROCESSED_KEYS = set()
+
 def audit_and_apply_upgrades():
+    global GLOBAL_PROCESSED_KEYS
     if not os.path.exists(DB_PATH):
         return
 
-    processed = set()
+    processed = set(GLOBAL_PROCESSED_KEYS)
     if os.path.exists(PROCESSED_FILE):
         try:
             with open(PROCESSED_FILE, "r") as f:
-                processed = set(json.load(f))
+                disk_keys = set(json.load(f))
+                processed.update(disk_keys)
         except Exception:
-            processed = set()
+            pass
+    GLOBAL_PROCESSED_KEYS.update(processed)
 
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
@@ -193,6 +198,7 @@ def audit_and_apply_upgrades():
 
                         # 1. Instantly mark as processed & sync lock to prevent duplicate messages from multiple runners
                         processed.add(trade_key)
+                        GLOBAL_PROCESSED_KEYS.add(trade_key)
                         with open(PROCESSED_FILE, "w") as f:
                             json.dump(list(processed), f)
                         push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE]

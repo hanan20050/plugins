@@ -1,9 +1,7 @@
 name: House Upgrade Tracker Cron
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'  # Runs automatically every 5 minutes
-  workflow_dispatch:        # Allows manual trigger anytime from GitHub UI
+  workflow_dispatch:        # Manual trigger only (Railway handles 24/7 execution)
 
 jobs:
   run-tracker:
