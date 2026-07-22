@@ -145,9 +145,9 @@ def send_exaroton_command(cmd):
         print(f"❌ Failed: {cmd} | Response: {res.stdout}")
 
 def notify_player_in_chat(player_name, message):
-    # Sends private chat message ONLY to the specific player
-    msg_cmd = f'msg {player_name} {message}'
-    send_exaroton_command(msg_cmd)
+    # Broadcasts public chat message to everyone on the server
+    say_cmd = f'say {message}'
+    send_exaroton_command(say_cmd)
 
 def sync_tradelog():
     pull_cmd = [sys.executable, "sync.py", "pull", DB_PATH]
@@ -215,8 +215,9 @@ def audit_and_apply_upgrades():
                         # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")
 
-                        # 4. Send exactly ONE private confirmation message
-                        done_msg = f'§6[Upgrade] §eYour protection for §b{label} §eis now ACTIVE on {", ".join(target_regions)}!'
+                        # 4. Broadcast public confirmation message to everyone
+                        real_name = PLAYER_MAP.get(player_name) or PLAYER_MAP.get(player_name.lower()) or player_name
+                        done_msg = f'§6[Upgrade] §a{real_name} §e(§b{player_name}§e) activated §b{label} §eprotection on §b{", ".join(target_regions)}§e!'
                         notify_player_in_chat(player_name, done_msg)
                         break
 

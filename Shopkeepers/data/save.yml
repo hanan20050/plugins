@@ -740,7 +740,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"TNT Protection Certificate","color":"red","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"TNT Protection
             Certificate","pages":["Redeem with an Admin to set tnt: deny on your house
-            region."]}'
+            region. (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -754,7 +754,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Creeper & Explosion Protection","color":"green","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Creeper
             Explosion Protection","pages":["Redeem with an Admin to set other-explosion:
-            deny on your house region."]}'
+            deny on your house region. (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -768,7 +768,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"PvP Protection Certificate","color":"gold","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"PvP Protection
             Certificate","pages":["Redeem with an Admin to set pvp: deny on your house
-            region."]}'
+            region. (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -782,7 +782,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Mob Spawn Protection Certificate","color":"yellow","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Mob Protection
             Certificate","pages":["Redeem with an Admin to set mob-spawning: deny
-            on your house region."]}'
+            on your house region. (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -796,7 +796,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Fire Spread Protection Certificate","color":"dark_red","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Fire
             Protection Certificate","pages":["Redeem with an Admin to set fire-spread:
-            deny on your house region."]}'
+            deny on your house region. (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -810,7 +810,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Small Plot Expansion (8x8)","color":"blue","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Small
             Plot Expansion","pages":["This document certifies that the bearer is entitled
-            to one Small-sized Plot Expansion (8x8)."]}'
+            to one Small-sized Plot Expansion (8x8). (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -824,7 +824,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Normal Plot Expansion (15x15)","color":"gold","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Normal
             Plot Expansion","pages":["This document certifies that the bearer is entitled
-            to one Normal-sized Plot Expansion (15x15)."]}'
+            to one Normal-sized Plot Expansion (15x15). (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -838,7 +838,7 @@ data-version: 4|2|4903
           minecraft:custom_name: '{"text":"Big Plot Expansion (30x30)","color":"dark_purple","bold":true}'
           minecraft:written_book_content: '{"author":"Server Admin","title":"Big Plot
             Expansion","pages":["This document certifies that the bearer is entitled
-            to one Big Plot Expansion (30x30)."]}'
+            to one Big Plot Expansion (30x30). (Takes 15-30 sec to apply automatically)"]}'
       item1:
         DataVersion: 4903
         id: minecraft:netherite_ingot
