@@ -128,7 +128,7 @@ def check_and_notify():
 def main():
     loop_mode = "--loop" in sys.argv or os.environ.get("LOOP_MODE", "").lower() == "true"
     duration = int(os.environ.get("LOOP_DURATION", "270"))
-    interval = int(os.environ.get("POLL_INTERVAL", "5"))
+    interval = int(os.environ.get("POLL_INTERVAL", "13"))
 
     print(f"Starting Manan Join Notifier (Loop Mode: {loop_mode})...")
     

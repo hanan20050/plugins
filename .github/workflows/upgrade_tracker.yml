@@ -29,7 +29,7 @@ jobs:
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
           LOOP_MODE: "true"
           LOOP_DURATION: "270"
-          POLL_INTERVAL: "3"
+          POLL_INTERVAL: "13"
         run: |
           python3 notify_manan_farm.py &
           python3 apply_house_upgrades.py
