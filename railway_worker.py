@@ -16,7 +16,6 @@ os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
 import save_player_messages
 import apply_house_upgrades
 import notify_manan_farm
-import demo_test_messaging
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "1"))
 
@@ -35,9 +34,6 @@ def main():
     print(f"Polling Interval: {POLL_INTERVAL} seconds")
     print("=" * 60)
     sys.stdout.flush()
-
-    # Demo test messaging (commented out after successful verification)
-    # run_task("Railway Demo Messaging Test", demo_test_messaging.main)
 
     while True:
         try:

@@ -63,4 +63,10 @@
 - Region-modifying scripts must back up the region data before editing and support an `--undo` option.
 - World/block modifying scripts must keep a history of the commands run and support a command to revert changes.
 
+# Railway Worker & Cloud Container Execution Rules
+- **Environment Setup Order**: Environment variable overrides (`os.environ.get("EXAROTON_TOKEN")`) MUST be initialized at the top of worker scripts BEFORE importing submodules.
+- **Credential Fallbacks**: Ensure fallback `EXAROTON_TOKEN` and `EXAROTON_SERVER_ID` are present so cloud containers (Railway/Docker) without local `.env` files don't evaluate `TOKEN` to `None`.
+- **Private In-Game Messaging**: Upgrade activations and notifications MUST use private `/msg <player_name>` messages instead of public `/say` or title announcements.
+- **Mandatory Certificate Return**: Upgrades cannot be refunded until the physical Certificate book item (`written_book`) is retrieved/cleared from the player's inventory (`clear <player> minecraft:written_book 1`).
+
 
