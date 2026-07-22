@@ -25,8 +25,8 @@ if os.path.exists(ENV_FILE):
                 if len(parts) == 2:
                     CONFIG[parts[0].strip()] = parts[1].strip()
 
-TOKEN = CONFIG.get("EXAROTON_TOKEN")
-SERVER_ID = CONFIG.get("EXAROTON_SERVER_ID")
+TOKEN = os.environ.get("EXAROTON_TOKEN") or CONFIG.get("EXAROTON_TOKEN")
+SERVER_ID = os.environ.get("EXAROTON_SERVER_ID") or CONFIG.get("EXAROTON_SERVER_ID")
 
 # Player Identity Reference
 PLAYER_NAMES = {
