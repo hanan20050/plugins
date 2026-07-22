@@ -1,0 +1,79 @@
+=== LIVE CHEST INVENTORY CONTENTS DATA REPORT ===
+
+CHEST AT POSITION (1270, 67, -219):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 66, -219):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 65, -219):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 67, -218):
+  Slot  0: 1x minecraft:golden_chestplate (Components: {"minecraft:enchantments": {"minecraft:blast_protection": 1}, "minecraft:damage": 70})
+  Slot  1: 1x minecraft:golden_chestplate (Components: {"minecraft:enchantments": {"minecraft:blast_protection": 1}, "minecraft:damage": 70})
+  Slot  2: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 239})
+  Slot  3: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 239})
+  Slot  4: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 12})
+  Slot  5: 1x minecraft:stone_pickaxe
+  Slot  6: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 12})
+  Slot  7: 1x minecraft:stone_pickaxe
+
+CHEST AT POSITION (1270, 66, -218):
+  Slot  1: 2x minecraft:bone
+  Slot  5: 58x minecraft:emerald_block
+  Slot  6: 2x minecraft:furnace
+  Slot  8: 1x minecraft:spider_eye
+
+CHEST AT POSITION (1270, 65, -218):
+  Slot  0: 27x minecraft:dirt
+  Slot 11: 2x minecraft:cobblestone_stairs
+  Slot 16: 1x minecraft:furnace
+  Slot 21: 4x minecraft:mossy_cobblestone
+
+CHEST AT POSITION (1270, 67, -216):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 66, -216):
+  Slot  3: 3x minecraft:mutton
+  Slot  4: 1x minecraft:stone_pickaxe
+
+CHEST AT POSITION (1270, 65, -216):
+  Slot 10: 23x minecraft:dirt
+
+CHEST AT POSITION (1270, 67, -214):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 66, -214):
+  Slot  0: 15x minecraft:cobblestone_slab
+  Slot  1: 8x minecraft:bone
+  Slot  2: 1x minecraft:oak_slab
+  Slot  4: 1x minecraft:polished_deepslate_slab
+  Slot  5: 18x minecraft:bone_meal
+  Slot  6: 1x minecraft:redstone
+  Slot  7: 3x minecraft:apple
+  Slot  8: 3x minecraft:beef
+  Slot  9: 4x minecraft:crafting_table
+  Slot 10: 14x minecraft:nether_brick_slab
+  Slot 11: 1x minecraft:golden_chestplate (Components: {"minecraft:enchantments": {"minecraft:blast_protection": 1}, "minecraft:damage": 70})
+  Slot 12: 1x minecraft:glass
+  Slot 13: 6x minecraft:soul_sand
+  Slot 14: 4x minecraft:rotten_flesh
+  Slot 15: 1x minecraft:redstone
+  Slot 16: 2x minecraft:basalt
+  Slot 17: 1x minecraft:lily_of_the_valley
+  Slot 19: 6x minecraft:rotten_flesh
+  Slot 21: 18x minecraft:glow_ink_sac
+  Slot 24: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 239})
+  Slot 26: 2x minecraft:fletching_table
+
+CHEST AT POSITION (1270, 65, -214):
+  Slot  6: 2x minecraft:dirt
+  Slot  7: 5x minecraft:wheat_seeds
+  Slot  8: 1x minecraft:cornflower
+  Slot 10: 50x minecraft:leather
+  Slot 11: 59x minecraft:wheat_seeds
+  Slot 12: 12x minecraft:oak_sapling
+  Slot 14: 2x minecraft:dirt
+  Slot 15: 5x minecraft:granite
+  Slot 25: 2x minecraft:oak_sign

@@ -1,9 +1,14 @@
 # Project Rules
 
-- Emerald is the base currency for this file (`save.yml`).
-- Netherite Ingot is the bigger currency (1 Netherite Ingot = 64 Emeralds).
+- Currency hierarchy for `save.yml`:
+  - Emerald (`minecraft:emerald`) = Base Currency (1 Emerald)
+  - Emerald Block (`minecraft:emerald_block`) = 9 Emeralds
+  - Netherite Ingot (`minecraft:netherite_ingot`) = 64 Emeralds
+  - Netherite Block (`minecraft:netherite_block`) = 576 Emeralds (9 Netherite Ingots)
 - Always check Shopkeepers trade recipes and verify there are no infinite money glitches (e.g., selling price per unit > buying price per unit for any item).
-- DO NOT broadcast title/subtitle announcements on screen unless explicitly asked by the user.
+- DO NOT send any chat messages, announcements, or notifications (via tellraw, say, title, or msg) unless the user explicitly requests to notify/broadcast to players.
+- **Timer-Based Offer Rule**: Whenever creating or launching any timed offer/discount (e.g. 1-minute sale, 3-minute offer, etc.), ALWAYS run a background script that broadcasts `tellraw` chat updates every **10 seconds**, explicitly stating how much time has passed and how much time is remaining, before automatically ending the offer and restoring original prices.
+
 
 
 # Player Identity Reference (Real Names vs. Bedrock/Geyser Usernames)

@@ -1,0 +1,12 @@
+{
+    "front_floor": {
+        "action": "cobblestone_fill",
+        "material": "minecraft:cobblestone",
+        "min_x": 1284,
+        "max_x": 1291,
+        "y": 78,
+        "min_z": -230,
+        "max_z": -223,
+        "undo_cmd": "execute in minecraft:overworld run fill 1284 78 -230 1291 78 -223 minecraft:air"
+    }
+}

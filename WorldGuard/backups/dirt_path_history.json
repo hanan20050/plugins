@@ -1,0 +1,12 @@
+{
+    "hanansaleh_floor": {
+        "action": "dirt_path_fill",
+        "material": "minecraft:dirt_path",
+        "min_x": 1292,
+        "max_x": 1299,
+        "y": 78,
+        "min_z": -238,
+        "max_z": -223,
+        "undo_cmd": "co rollback r:hanansaleh t:30m"
+    }
+}

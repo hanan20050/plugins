@@ -1,0 +1,12 @@
+{
+    "fill_region": {
+        "action": "dirt_path_fill",
+        "material": "minecraft:dirt_path",
+        "min_x": 1246,
+        "max_x": 1264,
+        "y": 61,
+        "min_z": -193,
+        "max_z": -177,
+        "undo_cmd": "co rollback r:fill t:30m"
+    }
+}

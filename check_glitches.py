@@ -50,8 +50,12 @@ def parse_save_file(filepath):
 def value_in_emeralds(item_id, count):
     if item_id == 'minecraft:emerald':
         return count
+    elif item_id == 'minecraft:emerald_block':
+        return count * 9
     elif item_id == 'minecraft:netherite_ingot':
         return count * 64
+    elif item_id == 'minecraft:netherite_block':
+        return count * 576
     return None
 
 # Built-in decompression / unpacking rules (e.g. 1 Block -> N Items)

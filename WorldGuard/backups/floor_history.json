@@ -1,4 +1,14 @@
 {
+    "mon_jin_deku": {
+        "material": "yellow_concrete",
+        "coords": [
+            1264,
+            62,
+            -191,
+            1271,
+            -183
+        ]
+    },
     "shop": {
         "material": "light_blue_concrete",
         "coords": [
@@ -7,6 +17,46 @@
             -221,
             1300,
             -215
+        ]
+    },
+    "azansalehhh": {
+        "material": "lime_concrete",
+        "coords": [
+            1244,
+            62,
+            -204,
+            1251,
+            -191
+        ]
+    },
+    "wirycircle3938": {
+        "material": "dirt",
+        "coords": [
+            1283,
+            75,
+            -207,
+            1288,
+            -198
+        ]
+    },
+    "hanansaleh": {
+        "material": "white_concrete",
+        "coords": [
+            1292,
+            78,
+            -238,
+            1299,
+            -223
+        ]
+    },
+    "manansaleh2007": {
+        "material": "white_concrete",
+        "coords": [
+            1258,
+            64,
+            -222,
+            1272,
+            -208
         ]
     }
 }
