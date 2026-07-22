@@ -191,9 +191,12 @@ def audit_and_apply_upgrades():
 
                         print(f"🎯 Processing new upgrade {label} for {player_name} -> Regions: {target_regions}")
 
-                        # 1. First notify player privately on buying
-                        buy_msg = f'§6[Shop] §eYou bought §b{label}§e! Applying upgrade to your region(s): {", ".join(target_regions)}...'
-                        notify_player_in_chat(player_name, buy_msg)
+                        # 1. Instantly mark as processed & sync lock to prevent duplicate messages from multiple runners
+                        processed.add(trade_key)
+                        with open(PROCESSED_FILE, "w") as f:
+                            json.dump(list(processed), f)
+                        push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE]
+                        subprocess.run(push_proc, capture_output=True)
 
                         # 2. Apply WorldGuard flag to ALL regions owned by player
                         for reg in target_regions:
@@ -206,16 +209,9 @@ def audit_and_apply_upgrades():
                         # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")
 
-                        # 4. Notify player privately upgrade is active
+                        # 4. Send exactly ONE private confirmation message
                         done_msg = f'§6[Upgrade] §eYour protection for §b{label} §eis now ACTIVE on {", ".join(target_regions)}!'
                         notify_player_in_chat(player_name, done_msg)
-
-                        # 5. Record as processed immediately and sync
-                        processed.add(trade_key)
-                        with open(PROCESSED_FILE, "w") as f:
-                            json.dump(list(processed), f)
-                        push_proc = [sys.executable, "sync.py", "push", PROCESSED_FILE]
-                        subprocess.run(push_proc, capture_output=True)
                         break
 
     except Exception as e:
