@@ -18,13 +18,13 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    azansalehhh:
-        min: {x: 1244, y: 62, z: -197}
-        max: {x: 1251, y: 68, z: -191}
+    nightmaredady_expand:
+        min: {x: 1312, y: 79, z: -239}
+        max: {x: 1319, y: 86, z: -232}
         members: {}
-        flags: {other-explosion: deny, tnt: deny, pvp: allow}
+        flags: {pvp: allow}
         owners:
-            unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1]
+            unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
         type: cuboid
         priority: 0
     shop:
@@ -45,39 +45,57 @@ regions:
             unique-ids: [00000000-0000-0000-0009-01fa2d270090]
         type: cuboid
         priority: 0
-    mustafahacker67:
-        min: {x: 1292, y: 78, z: -214}
-        max: {x: 1299, y: 86, z: -207}
-        members: {}
-        flags: {other-explosion: deny, tnt: deny, pvp: allow}
-        owners:
-            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
-        type: cuboid
-        priority: 0
     hastybag7675_manansaleh2007:
-        min: {x: 1256, y: 73, z: -229}
-        max: {x: 1272, y: 79, z: -221}
+        min: {x: 1256, y: 64, z: -229}
+        max: {x: 1272, y: 319, z: -208}
         members: {}
-        flags: {other-explosion: allow, tnt: deny, pvp: allow}
+        flags: {other-explosion: deny, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8]
         type: cuboid
         priority: 0
-    hanansaleh:
-        min: {x: 1292, y: 78, z: -230}
-        max: {x: 1299, y: 86, z: -222}
-        members:
-            unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
-        flags: {other-explosion: deny, tnt: deny, pvp: deny, pvp-group: NON_OWNERS}
+    manansaleh2007:
+        min: {x: 1256, y: 64, z: -229}
+        max: {x: 1272, y: 319, z: -208}
+        members: {}
+        flags: {other-explosion: deny, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
         owners:
-            unique-ids: [b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
+            unique-ids: [00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8]
+        type: cuboid
+        priority: 0
+    azansalehhh:
+        min: {x: 1244, y: 62, z: -197}
+        max: {x: 1251, y: 68, z: -191}
+        members: {}
+        flags: {other-explosion: deny, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
+        owners:
+            unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1]
+        type: cuboid
+        priority: 0
+    mustafahacker67:
+        min: {x: 1292, y: 78, z: -214}
+        max: {x: 1299, y: 86, z: -207}
+        members: {}
+        flags: {other-explosion: deny, pvp: allow, tnt: deny}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f9433f6353]
+        type: cuboid
+        priority: 0
+    mustafa_azan_rayan:
+        min: {x: 1292, y: 77, z: -230}
+        max: {x: 1299, y: 86, z: -222}
+        members: {}
+        flags: {other-explosion: deny, pvp: allow, tnt: deny}
+        owners:
+            unique-ids: [00000000-0000-0000-0009-01f9433f6353, 2d5bf9b3-5a85-3026-a136-4680097f11f1,
+                d413c28e-64bb-32af-9661-3e901bc6e22b]
         type: cuboid
         priority: 0
     nightmaredady:
         min: {x: 1302, y: 79, z: -240}
         max: {x: 1311, y: 86, z: -230}
         members: {}
-        flags: {other-explosion: deny, tnt: deny, pvp: allow}
+        flags: {other-explosion: deny, pvp: allow, tnt: deny}
         owners:
             unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
         type: cuboid
@@ -86,10 +104,10 @@ regions:
         min: {x: 1088, y: 63, z: -177}
         max: {x: 1137, y: 77, z: -128}
         members: {}
-        flags: {pvp: allow}
+        flags: {other-explosion: deny, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
         owners:
             unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8, 97963ed5-6305-3b45-9639-beba47f9afe4,
-                d413c28e-64bb-32af-9661-3e901bc6e22b]
+                d413c28e-64bb-32af-9661-3e901bc6e22b, b78d8ea3-3bf5-30b0-b412-db4d5894dca7]
         type: cuboid
         priority: 0
     azansaleh_expanded:
@@ -105,18 +123,9 @@ regions:
         min: {x: 1300, y: 78, z: -214}
         max: {x: 1314, y: 83, z: -207}
         members: {}
-        flags: {other-explosion: deny, tnt: deny, pvp: allow}
+        flags: {other-explosion: deny, pvp: allow, tnt: deny}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
-        type: cuboid
-        priority: 0
-    manansaleh2007:
-        min: {x: 1258, y: 64, z: -222}
-        max: {x: 1272, y: 319, z: -208}
-        members: {}
-        flags: {pvp: allow}
-        owners:
-            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8]
         type: cuboid
         priority: 0
     __global__:
