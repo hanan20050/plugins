@@ -6,11 +6,7 @@ Automated 75% Payback & Chest Seizure Tracker for Rayan Saleh (NightmareDady).
 
 - Scam Amount: 5000 Emeralds
 - Target Revoke/Payback (75%): 3750 Emeralds
-- Fast Chest Scanning: Queries known chest locations in Rayan's region instantly.
-- Revokes/clears items from chests and player inventory, converts item value to Emerald equivalent, and credits towards 3750 Emerald goal.
-- Scans Shopkeepers trades for Rayan's new selling income/earnings and revokes/deducts income.
-- Broadcasts server-wide tellraw notifications to EVERYONE on the server.
-- State file: `rayan_scam_payback_state.json`
+- Batch Notification Rule: Only send server-wide notification when milestone threshold (500 Emeralds) is reached.
 """
 
 import os
@@ -20,7 +16,6 @@ import re
 import time
 import subprocess
 import sqlite3
-from datetime import datetime
 
 # Fallback credentials setup
 EXAROTON_TOKEN = os.getenv("EXAROTON_TOKEN", "NovL7NzAL8zzsWVKIxC1JFAdVOoQfpI3ej7oyorsHlLVOe0joLeiJ7aopethRcSUrED0p2dqkz1RxfPaZKGV31un15PrdP8Zk4RJ")
@@ -33,6 +28,7 @@ STATE_FILE = os.path.join(BASE_DIR, "rayan_scam_payback_state.json")
 
 TOTAL_SCAM = 5000
 TARGET_PAYBACK = int(TOTAL_SCAM * 0.75) # 3750 Emeralds
+NOTIFY_THRESHOLD = 500 # Only send notification after recovering every 500 Emeralds batch
 
 # Price conversions in Emeralds
 ITEM_EMERALD_VALUES = {
@@ -63,7 +59,7 @@ KNOWN_CHEST_COORDS = [
 RAYAN_USERNAMES = ["NightmareDady", ".WiryCircle3938"]
 
 def execute_exaroton_cmd(cmd):
-    """Executes a console command on Exaroton server via API."""
+    """Executes a console command on Exaroton server via API with failure reporting."""
     try:
         url = f"https://api.exaroton.com/v1/servers/{EXAROTON_SERVER_ID}/command/"
         body = json.dumps({"command": cmd})
@@ -87,12 +83,16 @@ def load_state():
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r") as f:
-                return json.load(f)
+                state = json.load(f)
+                if "last_notified_amount" not in state:
+                    state["last_notified_amount"] = 0
+                return state
         except Exception:
             pass
     return {
         "target_emeralds": TARGET_PAYBACK,
         "recovered_emeralds": 0,
+        "last_notified_amount": 0,
         "is_completed": False,
         "cleared_chests": [],
         "last_trade_id": 0,
@@ -112,6 +112,23 @@ def notify_everyone(msg):
     cmd = f"tellraw @a {msg_json}"
     execute_exaroton_cmd(cmd)
 
+def check_and_notify_threshold(state):
+    """Checks if recovered amount reached a new 500 Emerald threshold or total completion."""
+    recovered = state["recovered_emeralds"]
+    last_notified = state.get("last_notified_amount", 0)
+    
+    # Check if 500 emerald step completed or target reached
+    if (recovered - last_notified >= NOTIFY_THRESHOLD) or (recovered >= state["target_emeralds"] and not state["is_completed"]):
+        rem = max(0, state["target_emeralds"] - recovered)
+        
+        if recovered >= state["target_emeralds"]:
+            state["is_completed"] = True
+            notify_everyone(f"Rayan Saleh's scam debt of {state['target_emeralds']} Emeralds (75%) has been FULLY RECOVERED by the server!")
+        else:
+            notify_everyone(f"Scam Recovery Progress: {recovered:.1f} / {state['target_emeralds']} Emeralds recovered from Rayan Saleh (NightmareDady). Remaining debt: {rem:.1f} Emeralds.")
+        
+        state["last_notified_amount"] = recovered
+
 def parse_snbt(s):
     tokens = []
     i = 0
@@ -126,7 +143,6 @@ def parse_snbt(s):
             continue
         if c == '"':
             i += 1
-            start = i
             val = []
             while i < len(s):
                 if s[i] == '\\' and i + 1 < len(s):
@@ -217,17 +233,15 @@ def scan_and_clear_chests(state):
                         needed = state["target_emeralds"] - state["recovered_emeralds"]
                         credited = min(chest_emeralds, needed)
                         state["recovered_emeralds"] += credited
-                        rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
                         
                         log_entry = f"Seized chest at ({x},{y},{z}): {item_count} items worth ~{chest_emeralds:.1f} emeralds. Credited: {credited:.1f} E."
                         state["history"].append(log_entry)
                         print(log_entry)
                         
-                        notify_everyone(f"Seized items from Rayan Saleh (NightmareDady) chest at {x},{y},{z} (~{credited:.1f} Emeralds value). Remaining scam debt: {rem:.1f} Emeralds.")
+                        check_and_notify_threshold(state)
                         
                         if state["recovered_emeralds"] >= state["target_emeralds"]:
                             state["is_completed"] = True
-                            notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds (75%) has been FULLY RECOVERED by the server!")
                             save_state(state)
                             return
 
@@ -268,7 +282,6 @@ def check_new_income(state):
                 needed = state["target_emeralds"] - state["recovered_emeralds"]
                 credited = min(val, needed)
                 state["recovered_emeralds"] += credited
-                rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
                 
                 # Revoke earnings from player's inventory
                 execute_exaroton_cmd(f"clear {player_name} {clean_item} {result_amount}")
@@ -277,11 +290,10 @@ def check_new_income(state):
                 state["history"].append(log_entry)
                 print(log_entry)
                 
-                notify_everyone(f"Revoked income ({result_amount}x {result_item}) from Rayan Saleh (NightmareDady) for scam payback (~{credited:.1f} E). Remaining debt: {rem:.1f} Emeralds.")
+                check_and_notify_threshold(state)
                 
                 if state["recovered_emeralds"] >= state["target_emeralds"]:
                     state["is_completed"] = True
-                    notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds (75%) has been FULLY RECOVERED by the server!")
                     break
         conn.close()
     except Exception as e:
