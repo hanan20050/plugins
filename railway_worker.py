@@ -16,6 +16,7 @@ os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
 import save_player_messages
 import apply_house_upgrades
 import notify_server_start
+import anti_exploit_monitor
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "1"))
 
@@ -45,6 +46,9 @@ def main():
 
             # 3. Check server startup & notify
             run_task("Notify Server Start", notify_server_start.check_and_notify)
+
+            # 4. Run Anti-Exploit Trade Monitor
+            run_task("Anti-Exploit Monitor", anti_exploit_monitor.run_monitor_cycle)
 
 
 
