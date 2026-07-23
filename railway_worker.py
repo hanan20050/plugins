@@ -17,6 +17,7 @@ import save_player_messages
 import apply_house_upgrades
 import notify_server_start
 import anti_exploit_monitor
+import railway_demo_test
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
 
@@ -38,6 +39,9 @@ def main():
 
     while True:
         try:
+            # 0. Send Demo Test Messages on Startup
+            run_task("Send Railway Demo Messages", railway_demo_test.send_demo_messages)
+
             # 1. Save player messages continuously
             run_task("Save Player Messages", save_player_messages.main)
 
