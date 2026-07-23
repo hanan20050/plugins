@@ -85,7 +85,7 @@
 # Automated Anti-Exploit Trade Monitor System (STRICT)
 - **Script Location**: `anti_exploit_monitor.py` (integrated into `railway_worker.py` polling every 10 seconds).
 - **Detection Logic**: Checks `Shopkeepers/trade-logs/trades.db` for items sold to shopkeepers (excluding Money Exchange) exceeding 50+ quantity in a 10-minute rolling window (`LOOKBACK_SECONDS = 600`).
-- **Penalty Action**: Reduces selling payout for exploited item by 80% in `save.yml` for **2 hours** (`PENALTY_DURATION = 7200`), syncs to server, reloads Shopkeepers plugin (`shopkeeper reload`), and broadcasts server-wide `tellraw` alert to all players.
+- **Penalty Action**: Reduces selling payout for exploited item by 80% in `save.yml` for **15 minutes** (`PENALTY_DURATION = 900`), syncs to server, reloads Shopkeepers plugin (`shopkeeper reload`), and broadcasts server-wide `tellraw` alert to all players. Broadcasts a follow-up `tellraw` notification when 15-minute penalty ends and standard prices return.
 - **Money Conversion Exception**: Money Exchange shopkeeper (ID 5) and currency exchange trades (`EMERALD`, `EMERALD_BLOCK`, `NETHERITE_INGOT`, `NETHERITE_BLOCK`) are strictly exempted from anti-exploit reductions.
 - **State Management & Rollback**: Active penalties recorded in `Shopkeepers/active_anti_exploit_penalties.json`. Supports manual rollback via `python3 anti_exploit_monitor.py --undo`.
 
