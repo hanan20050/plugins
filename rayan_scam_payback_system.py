@@ -255,7 +255,7 @@ def check_new_income(state):
         cursor = conn.cursor()
         
         last_id = state.get("last_trade_id", 0)
-        cursor.execute("SELECT id, player_name, result_item, result_amount FROM trades WHERE id > ? ORDER BY id ASC", (last_id,))
+        cursor.execute("SELECT rowid, player_name, result_item_type, result_item_amount FROM trade WHERE rowid > ? ORDER BY rowid ASC", (last_id,))
         rows = cursor.fetchall()
         
         for row in rows:
@@ -263,16 +263,17 @@ def check_new_income(state):
             state["last_trade_id"] = trade_id
             
             if any(p.lower() in player_name.lower() for p in RAYAN_USERNAMES):
-                val = ITEM_EMERALD_VALUES.get(result_item, 1) * result_amount
+                clean_item = f"minecraft:{result_item.lower()}"
+                val = ITEM_EMERALD_VALUES.get(clean_item, 1) * result_amount
                 needed = state["target_emeralds"] - state["recovered_emeralds"]
                 credited = min(val, needed)
                 state["recovered_emeralds"] += credited
                 rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
                 
                 # Revoke earnings from player's inventory
-                execute_exaroton_cmd(f"clear {player_name} {result_item} {result_amount}")
+                execute_exaroton_cmd(f"clear {player_name} {clean_item} {result_amount}")
                 
-                log_entry = f"Revoked earnings from trade #{trade_id} ({result_amount}x {result_item}): Credited {credited:.1f} E."
+                log_entry = f"Revoked earnings from trade #{trade_id} ({result_amount}x {clean_item}): Credited {credited:.1f} E."
                 state["history"].append(log_entry)
                 print(log_entry)
                 
