@@ -98,11 +98,14 @@ def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-def notify_rayan(msg):
-    """Private message to Rayan Saleh in-game."""
-    for user in RAYAN_USERNAMES:
-        cmd = f"msg {user} §c[SCAM RECOVERY SYSTEM] §7{msg}"
-        execute_exaroton_cmd(cmd)
+def notify_everyone(msg):
+    """Broadcasts scam recovery notifications to everyone on the server via tellraw."""
+    msg_json = json.dumps([
+        {"text": "[SCAM RECOVERY SYSTEM] ", "color": "red", "bold": True},
+        {"text": msg, "color": "yellow"}
+    ])
+    cmd = f"tellraw @a {msg_json}"
+    execute_exaroton_cmd(cmd)
 
 def parse_snbt(s):
     tokens = []
@@ -225,11 +228,11 @@ def scan_and_clear_chests(state):
                                     state["history"].append(log_entry)
                                     print(log_entry)
                                     
-                                    notify_rayan(f"Items seized from your chest at {x},{y},{z} ({credited:.1f} Emeralds value). Remaining debt: {rem:.1f} Emeralds.")
+                                    notify_everyone(f"Seized items from Rayan Saleh (NightmareDady) chest at {x},{y},{z} (~{credited:.1f} Emeralds value). Remaining scam debt: {rem:.1f} Emeralds.")
                                     
                                     if state["recovered_emeralds"] >= state["target_emeralds"]:
                                         state["is_completed"] = True
-                                        notify_rayan("Your scam debt of 3750 Emeralds has been FULLY RECOVERED. Thank you.")
+                                        notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds has been FULLY RECOVERED by the server!")
                                         save_state(state)
                                         return
 
@@ -269,11 +272,11 @@ def check_new_income(state):
                 state["history"].append(log_entry)
                 print(log_entry)
                 
-                notify_rayan(f"Income of {result_amount}x {result_item} (~{credited:.1f} E) revoked for scam payback. Remaining debt: {rem:.1f} Emeralds.")
+                notify_everyone(f"Revoked income ({result_amount}x {result_item}) from Rayan Saleh (NightmareDady) for scam payback (~{credited:.1f} E). Remaining debt: {rem:.1f} Emeralds.")
                 
                 if state["recovered_emeralds"] >= state["target_emeralds"]:
                     state["is_completed"] = True
-                    notify_rayan("Your scam debt of 3750 Emeralds has been FULLY RECOVERED. Thank you.")
+                    notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds has been FULLY RECOVERED by the server!")
                     break
         conn.close()
     except Exception as e:
