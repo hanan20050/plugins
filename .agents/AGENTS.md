@@ -89,4 +89,8 @@
 - **Money Conversion Exception**: Money Exchange shopkeeper (ID 5) and currency exchange trades (`EMERALD`, `EMERALD_BLOCK`, `NETHERITE_INGOT`, `NETHERITE_BLOCK`) are strictly exempted from anti-exploit reductions.
 - **State Management & Rollback**: Active penalties recorded in `Shopkeepers/active_anti_exploit_penalties.json`. Supports manual rollback via `python3 anti_exploit_monitor.py --undo`.
 
+# WorldGuard Region Ownership & Player UUID Rule (STRICT)
+- **Always Include UUIDs**: When defining or modifying WorldGuard regions (`regions.yml`) for any player (in any world), ALWAYS include their player UUID under `owners.unique-ids` (e.g. `95204d3f-ea6c-3dfa-929d-9180927184f8` for Manan). Plain text usernames alone in `owners.players` are NOT recognized by WorldGuard on online-mode/Geyser servers.
+
+
 
