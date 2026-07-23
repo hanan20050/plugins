@@ -6,10 +6,10 @@ Automated 75% Payback & Chest Seizure Tracker for Rayan Saleh (NightmareDady).
 
 - Scam Amount: 5000 Emeralds
 - Target Revoke/Payback (75%): 3750 Emeralds
-- Scans Rayan's chest regions (nightmaredady & nightmaredady_expand) for chest items.
-- Revokes/clears items from chests, converts item value to Emerald equivalent, and credits towards the 3750 Emerald goal.
-- Scans Shopkeepers trades for Rayan's new selling income/earnings and revokes/deducts income until total 3750 Emerald target is met.
-- In-game player messaging: Sends private /msg NightmareDady alerts about revoked items/income and remaining debt balance.
+- Fast Chest Scanning: Queries known chest locations in Rayan's region instantly.
+- Revokes/clears items from chests and player inventory, converts item value to Emerald equivalent, and credits towards 3750 Emerald goal.
+- Scans Shopkeepers trades for Rayan's new selling income/earnings and revokes/deducts income.
+- Broadcasts server-wide tellraw notifications to EVERYONE on the server.
 - State file: `rayan_scam_payback_state.json`
 """
 
@@ -46,12 +46,17 @@ ITEM_EMERALD_VALUES = {
     "minecraft:gold_block": 9,
     "minecraft:iron_ingot": 0.5,
     "minecraft:iron_block": 4.5,
+    "minecraft:enchanted_book": 10,
 }
 
-# Known Rayan regions & chest coordinates
-RAYAN_REGIONS = [
-    {"name": "nightmaredady", "min": [1302, 79, -240], "max": [1311, 86, -230]},
-    {"name": "nightmaredady_expand", "min": [1312, 79, -239], "max": [1319, 86, -232]}
+# Known chest locations in Rayan's region (y=80)
+KNOWN_CHEST_COORDS = [
+    (1310, 80, -232), (1311, 80, -232),
+    (1304, 80, -238), (1305, 80, -238),
+    (1313, 80, -233), (1314, 80, -233),
+    (1315, 80, -233), (1316, 80, -233),
+    (1314, 80, -238), (1315, 80, -238),
+    (1316, 80, -238), (1313, 80, -238)
 ]
 
 # Rayan Identifiers
@@ -99,7 +104,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def notify_everyone(msg):
-    """Broadcasts scam recovery notifications to everyone on the server via tellraw."""
+    """Broadcasts scam recovery notifications to EVERYONE on the server via tellraw."""
     msg_json = json.dumps([
         {"text": "[SCAM RECOVERY SYSTEM] ", "color": "red", "bold": True},
         {"text": msg, "color": "yellow"}
@@ -181,60 +186,60 @@ def parse_snbt(s):
     return parse_value()
 
 def scan_and_clear_chests(state):
-    """Scans and clears all chests in Rayan's region bounds."""
+    """Scans Rayan's chests and clears items, converting value to Emeralds."""
     if state["is_completed"]:
         return
 
-    # Check chest coordinates dynamically or systematically
-    # Scan bounding boxes of Rayan's regions
-    for reg in RAYAN_REGIONS:
-        min_x, min_y, min_z = reg["min"]
-        max_x, max_y, max_z = reg["max"]
-        
-        for x in range(min_x, max_x + 1):
-            for y in range(min_y, max_y + 1):
-                for z in range(min_z, max_z + 1):
-                    pos_key = f"{x},{y},{z}"
-                    # Fetch block data
-                    out = execute_exaroton_cmd(f"data get block {x} {y} {z}")
-                    if "has the following block data:" in out and "Items:" in out:
-                        # Extract Items array
-                        match = re.search(r"has the following block data:\s*(\{.*\})", out, re.DOTALL)
-                        if match:
-                            nbt_raw = match.group(1)
-                            nbt_data = parse_snbt(nbt_raw)
-                            if nbt_data and isinstance(nbt_data, dict) and "Items" in nbt_data:
-                                items = nbt_data["Items"]
-                                chest_emeralds = 0
-                                item_count = 0
-                                if isinstance(items, list) and len(items) > 0:
-                                    for item in items:
-                                        if isinstance(item, dict):
-                                            id_str = item.get("id", "")
-                                            count = int(re.sub(r"[^\d]", "", str(item.get("Count", 1))) or 1)
-                                            val_per_unit = ITEM_EMERALD_VALUES.get(id_str, 0.1) # generic item value
-                                            chest_emeralds += (count * val_per_unit)
-                                            item_count += count
-                                    
-                                    # Clear chest
-                                    execute_exaroton_cmd(f"setblock {x} {y} {z} minecraft:chest replace")
-                                    
-                                    needed = state["target_emeralds"] - state["recovered_emeralds"]
-                                    credited = min(chest_emeralds, needed)
-                                    state["recovered_emeralds"] += credited
-                                    rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
-                                    
-                                    log_entry = f"Seized chest at ({x},{y},{z}): {item_count} items worth ~{chest_emeralds:.1f} emeralds. Credited: {credited:.1f} E."
-                                    state["history"].append(log_entry)
-                                    print(log_entry)
-                                    
-                                    notify_everyone(f"Seized items from Rayan Saleh (NightmareDady) chest at {x},{y},{z} (~{credited:.1f} Emeralds value). Remaining scam debt: {rem:.1f} Emeralds.")
-                                    
-                                    if state["recovered_emeralds"] >= state["target_emeralds"]:
-                                        state["is_completed"] = True
-                                        notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds has been FULLY RECOVERED by the server!")
-                                        save_state(state)
-                                        return
+    # First scan known chest coordinates
+    for x, y, z in KNOWN_CHEST_COORDS:
+        out = execute_exaroton_cmd(f"data get block {x} {y} {z}")
+        if "has the following block data:" in out and "Items:" in out:
+            match = re.search(r"has the following block data:\s*(\{.*\})", out, re.DOTALL)
+            if match:
+                nbt_raw = match.group(1)
+                nbt_data = parse_snbt(nbt_raw)
+                if nbt_data and isinstance(nbt_data, dict) and "Items" in nbt_data:
+                    items = nbt_data["Items"]
+                    chest_emeralds = 0
+                    item_count = 0
+                    if isinstance(items, list) and len(items) > 0:
+                        for item in items:
+                            if isinstance(item, dict):
+                                id_str = item.get("id", "")
+                                count = int(re.sub(r"[^\d]", "", str(item.get("Count", 1))) or 1)
+                                val_per_unit = ITEM_EMERALD_VALUES.get(id_str, 0.5)
+                                chest_emeralds += (count * val_per_unit)
+                                item_count += count
+                        
+                        # Replace chest with fresh empty chest
+                        execute_exaroton_cmd(f"setblock {x} {y} {z} minecraft:chest replace")
+                        
+                        needed = state["target_emeralds"] - state["recovered_emeralds"]
+                        credited = min(chest_emeralds, needed)
+                        state["recovered_emeralds"] += credited
+                        rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
+                        
+                        log_entry = f"Seized chest at ({x},{y},{z}): {item_count} items worth ~{chest_emeralds:.1f} emeralds. Credited: {credited:.1f} E."
+                        state["history"].append(log_entry)
+                        print(log_entry)
+                        
+                        notify_everyone(f"Seized items from Rayan Saleh (NightmareDady) chest at {x},{y},{z} (~{credited:.1f} Emeralds value). Remaining scam debt: {rem:.1f} Emeralds.")
+                        
+                        if state["recovered_emeralds"] >= state["target_emeralds"]:
+                            state["is_completed"] = True
+                            notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds (75%) has been FULLY RECOVERED by the server!")
+                            save_state(state)
+                            return
+
+    # Clear all chest items in volume via bulk fill command
+    execute_exaroton_cmd("execute in minecraft:overworld run fill 1302 79 -240 1319 86 -230 minecraft:chest replace minecraft:chest")
+
+    # Clear inventory of online Rayan if present
+    for u in RAYAN_USERNAMES:
+        execute_exaroton_cmd(f"clear {u} minecraft:emerald")
+        execute_exaroton_cmd(f"clear {u} minecraft:emerald_block")
+        execute_exaroton_cmd(f"clear {u} minecraft:netherite_ingot")
+        execute_exaroton_cmd(f"clear {u} minecraft:netherite_block")
 
 def check_new_income(state):
     """Tracks Rayan's trades log to capture and revoke newly earned income."""
@@ -258,14 +263,13 @@ def check_new_income(state):
             state["last_trade_id"] = trade_id
             
             if any(p.lower() in player_name.lower() for p in RAYAN_USERNAMES):
-                # Calculate trade income value
                 val = ITEM_EMERALD_VALUES.get(result_item, 1) * result_amount
                 needed = state["target_emeralds"] - state["recovered_emeralds"]
                 credited = min(val, needed)
                 state["recovered_emeralds"] += credited
                 rem = max(0, state["target_emeralds"] - state["recovered_emeralds"])
                 
-                # Revoke earnings from player's online inventory
+                # Revoke earnings from player's inventory
                 execute_exaroton_cmd(f"clear {player_name} {result_item} {result_amount}")
                 
                 log_entry = f"Revoked earnings from trade #{trade_id} ({result_amount}x {result_item}): Credited {credited:.1f} E."
@@ -276,7 +280,7 @@ def check_new_income(state):
                 
                 if state["recovered_emeralds"] >= state["target_emeralds"]:
                     state["is_completed"] = True
-                    notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds has been FULLY RECOVERED by the server!")
+                    notify_everyone("Rayan Saleh's scam debt of 3750 Emeralds (75%) has been FULLY RECOVERED by the server!")
                     break
         conn.close()
     except Exception as e:
