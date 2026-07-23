@@ -11,6 +11,11 @@
 - **Currency Exchange Confirmation Rule (STRICT)**: Only ask the user for explicit confirmation when creating, modifying, adding, or executing currency exchange trades (e.g. trading Emeralds <-> Emerald Blocks, Netherite Ingots, or Netherite Blocks). Regular item buy/sell trades do not require asking for confirmation each time.
 - DO NOT send any chat messages, announcements, or notifications (via tellraw, say, title, or msg) unless the user explicitly requests to notify/broadcast to players.
 - **Timer-Based Offer Rule**: Whenever creating or launching any timed offer/discount (e.g. 1-minute sale, 3-minute offer, etc.), ALWAYS run a background script that broadcasts `tellraw` chat updates every **10 seconds**, explicitly stating how much time has passed and how much time is remaining, before automatically ending the offer and restoring original prices.
+- **New Property Upgrade Rule (STRICT)**: Protection upgrades and flags are strictly per-property. When creating a new property or region expansion for any player, NEVER automatically copy or apply existing protection upgrades/flags (e.g., TNT protection, Creeper protection) from their previous regions. New properties start with default flags (`pvp: allow`), and players must purchase upgrade certificates for each new property separately.
+- **Adjacent Expansion Rule (STRICT)**: When creating an expanded region for any player, the new region must be placed **immediately adjacent** to the existing plot boundary (starting at `max_x + 1` for East expansion) with zero block gap, AND must ALWAYS be **centered** along the length/depth (Z-axis) of the original property boundary so it is balanced and not shifted too far left/north or right/south. The original house/property region bounds must be preserved intact so physical house structures are never cut off or misaligned.
+
+
+
 
 
 
@@ -76,5 +81,12 @@
 - **Credential Fallbacks**: Ensure fallback `EXAROTON_TOKEN` and `EXAROTON_SERVER_ID` are present so cloud containers (Railway/Docker) without local `.env` files don't evaluate `TOKEN` to `None`.
 - **Private In-Game Messaging**: Upgrade activations and notifications MUST use private `/msg <player_name>` messages instead of public `/say` or title announcements.
 - **Mandatory Certificate Return**: Upgrades cannot be refunded until the physical Certificate book item (`written_book`) is retrieved/cleared from the player's inventory (`clear <player> minecraft:written_book 1`).
+
+# Automated Anti-Exploit Trade Monitor System (STRICT)
+- **Script Location**: `anti_exploit_monitor.py` (integrated into `railway_worker.py` polling every 10 seconds).
+- **Detection Logic**: Checks `Shopkeepers/trade-logs/trades.db` for items sold to shopkeepers (excluding Money Exchange) exceeding 50+ quantity in a 10-minute rolling window (`LOOKBACK_SECONDS = 600`).
+- **Penalty Action**: Reduces selling payout for exploited item by 80% in `save.yml` for **2 hours** (`PENALTY_DURATION = 7200`), syncs to server, reloads Shopkeepers plugin (`shopkeeper reload`), and broadcasts server-wide `tellraw` alert to all players.
+- **Money Conversion Exception**: Money Exchange shopkeeper (ID 5) and currency exchange trades (`EMERALD`, `EMERALD_BLOCK`, `NETHERITE_INGOT`, `NETHERITE_BLOCK`) are strictly exempted from anti-exploit reductions.
+- **State Management & Rollback**: Active penalties recorded in `Shopkeepers/active_anti_exploit_penalties.json`. Supports manual rollback via `python3 anti_exploit_monitor.py --undo`.
 
 
