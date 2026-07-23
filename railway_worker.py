@@ -18,7 +18,7 @@ import apply_house_upgrades
 import notify_server_start
 import anti_exploit_monitor
 
-POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "1"))
+POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
 
 def run_task(name, func):
     """Executes a function and logs exceptions without crashing the main loop."""
