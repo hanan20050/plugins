@@ -17,7 +17,6 @@ import save_player_messages
 import apply_house_upgrades
 import notify_server_start
 import anti_exploit_monitor
-import rayan_scam_payback_system
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
 
@@ -50,9 +49,6 @@ def main():
 
             # 4. Run Anti-Exploit Trade Monitor
             run_task("Anti-Exploit Monitor", anti_exploit_monitor.run_monitor_cycle)
-
-            # 5. Run Rayan Scam Payback System
-            run_task("Rayan Scam Payback System", rayan_scam_payback_system.run_scam_payback_cycle)
 
 
 
