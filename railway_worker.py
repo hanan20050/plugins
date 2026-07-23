@@ -47,9 +47,6 @@ def main():
             # 3. Check server startup & notify
             run_task("Notify Server Start", notify_server_start.check_and_notify)
 
-            # 4. Run Anti-Exploit Trade Monitor
-            run_task("Anti-Exploit Monitor", anti_exploit_monitor.run_monitor_cycle)
-
 
 
         except Exception as e:
