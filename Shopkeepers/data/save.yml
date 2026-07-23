@@ -338,22 +338,13 @@ data-version: 4|2|4903
     '36':
       resultItem:
         DataVersion: 4903
-        id: minecraft:netherite_ingot
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 64
-    '37':
-      resultItem:
-        DataVersion: 4903
         id: minecraft:golden_carrot
         count: 8
       item1:
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '38':
+    '37':
       resultItem:
         DataVersion: 4903
         id: minecraft:glistering_melon_slice
@@ -362,7 +353,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '39':
+    '38':
       resultItem:
         DataVersion: 4903
         id: minecraft:obsidian
@@ -371,7 +362,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '40':
+    '39':
       resultItem:
         DataVersion: 4903
         id: minecraft:lapis_lazuli
@@ -380,7 +371,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '41':
+    '40':
       resultItem:
         DataVersion: 4903
         id: minecraft:redstone
@@ -389,7 +380,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '42':
+    '41':
       resultItem:
         DataVersion: 4903
         id: minecraft:glowstone_dust
@@ -398,7 +389,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '43':
+    '42':
       resultItem:
         DataVersion: 4903
         id: minecraft:slime_ball
@@ -407,7 +398,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '44':
+    '43':
       resultItem:
         DataVersion: 4903
         id: minecraft:leather
@@ -416,7 +407,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '45':
+    '44':
       resultItem:
         DataVersion: 4903
         id: minecraft:feather
@@ -425,7 +416,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '46':
+    '45':
       resultItem:
         DataVersion: 4903
         id: minecraft:gunpowder
@@ -434,7 +425,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '47':
+    '46':
       resultItem:
         DataVersion: 4903
         id: minecraft:rotten_flesh
@@ -443,7 +434,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '48':
+    '47':
       resultItem:
         DataVersion: 4903
         id: minecraft:blaze_rod
@@ -452,7 +443,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 3
-    '49':
+    '48':
       resultItem:
         DataVersion: 4903
         id: minecraft:ghast_tear
@@ -461,7 +452,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '50':
+    '49':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_star
@@ -470,7 +461,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '51':
+    '50':
       resultItem:
         DataVersion: 4903
         id: minecraft:shulker_shell
@@ -479,7 +470,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '52':
+    '51':
       resultItem:
         DataVersion: 4903
         id: minecraft:totem_of_undying
@@ -488,7 +479,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 32
-    '53':
+    '52':
       resultItem:
         DataVersion: 4903
         id: minecraft:saddle
@@ -497,7 +488,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 8
-    '54':
+    '53':
       resultItem:
         DataVersion: 4903
         id: minecraft:oak_log
@@ -506,7 +497,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '55':
+    '54':
       resultItem:
         DataVersion: 4903
         id: minecraft:cobblestone
@@ -515,7 +506,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '56':
+    '55':
       resultItem:
         DataVersion: 4903
         id: minecraft:quartz
@@ -524,7 +515,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '57':
+    '56':
       resultItem:
         DataVersion: 4903
         id: minecraft:copper_ingot
@@ -533,7 +524,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '58':
+    '57':
       resultItem:
         DataVersion: 4903
         id: minecraft:sugar_cane
@@ -542,7 +533,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '59':
+    '58':
       resultItem:
         DataVersion: 4903
         id: minecraft:wheat
@@ -551,7 +542,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '60':
+    '59':
       resultItem:
         DataVersion: 4903
         id: minecraft:carrot
@@ -560,7 +551,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '61':
+    '60':
       resultItem:
         DataVersion: 4903
         id: minecraft:potato
@@ -569,7 +560,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '62':
+    '61':
       resultItem:
         DataVersion: 4903
         id: minecraft:string
@@ -578,7 +569,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '63':
+    '62':
       resultItem:
         DataVersion: 4903
         id: minecraft:bone
@@ -587,7 +578,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '64':
+    '63':
       resultItem:
         DataVersion: 4903
         id: minecraft:name_tag
@@ -596,7 +587,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 4
-    '65':
+    '64':
       resultItem:
         DataVersion: 4903
         id: minecraft:lead
@@ -605,7 +596,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 2
-    '66':
+    '65':
       resultItem:
         DataVersion: 4903
         id: minecraft:netherrack
@@ -614,7 +605,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '67':
+    '66':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_bricks
@@ -623,7 +614,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '68':
+    '67':
       resultItem:
         DataVersion: 4903
         id: minecraft:nether_wart
@@ -632,7 +623,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '69':
+    '68':
       resultItem:
         DataVersion: 4903
         id: minecraft:soul_sand
@@ -641,7 +632,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '70':
+    '69':
       resultItem:
         DataVersion: 4903
         id: minecraft:glowstone
@@ -650,7 +641,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '71':
+    '70':
       resultItem:
         DataVersion: 4903
         id: minecraft:quartz
@@ -659,7 +650,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '72':
+    '71':
       resultItem:
         DataVersion: 4903
         id: minecraft:basalt
@@ -668,7 +659,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '73':
+    '72':
       resultItem:
         DataVersion: 4903
         id: minecraft:blackstone
@@ -677,7 +668,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '74':
+    '73':
       resultItem:
         DataVersion: 4903
         id: minecraft:magma_block
@@ -686,7 +677,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '75':
+    '74':
       resultItem:
         DataVersion: 4903
         id: minecraft:crying_obsidian
@@ -695,7 +686,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 1
-    '76':
+    '75':
       resultItem:
         DataVersion: 4903
         id: minecraft:villager_spawn_egg
@@ -704,7 +695,7 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '77':
+    '76':
       resultItem:
         DataVersion: 4903
         id: minecraft:allay_spawn_egg
@@ -713,15 +704,178 @@ data-version: 4|2|4903
         DataVersion: 4903
         id: minecraft:emerald
         count: 64
-    '92':
+    '77':
       resultItem:
         DataVersion: 4903
-        id: minecraft:end_stone
-        count: 32
+        id: minecraft:nether_star
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+    '78':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:beacon
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 2
+    '79':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:elytra
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 4
+    '80':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:dragon_head
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald_block
+        count: 16
+    '81':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:end_crystal
+        count: 1
       item1:
         DataVersion: 4903
         id: minecraft:emerald
+        count: 36
+    '82':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:netherite_scrap
         count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 18
+    '83':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:ancient_debris
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '84':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:sponge
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 9
+    '85':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:heart_of_the_sea
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '86':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:nautilus_shell
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 9
+    '87':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:shulker_shell
+        count: 2
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 18
+    '88':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:echo_shard
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '89':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:ender_eye
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '90':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_golden_apple
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+    '91':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:trident
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 2
+    '92':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:wind_charge
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 4
+    '93':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:experience_bottle
+        count: 16
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 8
+    '94':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:breeze_rod
+        count: 4
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 16
+    '95':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:trial_key
+        count: 1
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 32
+  snapshots: []
 '5':
   uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
   world: world
@@ -760,22 +914,14 @@ data-version: 4|2|4903
     '3':
       resultItem:
         DataVersion: 4903
-        id: minecraft:emerald_block
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 9
-    '4':
-      resultItem:
-        DataVersion: 4903
         id: minecraft:emerald
         count: 9
       item1:
         DataVersion: 4903
-        id: minecraft:emerald_block
-        count: 1
-snapshots: []
+        id: minecraft:emerald
+        count: 9
+
+  snapshots: []
 '2':
   uniqueId: a28b74c2-9b2f-4889-bdc0-f4b6794bb71b
   world: world
@@ -799,10 +945,10 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"TNT Protection Certificate","color":"red","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"TNT Protection
-            Certificate","pages":["Redeem with an Admin to set tnt: deny on your house
-            region. (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"Redeem
+            with an Admin to set tnt: deny on your house region. (Takes 15-30 sec
+            to apply automatically)"}],title:{raw:"TNT Protection Certificate"}}'
+          minecraft:custom_name: '{bold:1b,color:"red",text:"TNT Protection Certificate"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -813,10 +959,11 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Creeper & Explosion Protection","color":"green","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Creeper
-            Explosion Protection","pages":["Redeem with an Admin to set other-explosion:
-            deny on your house region. (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"Redeem
+            with an Admin to set other-explosion: deny on your house region. (Takes
+            15-30 sec to apply automatically)"}],title:{raw:"Creeper Explosion Protection"}}'
+          minecraft:custom_name: '{bold:1b,color:"green",text:"Creeper & Explosion
+            Protection"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -827,10 +974,10 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"PvP Protection Certificate","color":"gold","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"PvP Protection
-            Certificate","pages":["Redeem with an Admin to set pvp: deny on your house
-            region. (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"Redeem
+            with an Admin to set pvp: deny on your house region. (Takes 15-30 sec
+            to apply automatically)"}],title:{raw:"PvP Protection Certificate"}}'
+          minecraft:custom_name: '{bold:1b,color:"gold",text:"PvP Protection Certificate"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -841,10 +988,11 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Mob Spawn Protection Certificate","color":"yellow","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Mob Protection
-            Certificate","pages":["Redeem with an Admin to set mob-spawning: deny
-            on your house region. (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"Redeem
+            with an Admin to set mob-spawning: deny on your house region. (Takes 15-30
+            sec to apply automatically)"}],title:{raw:"Mob Protection Certificate"}}'
+          minecraft:custom_name: '{bold:1b,color:"yellow",text:"Mob Spawn Protection
+            Certificate"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -855,10 +1003,11 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Fire Spread Protection Certificate","color":"dark_red","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Fire
-            Protection Certificate","pages":["Redeem with an Admin to set fire-spread:
-            deny on your house region. (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"Redeem
+            with an Admin to set fire-spread: deny on your house region. (Takes 15-30
+            sec to apply automatically)"}],title:{raw:"Fire Protection Certificate"}}'
+          minecraft:custom_name: '{bold:1b,color:"dark_red",text:"Fire Spread Protection
+            Certificate"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -869,10 +1018,12 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Small Plot Expansion (8x8)","color":"blue","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Small
-            Plot Expansion","pages":["This document certifies that the bearer is entitled
-            to one Small-sized Plot Expansion (8x8). (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"This
+            document certifies that the bearer is entitled to one Small-sized Plot
+            Expansion (8x8). (Takes 15-30 sec to apply automatically)"}],title:{raw:"Small
+            Plot Expansion"}}'
+          minecraft:custom_name: '{bold:1b,color:"blue",text:"Small Plot Expansion
+            (8x8)"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -883,10 +1034,12 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Normal Plot Expansion (15x15)","color":"gold","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Normal
-            Plot Expansion","pages":["This document certifies that the bearer is entitled
-            to one Normal-sized Plot Expansion (15x15). (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"This
+            document certifies that the bearer is entitled to one Normal-sized Plot
+            Expansion (15x15). (Takes 15-30 sec to apply automatically)"}],title:{raw:"Normal
+            Plot Expansion"}}'
+          minecraft:custom_name: '{bold:1b,color:"gold",text:"Normal Plot Expansion
+            (15x15)"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
@@ -897,14 +1050,17 @@ snapshots: []
         id: minecraft:written_book
         count: 1
         components:
-          minecraft:custom_name: '{"text":"Big Plot Expansion (30x30)","color":"dark_purple","bold":true}'
-          minecraft:written_book_content: '{"author":"Server Admin","title":"Big Plot
-            Expansion","pages":["This document certifies that the bearer is entitled
-            to one Big Plot Expansion (30x30). (Takes 15-30 sec to apply automatically)"]}'
+          minecraft:written_book_content: '{author:"Server Admin",pages:[{raw:"This
+            document certifies that the bearer is entitled to one Big Plot Expansion
+            (30x30). (Takes 15-30 sec to apply automatically)"}],title:{raw:"Big Plot
+            Expansion"}}'
+          minecraft:custom_name: '{bold:1b,color:"dark_purple",text:"Big Plot Expansion
+            (30x30)"}'
       item1:
         DataVersion: 4903
         id: minecraft:netherite_ingot
         count: 2
+  snapshots: []
 '4':
   uniqueId: e8f2b3c4-75d9-4b12-a3e4-829104756182
   world: world
@@ -1169,11 +1325,11 @@ snapshots: []
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 2
+        count: 1
       item1:
         DataVersion: 4903
         id: minecraft:ender_pearl
-        count: 1
+        count: 16
     '29':
       resultItem:
         DataVersion: 4903
@@ -1205,21 +1361,12 @@ snapshots: []
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 64
-      item1:
-        DataVersion: 4903
-        id: minecraft:netherite_ingot
-        count: 1
-    '33':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
         count: 1
       item1:
         DataVersion: 4903
         id: minecraft:golden_carrot
         count: 16
-    '34':
+    '33':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1228,7 +1375,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glistering_melon_slice
         count: 16
-    '35':
+    '34':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1237,7 +1384,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:obsidian
         count: 8
-    '36':
+    '35':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1246,7 +1393,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:lapis_lazuli
         count: 32
-    '37':
+    '36':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1255,7 +1402,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:redstone
         count: 32
-    '38':
+    '37':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1264,7 +1411,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glowstone_dust
         count: 32
-    '39':
+    '38':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1273,7 +1420,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:slime_ball
         count: 8
-    '40':
+    '39':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1282,7 +1429,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:leather
         count: 16
-    '41':
+    '40':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1291,7 +1438,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:feather
         count: 32
-    '42':
+    '41':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1300,16 +1447,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:gunpowder
         count: 16
-    '43':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:rotten_flesh
-        count: 64
-    '44':
+    '42':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1318,7 +1456,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:blaze_rod
         count: 2
-    '45':
+    '43':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1327,7 +1465,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:ghast_tear
         count: 1
-    '46':
+    '44':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1336,7 +1474,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_star
         count: 1
-    '47':
+    '45':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1345,7 +1483,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:shulker_shell
         count: 2
-    '48':
+    '46':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1354,7 +1492,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:totem_of_undying
         count: 1
-    '49':
+    '47':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1363,7 +1501,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:saddle
         count: 2
-    '50':
+    '48':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1372,7 +1510,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:oak_log
         count: 32
-    '51':
+    '49':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1381,7 +1519,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:cobblestone
         count: 64
-    '52':
+    '50':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1390,7 +1528,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:quartz
         count: 32
-    '53':
+    '51':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1399,7 +1537,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:copper_ingot
         count: 16
-    '54':
+    '52':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1408,7 +1546,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:sugar_cane
         count: 24
-    '55':
+    '53':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1417,7 +1555,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:wheat
         count: 32
-    '56':
+    '54':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1426,7 +1564,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:carrot
         count: 32
-    '57':
+    '55':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1435,7 +1573,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:potato
         count: 32
-    '58':
+    '56':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1444,7 +1582,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:string
         count: 24
-    '59':
+    '57':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1453,7 +1591,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:bone
         count: 24
-    '60':
+    '58':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1462,7 +1600,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:name_tag
         count: 1
-    '61':
+    '59':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1471,7 +1609,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:lead
         count: 5
-    '62':
+    '60':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1480,7 +1618,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:netherrack
         count: 64
-    '63':
+    '61':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1489,7 +1627,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_bricks
         count: 32
-    '64':
+    '62':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1498,7 +1636,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:nether_wart
         count: 16
-    '65':
+    '63':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1507,7 +1645,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:soul_sand
         count: 16
-    '66':
+    '64':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1516,16 +1654,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:glowstone
         count: 8
-    '67':
-      resultItem:
-        DataVersion: 4903
-        id: minecraft:emerald
-        count: 1
-      item1:
-        DataVersion: 4903
-        id: minecraft:quartz
-        count: 32
-    '68':
+    '65':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1534,7 +1663,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:basalt
         count: 64
-    '69':
+    '66':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1543,7 +1672,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:blackstone
         count: 64
-    '70':
+    '67':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1552,7 +1681,7 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:magma_block
         count: 16
-    '71':
+    '68':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
@@ -1561,66 +1690,496 @@ snapshots: []
         DataVersion: 4903
         id: minecraft:crying_obsidian
         count: 4
-    '74':
+    '69':
       resultItem:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 1
+        count: 3
       item1:
         DataVersion: 4903
-        id: minecraft:end_stone
-        count: 64
-'5':
-  uniqueId: 23f7e445-49fa-4d0b-89e3-5152914dd67e
+        id: minecraft:ender_eye
+        count: 1
+    '70':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+      item1:
+        DataVersion: 4903
+        id: minecraft:end_portal_frame
+        count: 1
+  snapshots: []
+snapshots: []
+'6':
+  uniqueId: d750a5be-0c4d-41d2-8216-f5ece811d063
   world: world
   x: 1299
   y: 80
-  z: -218
-  yaw: 88.36158
+  z: -220
+  yaw: 243.49815
   type: admin
   open: true
-  name: '&6Money Exchange'
+  name: '&dEnchanted Book Emporium'
   object:
     type: villager
     baby: false
-    profession: minecraft:cleric
+    profession: minecraft:librarian
     villagerType: minecraft:desert
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:unbreaking": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '2':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:feather_falling": 4}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '3':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:protection": 4}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '4':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:efficiency": 5}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 54
+    '5':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:sharpness": 5}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 54
+    '6':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:fortune": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 63
+    '7':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:looting": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 63
+    '8':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:fire_aspect": 2}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '9':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:knockback": 2}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '10':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:sweeping_edge": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '11':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:power": 5}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 54
+    '12':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:punch": 2}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '13':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:flame": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '14':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:infinity": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '15':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:respiration": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '16':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:depth_strider": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '17':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:silk_touch": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '18':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:thorns": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '19':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:multishot": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 27
+    '20':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:quick_charge": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '21':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:piercing": 4}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '22':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:riptide": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '23':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:loyalty": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 45
+    '24':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:channeling": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 36
+    '25':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:mending": 1}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+    '26':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:soul_speed": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 1
+    '27':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:swift_sneak": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 2
+    '28':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:stored_enchantments: '{"minecraft:wind_burst": 3}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:netherite_ingot
+        count: 3
+  snapshots: []
+'7':
+  uniqueId: 2fa9bf42-8f1d-47a3-ab62-ecb5aae0e79f
+  world: world
+  x: 1299
+  y: 80
+  z: -216
+  yaw: 0.53023666
+  type: admin
+  open: true
+  name: '&bBiome Coordinates & Explorer'
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:cartographer
+    villagerType: minecraft:savanna
     villagerLevel: 2
   recipes:
     '1':
       resultItem:
         DataVersion: 4903
-        id: minecraft:netherite_ingot
+        id: minecraft:written_book
         count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Cherry Grove Coordinates:\n\nX: 1450\nY: 90\nZ: -820\n\nDistance: ~600 blocks"}'
+            title: Cherry Grove Guide
+          minecraft:custom_name: '{"bold": true, "color": "light_purple", "text": "Cherry Grove Coordinates Book"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 64
+        count: 16
     '2':
       resultItem:
         DataVersion: 4903
-        id: minecraft:emerald
-        count: 64
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Deep Dark / Ancient City Coordinates:\n\nX: 2100\nY: -40\nZ: 1200\n\nDistance: ~2500 blocks"}'
+            title: Deep Dark / Ancient City Guide
+          minecraft:custom_name: '{"bold": true, "color": "dark_purple", "text": "Deep Dark / Ancient City Coordinates Book"}'
       item1:
         DataVersion: 4903
-        id: minecraft:netherite_ingot
-        count: 1
+        id: minecraft:emerald
+        count: 32
     '3':
       resultItem:
         DataVersion: 4903
-        id: minecraft:emerald_block
+        id: minecraft:written_book
         count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Mushroom Island Coordinates:\n\nX: -3400\nY: 70\nZ: -1800\n\nDistance: ~4000 blocks"}'
+            title: Mushroom Island Guide
+          minecraft:custom_name: '{"bold": true, "color": "purple", "text": "Mushroom Island Coordinates Book"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald
-        count: 9
+        count: 48
     '4':
       resultItem:
         DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Ice Spikes Coordinates:\n\nX: 3200\nY: 80\nZ: -2900\n\nDistance: ~3800 blocks"}'
+            title: Ice Spikes Guide
+          minecraft:custom_name: '{"bold": true, "color": "aqua", "text": "Ice Spikes Coordinates Book"}'
+      item1:
+        DataVersion: 4903
         id: minecraft:emerald
-        count: 9
+        count: 24
+    '5':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Badlands / Mesa Coordinates:\n\nX: -1800\nY: 75\nZ: 2400\n\nDistance: ~2800 blocks"}'
+            title: Badlands / Mesa Guide
+          minecraft:custom_name: '{"bold": true, "color": "gold", "text": "Badlands / Mesa Coordinates Book"}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 20
+    '6':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Dense Jungle Coordinates:\n\nX: 850\nY: 70\nZ: 1400\n\nDistance: ~1600 blocks"}'
+            title: Dense Jungle Guide
+          minecraft:custom_name: '{"bold": true, "color": "green", "text": "Dense Jungle Coordinates Book"}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald
+        count: 16
+    '7':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
+        count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Woodland Mansion Coordinates:\n\nX: 8400\nY: 70\nZ: -12500\n\nDistance: ~15000 blocks"}'
+            title: Woodland Mansion Guide
+          minecraft:custom_name: '{"bold": true, "color": "dark_red", "text": "Woodland Mansion Coordinates Book"}'
       item1:
         DataVersion: 4903
         id: minecraft:emerald_block
+        count: 4
+    '8':
+      resultItem:
+        DataVersion: 4903
+        id: minecraft:written_book
         count: 1
+        components:
+          minecraft:written_book_content:
+            author: Cartographer
+            pages:
+            - '{"text":"Ocean Monument Coordinates:\n\nX: -4200\nY: 50\nZ: 3100\n\nDistance: ~5200 blocks"}'
+            title: Ocean Monument Guide
+          minecraft:custom_name: '{"bold": true, "color": "dark_aqua", "text": "Ocean Monument Coordinates Book"}'
+      item1:
+        DataVersion: 4903
+        id: minecraft:emerald_block
+        count: 3
+  snapshots: []
 snapshots: []
