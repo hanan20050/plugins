@@ -975,7 +975,7 @@ snapshots: []
       item1:
         DataVersion: 4903
         id: minecraft:shears
-        count: 2
+        count: 1
     '7':
       resultItem:
         DataVersion: 4903
@@ -1164,7 +1164,7 @@ snapshots: []
       item1:
         DataVersion: 4903
         id: minecraft:bow
-        count: 3
+        count: 1
     '28':
       resultItem:
         DataVersion: 4903
@@ -1362,7 +1362,7 @@ snapshots: []
       item1:
         DataVersion: 4903
         id: minecraft:saddle
-        count: 2
+        count: 1
     '50':
       resultItem:
         DataVersion: 4903
