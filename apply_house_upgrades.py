@@ -67,10 +67,10 @@ PLAYER_REGION_MAP = {
     "azansalehhh": "azansalehhh"
 }
 
-# Certificate Name Keywords to (WorldGuard Flag, Display Name)
+# Certificate Name Keywords to (WorldGuard Flag or list of Flags, Display Name)
 CERT_FLAG_MAP = {
     "tnt protection": ("tnt", "TNT Protection"),
-    "creeper": ("other-explosion", "Creeper/Explosion Protection"),
+    "creeper": (["creeper-explosion", "other-explosion"], "Creeper/Explosion Protection"),
     "pvp protection": ("pvp", "PvP Protection"),
     "mob spawn": ("mob-spawning", "Mob Spawn Protection"),
     "fire spread": ("fire-spread", "Fire Spread Protection")
@@ -210,12 +210,14 @@ def audit_and_apply_upgrades():
                         subprocess.run(push_proc, capture_output=True)
 
                         # 2. Apply WorldGuard flag to ALL regions owned by player
+                        flags_to_apply = flag if isinstance(flag, list) else [flag]
                         for reg in target_regions:
-                            if flag == "pvp":
-                                flag_cmd = f"rg flag -w \"world\" {reg} pvp -g non_owners deny"
-                            else:
-                                flag_cmd = f"rg flag -w \"world\" {reg} {flag} deny"
-                            send_exaroton_command(flag_cmd)
+                            for f_item in flags_to_apply:
+                                if f_item == "pvp":
+                                    flag_cmd = f"rg flag -w \"world\" {reg} pvp -g non_owners deny"
+                                else:
+                                    flag_cmd = f"rg flag -w \"world\" {reg} {f_item} deny"
+                                send_exaroton_command(flag_cmd)
 
                         # 3. Save WorldGuard data to disk
                         send_exaroton_command("wg save")

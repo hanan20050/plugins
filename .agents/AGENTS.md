@@ -92,5 +92,8 @@
 # WorldGuard Region Ownership & Player UUID Rule (STRICT)
 - **Always Include UUIDs**: When defining or modifying WorldGuard regions (`regions.yml`) for any player (in any world), ALWAYS include their player UUID under `owners.unique-ids` (e.g. `95204d3f-ea6c-3dfa-929d-9180927184f8` for Manan). Plain text usernames alone in `owners.players` are NOT recognized by WorldGuard on online-mode/Geyser servers.
 
+# Player Region Markings & Registry Rule (STRICT)
+- **Persistent Floor Markings Registry**: ALWAYS reference and update `player_regions_registry.json` whenever creating, modifying, or querying player regions, floor boundaries, or concrete floor color markings (e.g. Azan Saleh's Cyan North half, Black West 3-block border, and Red South remaining base). New regions created for any player must be registered in `player_regions_registry.json` with exact coordinates, dimensions, size categories, UUIDs, and floor material markings.
+
 
 
