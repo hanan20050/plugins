@@ -13,6 +13,8 @@
 - **Timer-Based Offer Rule**: Whenever creating or launching any timed offer/discount (e.g. 1-minute sale, 3-minute offer, etc.), ALWAYS run a background script that broadcasts `tellraw` chat updates every **10 seconds**, explicitly stating how much time has passed and how much time is remaining, before automatically ending the offer and restoring original prices.
 - **New Property Upgrade Rule (STRICT)**: Protection upgrades and flags are strictly per-property. When creating a new property or region expansion for any player, NEVER automatically copy or apply existing protection upgrades/flags (e.g., TNT protection, Creeper protection) from their previous regions. New properties start with default flags (`pvp: allow`), and players must purchase upgrade certificates for each new property separately.
 - **Adjacent Expansion Rule (STRICT)**: When creating an expanded region for any player, the new region must be placed **immediately adjacent** to the existing plot boundary (starting at `max_x + 1` for East expansion) with zero block gap, AND must ALWAYS be **centered** along the length/depth (Z-axis) of the original property boundary so it is balanced and not shifted too far left/north or right/south. The original house/property region bounds must be preserved intact so physical house structures are never cut off or misaligned.
+- **EconomyShopGUI File Editing Rule (STRICT)**: ALWAYS edit EconomyShopGUI configuration files (such as those in the `EconomyShopGUI` folder) locally only. NEVER push or sync EconomyShopGUI changes to the server unless explicitly requested by the user.
+
 
 
 
@@ -94,6 +96,4 @@
 
 # Player Region Markings & Registry Rule (STRICT)
 - **Persistent Floor Markings Registry**: ALWAYS reference and update `player_regions_registry.json` whenever creating, modifying, or querying player regions, floor boundaries, or concrete floor color markings (e.g. Azan Saleh's Cyan North half, Black West 3-block border, and Red South remaining base). New regions created for any player must be registered in `player_regions_registry.json` with exact coordinates, dimensions, size categories, UUIDs, and floor material markings.
-
-
-
+- **EconomyShopGUI Slot Configuration Rule (STRICT)**: When configuring items in EconomyShopGUI (such as in `shops/` or `sections/`), ensure that `slot:` is set to a valid slot index (between 0 and 53) or omitted entirely for automatic layout. Setting `slot:` to an out-of-bounds value (e.g., `88`) will cause the item to fail to load in the shop database, preventing it from being sold via `/sellall` or appearing in the GUI.
