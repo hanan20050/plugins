@@ -46,6 +46,10 @@ def main():
             # 3. Check server startup & notify
             run_task("Notify Server Start", notify_server_start.check_and_notify)
 
+            # 4. Process pending balance-to-emerald rewards
+            import process_rewards
+            run_task("Process Pending Rewards", process_rewards.main)
+
 
 
         except Exception as e:

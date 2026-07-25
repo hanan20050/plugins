@@ -2,7 +2,7 @@
     "mon_jin_deku": {
         "material": "yellow_concrete",
         "coords": [
-            1264,
+            1257,
             62,
             -191,
             1271,
@@ -57,6 +57,26 @@
             -222,
             1272,
             -208
+        ]
+    },
+    "nightmaredady_expand": {
+        "material": "cyan_concrete",
+        "coords": [
+            1312,
+            79,
+            -240,
+            1319,
+            -233
+        ]
+    },
+    "nightmaredady": {
+        "material": "stone_bricks",
+        "coords": [
+            1302,
+            79,
+            -240,
+            1311,
+            -230
         ]
     }
 }

@@ -9,4 +9,20 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    manan_end_farm:
+        min: {x: -21, y: -64, z: 220}
+        max: {x: 9, y: 320, z: 249}
+        members:
+            unique-ids: {}
+        flags: {pvp: allow}
+        owners:
+            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8]
+        type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
+        priority: 0
