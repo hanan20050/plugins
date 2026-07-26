@@ -1,0 +1,282 @@
+{
+    "last_updated": "2026-07-26T14:12:18",
+    "regions": {
+        "ww": {
+            "min_corner": {
+                "x": 1240,
+                "y": 59,
+                "z": -178
+            },
+            "max_corner": {
+                "x": 1251,
+                "y": 61,
+                "z": -168
+            },
+            "dimensions": {
+                "width_x": 12,
+                "length_z": 11,
+                "height_y": 3
+            },
+            "surface_area_sq_blocks": 132,
+            "size_category": "Starter / Base Plot"
+        },
+        "nightmaredady_expand": {
+            "min_corner": {
+                "x": 1312,
+                "y": 79,
+                "z": -239
+            },
+            "max_corner": {
+                "x": 1319,
+                "y": 86,
+                "z": -232
+            },
+            "dimensions": {
+                "width_x": 8,
+                "length_z": 8,
+                "height_y": 8
+            },
+            "surface_area_sq_blocks": 64,
+            "size_category": "Starter / Base Plot",
+            "raw_uuids": "d413c28e-64bb-32af-9661-3e901bc6e22b"
+        },
+        "mon_jin_deku": {
+            "player_name": "azan saleh",
+            "username": "azansalehhh",
+            "min_corner": {
+                "x": 1257,
+                "y": 62,
+                "z": -191
+            },
+            "max_corner": {
+                "x": 1271,
+                "y": 76,
+                "z": -183
+            },
+            "dimensions": {
+                "width_x": 15,
+                "length_z": 9,
+                "height_y": 15
+            },
+            "surface_area_sq_blocks": 135,
+            "size_category": "Starter / Base Plot",
+            "floor_y_level": 62,
+            "raw_uuids": "2d5bf9b3-5a85-3026-a136-4680097f11f1"
+        },
+        "manansaleh2007": {
+            "min_corner": {
+                "x": 1256,
+                "y": 65,
+                "z": -229
+            },
+            "max_corner": {
+                "x": 1272,
+                "y": 319,
+                "z": -208
+            },
+            "dimensions": {
+                "width_x": 17,
+                "length_z": 22,
+                "height_y": 255
+            },
+            "surface_area_sq_blocks": 374,
+            "size_category": "Small Plot",
+            "raw_uuids": "00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8"
+        },
+        "hastybag7675_manansaleh2007": {
+            "player_name": "muhammad saleh, manan saleh",
+            "owners": [
+                {
+                    "name": "muhammad saleh",
+                    "username": ".HastyBag7675",
+                    "uuid": "00000000-0000-0000-0009-01f4482c7d17"
+                },
+                {
+                    "name": "manan saleh",
+                    "username": "manansaleh2007",
+                    "uuid": "95204d3f-ea6c-3dfa-929d-9180927184f8"
+                }
+            ],
+            "min_corner": {
+                "x": 1256,
+                "y": 65,
+                "z": -229
+            },
+            "max_corner": {
+                "x": 1272,
+                "y": 319,
+                "z": -208
+            },
+            "dimensions": {
+                "width_x": 17,
+                "length_z": 22,
+                "height_y": 255
+            },
+            "surface_area_sq_blocks": 374,
+            "size_category": "Small Plot",
+            "floor_y_level": 65,
+            "raw_uuids": "00000000-0000-0000-0009-01f4482c7d17, 95204d3f-ea6c-3dfa-929d-9180927184f8"
+        },
+        "azansalehhh": {
+            "owner_uuid": "e458e0be-6d80-32b0-8f9f-52467b7f1e58",
+            "owner_name": "azansalehhh",
+            "coordinates": {
+                "min": {
+                    "x": 1241,
+                    "y": 62,
+                    "z": -219
+                },
+                "max": {
+                    "x": 1255,
+                    "y": 83,
+                    "z": -191
+                }
+            },
+            "dimensions": {
+                "width_x": 15,
+                "length_z": 29
+            },
+            "size_category": "Normal Plot",
+            "floor_markings": "2-color concrete floor (Cyan North, Red South). House built ONLY on South half (Red part). North half is an open Cyan yard. Basic interiors included."
+        },
+        "mustafahacker67": {
+            "player_name": "mustafa",
+            "username": ".mustafahacker67",
+            "uuid": "00000000-0000-0000-0009-01f9433f6353",
+            "min_corner": {
+                "x": 1292,
+                "y": 78,
+                "z": -214
+            },
+            "max_corner": {
+                "x": 1299,
+                "y": 86,
+                "z": -207
+            },
+            "dimensions": {
+                "width_x": 8,
+                "length_z": 8,
+                "height_y": 9
+            },
+            "surface_area_sq_blocks": 64,
+            "size_category": "Starter / Base Plot",
+            "raw_uuids": "00000000-0000-0000-0009-01f9433f6353"
+        },
+        "nightmaredady": {
+            "player_name": "rayan saleh",
+            "username": "NightmareDady",
+            "uuid": "d413c28e-64bb-32af-9661-3e901bc6e22b",
+            "min_corner": {
+                "x": 1302,
+                "y": 79,
+                "z": -240
+            },
+            "max_corner": {
+                "x": 1311,
+                "y": 86,
+                "z": -230
+            },
+            "dimensions": {
+                "width_x": 10,
+                "length_z": 11,
+                "height_y": 8
+            },
+            "surface_area_sq_blocks": 110,
+            "size_category": "Starter / Base Plot",
+            "raw_uuids": "d413c28e-64bb-32af-9661-3e901bc6e22b"
+        },
+        "manansaleh2007_farm": {
+            "player_name": "manan saleh",
+            "username": "manansaleh2007",
+            "uuid": "95204d3f-ea6c-3dfa-929d-9180927184f8",
+            "min_corner": {
+                "x": 1088,
+                "y": 63,
+                "z": -177
+            },
+            "max_corner": {
+                "x": 1137,
+                "y": 77,
+                "z": -128
+            },
+            "dimensions": {
+                "width_x": 50,
+                "length_z": 50,
+                "height_y": 15
+            },
+            "surface_area_sq_blocks": 2500,
+            "size_category": "Normal Plot"
+        },
+        "mustafahacker67_expand": {
+            "player_name": "mustafa",
+            "username": ".mustafahacker67",
+            "uuid": "00000000-0000-0000-0009-01f9433f6353",
+            "min_corner": {
+                "x": 1300,
+                "y": 78,
+                "z": -214
+            },
+            "max_corner": {
+                "x": 1314,
+                "y": 83,
+                "z": -207
+            },
+            "dimensions": {
+                "width_x": 15,
+                "length_z": 8,
+                "height_y": 6
+            },
+            "surface_area_sq_blocks": 120,
+            "size_category": "Small Plot",
+            "raw_uuids": "00000000-0000-0000-0009-01f9433f6353"
+        },
+        "azansaleh_1": {
+            "player_name": "azan saleh",
+            "username": "azansalehhh",
+            "min_corner": {
+                "x": 1040,
+                "y": 63,
+                "z": -174
+            },
+            "max_corner": {
+                "x": 1084,
+                "y": 256,
+                "z": -130
+            },
+            "dimensions": {
+                "width_x": 45,
+                "length_z": 45,
+                "height_y": 194
+            },
+            "surface_area_sq_blocks": 2025,
+            "size_category": "Normal Plot",
+            "raw_uuids": "2d5bf9b3-5a85-3026-a136-4680097f11f1",
+            "floor_markings": "Dirt base floor",
+            "floor_y_level": 63
+        },
+        "rayan1": {
+            "player_name": "rayan saleh",
+            "username": "NightmareDady",
+            "min_corner": {
+                "x": 1196,
+                "y": 63,
+                "z": -133
+            },
+            "max_corner": {
+                "x": 1255,
+                "y": 256,
+                "z": -74
+            },
+            "dimensions": {
+                "width_x": 60,
+                "length_z": 60,
+                "height_y": 194
+            },
+            "surface_area_sq_blocks": 3600,
+            "size_category": "Big Plot",
+            "raw_uuids": "d413c28e-64bb-32af-9661-3e901bc6e22b",
+            "floor_y_level": 63,
+            "floor_markings": "Green Concrete base outline"
+        }
+    }
+}
