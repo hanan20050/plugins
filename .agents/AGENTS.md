@@ -30,12 +30,6 @@
 - `NightmareDady` -> Real Name: `rayan saleh`
 - `.AzanSaleh` / `azansalehhh` -> Real Name: `azan saleh` (Region: `azansalehhh`)
 
-# GitHub 24/7 Automated Upgrade Tracker
-- Public Repository: `https://github.com/hanan20050/plugins`
-- GitHub Actions Cron Workflow: `.github/workflows/upgrade_tracker.yml` (runs every 5 mins 24/7 for free).
-- Secrets: `EXAROTON_TOKEN` and `EXAROTON_SERVER_ID` configured in GitHub Secrets.
-- Upgrade Script: `apply_house_upgrades.py` (checks trade log, applies WG region flags, and broadcasts updates).
-
 
 # Running Console Commands via Exaroton API
 - When executing commands on the Exaroton server console via the API, the sandbox DNS may fail to resolve `api.exaroton.com`.
@@ -79,19 +73,6 @@
 - World/block modifying scripts must keep a history of the commands run and support a command to revert changes.
 - Whenever executing an undo/rollback or clearing/removing blocks from the world, ALWAYS immediately execute a console command to clear any dropped item loot in the affected area to prevent clutter.
 
-# Railway Worker & Cloud Container Execution Rules
-- **Environment Setup Order**: Environment variable overrides (`os.environ.get("EXAROTON_TOKEN")`) MUST be initialized at the top of worker scripts BEFORE importing submodules.
-- **Credential Fallbacks**: Ensure fallback `EXAROTON_TOKEN` and `EXAROTON_SERVER_ID` are present so cloud containers (Railway/Docker) without local `.env` files don't evaluate `TOKEN` to `None`.
-- **Private In-Game Messaging**: Upgrade activations and notifications MUST use private `/msg <player_name>` messages instead of public `/say` or title announcements.
-- **Mandatory Certificate Return**: Upgrades cannot be refunded until the physical Certificate book item (`written_book`) is retrieved/cleared from the player's inventory (`clear <player> minecraft:written_book 1`).
-
-# Automated Anti-Exploit Trade Monitor System (STRICT)
-- **Script Location**: `anti_exploit_monitor.py` (integrated into `railway_worker.py` polling every 10 seconds).
-- **Detection Logic**: Checks `Shopkeepers/trade-logs/trades.db` for items sold to shopkeepers (excluding Money Exchange) exceeding 50+ quantity in a 10-minute rolling window (`LOOKBACK_SECONDS = 600`).
-- **Penalty Action**: Reduces selling payout for exploited item by 80% in `save.yml` for **15 minutes** (`PENALTY_DURATION = 900`), syncs to server, reloads Shopkeepers plugin (`shopkeeper reload`), and broadcasts server-wide `tellraw` alert to all players. Broadcasts a follow-up `tellraw` notification when 15-minute penalty ends and standard prices return.
-- **Money Conversion Exception**: Money Exchange shopkeeper (ID 5) and currency exchange trades (`EMERALD`, `EMERALD_BLOCK`, `NETHERITE_INGOT`, `NETHERITE_BLOCK`) are strictly exempted from anti-exploit reductions.
-- **State Management & Rollback**: Active penalties recorded in `Shopkeepers/active_anti_exploit_penalties.json`. Supports manual rollback via `python3 anti_exploit_monitor.py --undo`.
-
 # WorldGuard Region Ownership & Player UUID Rule (STRICT)
 - **Always Include UUIDs**: When defining or modifying WorldGuard regions (`regions.yml`) for any player (in any world), ALWAYS include their player UUID under `owners.unique-ids` (e.g. `95204d3f-ea6c-3dfa-929d-9180927184f8` for Manan). Plain text usernames alone in `owners.players` are NOT recognized by WorldGuard on online-mode/Geyser servers.
 
@@ -100,5 +81,14 @@
 - **EconomyShopGUI Slot Configuration Rule (STRICT)**: When configuring items in EconomyShopGUI (such as in `shops/` or `sections/`), ensure that `slot:` is set to a valid slot index (between 0 and 53) or omitted entirely for automatic layout. Setting `slot:` to an out-of-bounds value (e.g., `88`) will cause the item to fail to load in the shop database, preventing it from being sold via `/sellall` or appearing in the GUI.
 - **Region Structure & Sub-zone Logging Rule (STRICT)**: Whenever creating, modifying, or detailing a region that contains multiple structures or sub-zones (e.g., a house and a farm), ALWAYS create a log/registry entry documenting exactly which structure/sub-zone is located where (its coordinates, purpose, and key coordinates) within the workspace registry or region notes.
 - **Additive & Surgical Modification Rule (STRICT)**: Whenever asked to "add" something to an area or build, do NOT clear or reset the existing structure/area; only place the new elements. If asked to "repair", "tweak", or modify an existing build, do NOT clear/fill the entire area with air first; calculate and target only the specific coordinates of the blocks that require changes.
+
+# Low Token Use Policy (STRICT)
+- **Minimal Token Usage**: Keep all responses as short, concise, and direct as possible. Never summarize, recap, or repeat details of completed files, diffs, or commands in your final responses unless explicitly requested by the user.
+- **Targeted Reading**: Specifying StartLine and EndLine values is mandatory when reading/inspecting files. Avoid displaying full logs or large code snippets.
+- **Filtered Command Outputs**: Always pipe terminal commands to `grep`, `tail -n`, or similar utilities to return only relevant output. Use silent flags (`-s`, `-q`) for all fetch/download commands.
+- **Surgical Code Edits**: Edit code only using precise replacements targeting the exact lines to modify.
+- **Short Final Statuses**: Minimize summary details in final responses to a maximum of 1-3 lines.
+
+
 
 
