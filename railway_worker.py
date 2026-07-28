@@ -13,9 +13,9 @@ os.environ["EXAROTON_TOKEN"] = EXAROTON_TOKEN
 os.environ["EXAROTON_SERVER_ID"] = EXAROTON_SERVER_ID
 
 # Import existing scripts safely
-import save_player_messages
+# import save_player_messages
 import apply_house_upgrades
-import notify_server_start
+# import notify_server_start
 
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "10"))
 
@@ -30,27 +30,15 @@ def run_task(name, func):
 
 def main():
     print("=" * 60)
-    print("Railway Python Always-On Worker Started")
+    print("Railway Python Always-On Worker Started (Upgrader Only)")
     print(f"Polling Interval: {POLL_INTERVAL} seconds")
     print("=" * 60)
     sys.stdout.flush()
 
     while True:
         try:
-            # 1. Save player messages continuously
-            run_task("Save Player Messages", save_player_messages.main)
-
-            # 2. Process house trade upgrades
+            # 1. Process house trade upgrades
             run_task("Apply House Upgrades", apply_house_upgrades.main)
-
-            # 3. Check server startup & notify
-            run_task("Notify Server Start", notify_server_start.check_and_notify)
-
-            # 4. Process pending balance-to-emerald rewards
-            import process_rewards
-            run_task("Process Pending Rewards", process_rewards.main)
-
-
 
         except Exception as e:
             print(f"Error in main loop iteration: {e}")
