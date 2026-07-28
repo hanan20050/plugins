@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-26T14:12:18",
+    "last_updated": "2026-07-26T18:50:50",
     "regions": {
         "ww": {
             "min_corner": {
@@ -185,7 +185,7 @@
             "size_category": "Starter / Base Plot",
             "raw_uuids": "d413c28e-64bb-32af-9661-3e901bc6e22b"
         },
-        "manansaleh2007_farm": {
+        "manan1": {
             "player_name": "manan saleh",
             "username": "manansaleh2007",
             "uuid": "95204d3f-ea6c-3dfa-929d-9180927184f8",
@@ -206,6 +206,29 @@
             },
             "surface_area_sq_blocks": 2500,
             "size_category": "Normal Plot"
+        },
+        "manan2": {
+            "player_name": "manan saleh",
+            "username": "manansaleh2007",
+            "uuid": "95204d3f-ea6c-3dfa-929d-9180927184f8",
+            "min_corner": {
+                "x": 1088,
+                "y": 63,
+                "z": -127
+            },
+            "max_corner": {
+                "x": 1137,
+                "y": 77,
+                "z": -78
+            },
+            "dimensions": {
+                "width_x": 50,
+                "length_z": 50,
+                "height_y": 15
+            },
+            "surface_area_sq_blocks": 2500,
+            "size_category": "Normal Plot",
+            "floor_markings": "Blue concrete outline"
         },
         "mustafahacker67_expand": {
             "player_name": "mustafa",
