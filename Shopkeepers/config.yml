@@ -793,7 +793,7 @@ trade-log-next-merge-timeout-ticks: 100
 # display name, lore, enchantments, etc. This data will be logged in Spigot's
 # YAML format. Enabling this setting can, however, noticeably increase the
 # storage space requirements.
-log-item-metadata: true
+log-item-metadata: false
 
 # *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 # Currencies
