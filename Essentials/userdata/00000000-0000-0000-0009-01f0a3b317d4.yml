@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 39.60.247.28
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1785075128653
+  login: 1785074981221
+money: '0'
+last-account-name: .WiryCircle3938
+logoutlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1197.0049
+  y: 64.0
+  z: -128.52998
+  yaw: -8.311386108398438
+  pitch: 52.1011962890625

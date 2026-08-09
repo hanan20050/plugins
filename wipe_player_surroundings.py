@@ -1,0 +1,42 @@
+import os, requests
+from urllib3.util import connection
+
+_orig_create_connection = connection.create_connection
+def patched_create_connection(address, *args, **kwargs):
+    host, port = address
+    if host == "api.exaroton.com":
+        host = "104.26.12.211"
+    return _orig_create_connection((host, port), *args, **kwargs)
+
+connection.create_connection = patched_create_connection
+
+token = None
+server_id = None
+with open('/Users/hanansaleh/Documents/GitHub/plugins/.env') as f:
+    for line in f:
+        if '=' in line:
+            k, v = line.strip().split('=', 1)
+            if k.strip() == 'EXAROTON_TOKEN': token = v.strip()
+            elif k.strip() == 'EXAROTON_SERVER_ID': server_id = v.strip()
+
+def send_cmd(cmd):
+    url = f"https://api.exaroton.com/v1/servers/{server_id}/command/"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+    r = requests.post(url, headers=headers, json={"command": cmd})
+    return r.status_code, r.text
+
+# Target every online player and wipe 50x50 horizontally from Y=-60 up to Y=319
+cmds = [
+    # Clear underground to sky around all online players
+    "execute at @a run fill ~-20 63 ~-20 ~20 190 ~20 minecraft:air",
+    "execute at @a run fill ~-20 191 ~-20 ~20 319 ~20 minecraft:air",
+    # Kill all dropped items around all online players
+    "execute at @a run minecraft:kill @e[type=item,distance=..60]"
+]
+
+for cmd in cmds:
+    status, text = send_cmd(cmd)
+    print(f"Executed: {cmd} -> {status}")

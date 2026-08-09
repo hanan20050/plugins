@@ -1,0 +1,43 @@
+{
+    "timestamp": 1784811785.0786738,
+    "center": {
+        "x": 1241,
+        "y": 81,
+        "z": -169
+    },
+    "bounds": {
+        "min_x": 1216,
+        "max_x": 1266,
+        "min_y": 82,
+        "max_y": 319,
+        "min_z": -194,
+        "max_z": -144
+    },
+    "dimension": "minecraft:overworld",
+    "commands_run": [
+        "execute in minecraft:overworld run fill 1216 82 -194 1266 91 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 92 -194 1266 101 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 102 -194 1266 111 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 112 -194 1266 121 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 122 -194 1266 131 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 132 -194 1266 141 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 142 -194 1266 151 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 152 -194 1266 161 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 162 -194 1266 171 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 172 -194 1266 181 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 182 -194 1266 191 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 192 -194 1266 201 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 202 -194 1266 211 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 212 -194 1266 221 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 222 -194 1266 231 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 232 -194 1266 241 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 242 -194 1266 251 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 252 -194 1266 261 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 262 -194 1266 271 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 272 -194 1266 281 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 282 -194 1266 291 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 292 -194 1266 301 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 302 -194 1266 311 -144 minecraft:air",
+        "execute in minecraft:overworld run fill 1216 312 -194 1266 319 -144 minecraft:air"
+    ]
+}

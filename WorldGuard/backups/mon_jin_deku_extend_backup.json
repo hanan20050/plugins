@@ -1,0 +1,33 @@
+{
+    "min": {
+        "x": 1264,
+        "y": 62,
+        "z": -191
+    },
+    "max": {
+        "x": 1271,
+        "y": 68,
+        "z": -183
+    },
+    "registry_entry": {
+        "min_corner": {
+            "x": 1257,
+            "y": 62,
+            "z": -191
+        },
+        "max_corner": {
+            "x": 1271,
+            "y": 76,
+            "z": -183
+        },
+        "dimensions": {
+            "width_x": 15,
+            "length_z": 9,
+            "height_y": 15
+        },
+        "surface_area_sq_blocks": 135,
+        "size_category": "Starter / Base Plot",
+        "floor_y_level": 62,
+        "raw_uuids": "00000000-0000-0000-0009-01fa2d270090"
+    }
+}

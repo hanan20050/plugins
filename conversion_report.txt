@@ -1,0 +1,57 @@
+=== JE2BE Conversion Report ===
+
+Output pack: /Users/hanansaleh/Downloads/plugins/Dramatic_Skys_Demo_Bedrock.mcpack
+PBR enabled: True
+Total mappings available: 934
+
+Texture Conversion Statistics:
+  converted: 0
+  skipped: 0
+  missing: 12
+  errors: 0
+
+PBR Conversion Statistics:
+  specular_converted: 0
+  normal_converted: 0
+  mer_generated: 0
+  texture_sets_created: 0
+  errors: 0
+
+Asset Copy Statistics:
+  pack_icon: 1
+
+Detailed Conversion Info:
+  Files with missing mappings: 11
+
+Textures without mappings (first 20):
+  - clouds.png
+  - first_quarter.png
+  - full_moon.png
+  - moon_phases.png
+  - new_moon.png
+  - sun.png
+  - third_quarter.png
+  - waning_crescent.png
+  - waning_gibbous.png
+  - waxing_crescent.png
+  - waxing_gibbous.png
+
+Mapping categories loaded:
+  plants_flowers: 76 mappings
+  end: 14 mappings
+  stone_minerals: 72 mappings
+  terrain: 61 mappings
+  nether: 77 mappings
+  items: 259 mappings
+  colored_blocks: 99 mappings
+  functional: 128 mappings
+  wood: 151 mappings
+
+PBR Support Features:
+  labpbr_specular_conversion: Yes
+  labpbr_normal_conversion: Yes
+  mer_generation: Yes
+  texture_set_json_creation: Yes
+  metal_id_support: Yes
+  emission_conversion: Yes
+  roughness_conversion: Yes

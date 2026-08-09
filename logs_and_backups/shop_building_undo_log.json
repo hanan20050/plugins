@@ -1,0 +1,29 @@
+{
+  "commands": [
+    "fill 1293 78 -221 1300 78 -215 polished_diorite",
+    "fill 1293 79 -221 1300 80 -215 stone_bricks outline",
+    "fill 1293 79 -221 1293 80 -221 oak_log",
+    "fill 1300 79 -221 1300 80 -221 oak_log",
+    "fill 1293 79 -215 1293 80 -215 oak_log",
+    "fill 1300 79 -215 1300 80 -215 oak_log",
+    "fill 1294 79 -220 1299 80 -216 air",
+    "fill 1295 80 -215 1298 80 -215 glass_pane",
+    "fill 1295 80 -221 1298 80 -221 glass_pane",
+    "fill 1300 80 -219 1300 80 -217 glass_pane",
+    "setblock 1293 80 -220 glass_pane",
+    "setblock 1293 80 -216 glass_pane",
+    "fill 1293 79 -218 1293 80 -217 air",
+    "setblock 1293 79 -218 oak_door[half=lower,hinge=right,facing=west]",
+    "setblock 1293 80 -218 oak_door[half=upper,hinge=right,facing=west]",
+    "setblock 1293 79 -217 oak_door[half=lower,hinge=left,facing=west]",
+    "setblock 1293 80 -217 oak_door[half=upper,hinge=left,facing=west]",
+    "fill 1293 81 -221 1300 81 -215 smooth_stone_slab[type=bottom]",
+    "fill 1294 81 -220 1299 81 -216 oak_slab[type=bottom]",
+    "setblock 1294 80 -220 lantern[hanging=true]",
+    "setblock 1299 80 -220 lantern[hanging=true]",
+    "setblock 1294 80 -216 lantern[hanging=true]",
+    "setblock 1299 80 -216 lantern[hanging=true]",
+    "kill @e[type=item]"
+  ],
+  "timestamp": 1784829648.836952
+}

@@ -1,0 +1,138 @@
+=== LIVE CHEST INVENTORY CONTENTS REPORT ===
+Generated At: 2026-07-29 23:08:39
+Total Locations Checked: 20
+
+CHEST AT POSITION (1270, 67, -219):
+  Slot  0: 2x minecraft:basalt
+  Slot  1: 15x minecraft:cobblestone_slab
+  Slot  2: 2x minecraft:cobblestone_stairs
+  Slot  3: 55x minecraft:dirt
+  Slot  4: 4x minecraft:glass
+  Slot  5: 6x minecraft:granite
+  Slot  6: 4x minecraft:mossy_cobblestone
+  Slot  7: 10x minecraft:spruce_sapling
+  Slot  8: 1x minecraft:oak_slab
+  Slot  9: 1x minecraft:polished_deepslate_slab
+  Slot 10: 34x minecraft:torch
+  Slot 11: 12x minecraft:short_grass
+  Slot 12: 1x minecraft:smooth_stone
+  Slot 13: 2x minecraft:rotten_flesh
+  Slot 14: 1x minecraft:polished_blackstone_bricks
+  Slot 15: 3x minecraft:stone_brick_slab
+  Slot 16: 64x minecraft:paper
+  Slot 17: 3x minecraft:apple
+  Slot 19: 2x minecraft:polished_blackstone_brick_slab
+  Slot 20: 15x minecraft:ender_pearl
+  Slot 21: 2x minecraft:blackstone_wall
+  Slot 22: 41x minecraft:stone_bricks
+  Slot 23: 4x minecraft:white_carpet
+  Slot 24: 64x minecraft:leather
+  Slot 25: 32x minecraft:leather
+  Slot 26: 5x minecraft:oak_trapdoor
+
+CHEST AT POSITION (1270, 66, -219):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -219):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 67, -218):
+  Slot  0: 3x minecraft:arrow
+  Slot  1: 25x minecraft:blackstone
+  Slot  3: 4x minecraft:dried_kelp
+  Slot  4: 64x minecraft:oak_stairs
+  Slot  5: 64x minecraft:dirt
+  Slot  6: 1x minecraft:orange_concrete
+  Slot  7: 19x minecraft:light_gray_carpet
+  Slot  8: 22x minecraft:gravel
+  Slot  9: 1x minecraft:white_bed
+  Slot 10: 1x minecraft:mossy_cobblestone
+  Slot 11: 64x minecraft:dirt
+  Slot 12: 1x minecraft:spruce_sign
+  Slot 13: 5x minecraft:soul_lantern
+  Slot 14: 4x minecraft:composter
+  Slot 15: 1x minecraft:crafting_table
+  Slot 16: 3x minecraft:azure_bluet
+  Slot 17: 1x minecraft:iron_sword (Components: {"minecraft:damage": 44})
+  Slot 18: 50x minecraft:leaf_litter
+  Slot 19: 25x minecraft:stick
+  Slot 20: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 12})
+  Slot 21: 1x minecraft:gunpowder
+  Slot 23: 28x minecraft:oak_stairs
+  Slot 24: 8x minecraft:blue_orchid
+  Slot 26: 64x minecraft:book
+
+CHEST AT POSITION (1270, 66, -218):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -218):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 67, -216):
+  Slot  9: 64x minecraft:cobblestone
+  Slot 10: 64x minecraft:cobblestone
+  Slot 11: 64x minecraft:cobblestone
+  Slot 12: 46x minecraft:cobblestone
+  Slot 13: 16x minecraft:ender_pearl
+  Slot 14: 16x minecraft:ender_pearl
+  Slot 15: 16x minecraft:ender_pearl
+  Slot 16: 16x minecraft:ender_pearl
+  Slot 17: 16x minecraft:ender_pearl
+  Slot 18: 15x minecraft:ender_pearl
+
+CHEST AT POSITION (1270, 66, -216):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -216):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 67, -214):
+  Slot  1: 45x minecraft:redstone
+  Slot  2: 2x minecraft:stone_bricks
+  Slot  3: 64x minecraft:gunpowder
+  Slot  4: 3x minecraft:iron_block
+  Slot  5: 11x minecraft:black_dye
+  Slot  6: 1x minecraft:diamond
+  Slot  7: 64x minecraft:gunpowder
+  Slot  8: 64x minecraft:gunpowder
+  Slot  9: 64x minecraft:gunpowder
+  Slot 10: 64x minecraft:gunpowder
+  Slot 11: 64x minecraft:bone_meal
+  Slot 12: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:looting": 3, "minecraft:respiration": 3, "minecraft:piercing": 4}})
+  Slot 13: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:knockback": 2}})
+  Slot 14: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:fire_protection": 3}})
+  Slot 16: 64x minecraft:paper
+  Slot 17: 32x minecraft:paper
+  Slot 19: 2x minecraft:hopper
+  Slot 20: 44x minecraft:black_stained_glass_pane
+  Slot 21: 1x minecraft:ender_eye
+
+CHEST AT POSITION (1270, 66, -214):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -214):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 63, -198):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 64, -200):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 63, -199):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1247, 67, -198):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 63, -200):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1244, 67, -199):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1116, 65, -156):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -217):
+  [Block data unavailable or non-chest block]

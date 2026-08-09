@@ -1,0 +1,2823 @@
+[
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -219
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -219
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -219
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -218
+        },
+        "items": [
+            {
+                "slot": 1,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:oak_log",
+                "count": 4
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:dried_kelp",
+                "count": 4
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:oak_stairs",
+                "count": 1
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:orange_concrete",
+                "count": 1
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:gravel",
+                "count": 2
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:mossy_cobblestone",
+                "count": 1
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:spruce_sign",
+                "count": 1
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:soul_lantern",
+                "count": 5
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:leaf_litter",
+                "count": 50
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 12
+                }
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:cobblestone",
+                "count": 43
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -218
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -218
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -216
+        },
+        "items": [
+            {
+                "slot": 12,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:protection": 4
+                    }
+                }
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:smite": 1
+                    }
+                }
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:blast_protection": 4
+                    }
+                }
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:luck_of_the_sea": 3,
+                        "minecraft:breach": 3
+                    }
+                }
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:fire_protection": 3
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -216
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -216
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -214
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -214
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -214
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -198
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:gunpowder",
+                "count": 38
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:firework_star",
+                "count": 2,
+                "components": {
+                    "minecraft:firework_explosion": {
+                        "shape": "large_ball",
+                        "colors": [
+                            11250603
+                        ]
+                    }
+                }
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:fire_charge",
+                "count": 64
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:fire_charge",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:fire_charge",
+                "count": 55
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:coal",
+                "count": 64
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:paper",
+                "count": 40
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:coal",
+                "count": 8
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:firework_rocket",
+                "count": 8,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    11250603
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:firework_rocket",
+                "count": 64,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    12801229
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:firework_rocket",
+                "count": 5,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    12801229
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:firework_rocket",
+                "count": 24,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    2437522
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:firework_rocket",
+                "count": 64,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    14602026
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:firework_rocket",
+                "count": 16,
+                "components": {
+                    "minecraft:fireworks": {
+                        "explosions": [
+                            {
+                                "shape": "large_ball",
+                                "colors": [
+                                    14602026
+                                ]
+                            }
+                        ],
+                        "flight_duration": 1
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 64,
+            "z": -200
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -199
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1247,
+            "y": 67,
+            "z": -198
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:diamond_boots",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 5
+                }
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:diamond_leggings",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 5
+                }
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:diamond_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 7
+                }
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:diamond_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 6
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -200
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1244,
+            "y": 67,
+            "z": -199
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1116,
+            "y": 65,
+            "z": -156
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:poppy",
+                "count": 15
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:iron_ingot",
+                "count": 54
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:poppy",
+                "count": 64
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:poppy",
+                "count": 64
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:poppy",
+                "count": 36
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:poppy",
+                "count": 64
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -217
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 64,
+            "z": -199
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -215
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:spruce_planks",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:paper",
+                "count": 8
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:iron_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 239
+                }
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:written_book",
+                "count": 2,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "This document certifies that the bearer is entitled to one Big Plot Expansion (30x30). (Takes 15-30 sec to apply automatically)"
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "Big Plot Expansion"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "dark_purple",
+                        "bold": 1,
+                        "text": "Big Plot Expansion (30x30)"
+                    }
+                }
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:stone_slab",
+                "count": 5
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:polished_blackstone_bricks",
+                "count": 1
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:ladder",
+                "count": 3
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:oak_trapdoor",
+                "count": 1
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:oak_fence",
+                "count": 18
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:oak_boat",
+                "count": 1
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:chest",
+                "count": 4
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:oxeye_daisy",
+                "count": 4
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:gravel",
+                "count": 63
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -217
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -212
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -215
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:stick",
+                "count": 9
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:dirt",
+                "count": 24
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:torch",
+                "count": 1
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:granite",
+                "count": 16
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:leaf_litter",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:leaf_litter",
+                "count": 63
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:spruce_planks",
+                "count": 2
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:polished_blackstone_bricks",
+                "count": 2
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:iron_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 69
+                }
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:cobbled_deepslate",
+                "count": 1
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:blackstone",
+                "count": 1
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:sugar_cane",
+                "count": 20
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:written_book",
+                "count": 1,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (50x50)."
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "Normal Plot Expansion"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "gold",
+                        "bold": 1,
+                        "text": "Normal Plot Expansion (50x50)"
+                    }
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:written_book",
+                "count": 1,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "Redeem with an Admin to set tnt: deny on your house region."
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "TNT Protection Certificate"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "red",
+                        "bold": 1,
+                        "text": "TNT Protection Certificate"
+                    }
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:white_carpet",
+                "count": 15
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:written_book",
+                "count": 1,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (15x15). (Takes 15-30 sec to apply automatically)"
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "Normal Plot Expansion"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "gold",
+                        "bold": 1,
+                        "text": "Normal Plot Expansion (15x15)"
+                    }
+                }
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:cyan_concrete",
+                "count": 21
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:written_book",
+                "count": 1,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "Redeem with an Admin to set tnt: deny on your house region. (Takes 15-30 sec to apply automatically)"
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "TNT Protection Certificate"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "red",
+                        "bold": 1,
+                        "text": "TNT Protection Certificate"
+                    }
+                }
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:iron_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:unbreaking": 3
+                    },
+                    "minecraft:damage": 6
+                }
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:iron_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 247
+                }
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:lapis_lazuli",
+                "count": 8
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:salmon",
+                "count": 1
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:stone_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 49
+                }
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:written_book",
+                "count": 1,
+                "components": {
+                    "minecraft:written_book_content": {
+                        "pages": [
+                            {
+                                "raw": "Redeem with an Admin to set pvp: deny on your house region. (Takes 15-30 sec to apply automatically)"
+                            }
+                        ],
+                        "author": "Server Admin",
+                        "title": {
+                            "raw": "PvP Protection Certificate"
+                        }
+                    },
+                    "minecraft:custom_name": {
+                        "color": "gold",
+                        "bold": 1,
+                        "text": "PvP Protection Certificate"
+                    }
+                }
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:obsidian",
+                "count": 3
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:white_bed",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -213
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -217
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 63,
+            "z": -187
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:dirt",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:orange_dye",
+                "count": 1
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:gravel",
+                "count": 1
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:wooden_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 2
+                }
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:wooden_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 6
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1287,
+            "y": 77,
+            "z": -202
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1284,
+            "y": 77,
+            "z": -202
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1287,
+            "y": 77,
+            "z": -203
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 145
+                }
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:water_bucket",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:stick",
+                "count": 37
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:lead",
+                "count": 1
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:emerald",
+                "count": 7
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:copper_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:protection": 2
+                    },
+                    "minecraft:damage": 94
+                }
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 209
+                }
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:wooden_axe",
+                "count": 1
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:wooden_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 10
+                }
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:iron_leggings",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 137
+                }
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:iron_boots",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 140
+                }
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:golden_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 92
+                }
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:iron_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 142
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:copper_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 142
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:dirt",
+                "count": 57
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:mossy_cobblestone",
+                "count": 4
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:stone_axe",
+                "count": 1
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 208
+                }
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:protection": 2
+                    },
+                    "minecraft:damage": 164
+                }
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:golden_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 75
+                }
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:golden_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:blast_protection": 2,
+                        "minecraft:aqua_affinity": 1
+                    },
+                    "minecraft:damage": 40
+                }
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:projectile_protection": 2,
+                        "minecraft:unbreaking": 1
+                    },
+                    "minecraft:damage": 171
+                }
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:bone",
+                "count": 12
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:arrow",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1286,
+            "y": 77,
+            "z": -206
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1285,
+            "y": 77,
+            "z": -206
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1298,
+            "y": 79,
+            "z": -229
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:stone_brick_slab",
+                "count": 6
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:oak_sign",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:oak_door",
+                "count": 1
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:stone_bricks",
+                "count": 8
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:cobblestone",
+                "count": 54
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:white_concrete",
+                "count": 2
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:golden_carrot",
+                "count": 14
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:dirt",
+                "count": 1
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:emerald",
+                "count": 27
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:spruce_planks",
+                "count": 64
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:spruce_planks",
+                "count": 18
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:iron_ingot",
+                "count": 3
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:iron_block",
+                "count": 3
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:diamond_sword",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1310,
+            "y": 80,
+            "z": -232
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1311,
+            "y": 80,
+            "z": -232
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1304,
+            "y": 80,
+            "z": -238
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:oak_leaves",
+                "count": 64
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1305,
+            "y": 80,
+            "z": -238
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1307,
+            "y": 79,
+            "z": -212
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1303,
+            "y": 79,
+            "z": -212
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:stone_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 2
+                }
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:rotten_flesh",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:string",
+                "count": 2
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:spruce_button",
+                "count": 4
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:bucket",
+                "count": 1
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:crafting_table",
+                "count": 1
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:ominous_bottle",
+                "count": 1,
+                "components": {
+                    "minecraft:ominous_bottle_amplifier": 2
+                }
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:bow",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 6
+                }
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:lime_concrete",
+                "count": 12
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:golden_leggings",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:projectile_protection": 3
+                    },
+                    "minecraft:damage": 96
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:copper_hoe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 164
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:iron_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 171
+                }
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:arrow",
+                "count": 63
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:dirt",
+                "count": 29
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:nether_brick_stairs",
+                "count": 55
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:cobblestone_slab",
+                "count": 9
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:oak_trapdoor",
+                "count": 3
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:oak_boat",
+                "count": 1
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:stone_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 128
+                }
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:nether_brick_slab",
+                "count": 1
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:oak_fence",
+                "count": 17
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:lead",
+                "count": 1
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:white_banner",
+                "count": 1,
+                "components": {
+                    "minecraft:banner_patterns": [
+                        {
+                            "color": "cyan",
+                            "pattern": "minecraft:rhombus"
+                        },
+                        {
+                            "color": "light_gray",
+                            "pattern": "minecraft:stripe_bottom"
+                        },
+                        {
+                            "color": "gray",
+                            "pattern": "minecraft:stripe_center"
+                        },
+                        {
+                            "color": "light_gray",
+                            "pattern": "minecraft:border"
+                        },
+                        {
+                            "color": "black",
+                            "pattern": "minecraft:stripe_middle"
+                        },
+                        {
+                            "color": "light_gray",
+                            "pattern": "minecraft:half_horizontal"
+                        },
+                        {
+                            "color": "light_gray",
+                            "pattern": "minecraft:circle"
+                        },
+                        {
+                            "color": "black",
+                            "pattern": "minecraft:border"
+                        }
+                    ],
+                    "minecraft:tooltip_display": {
+                        "hidden_components": [
+                            "minecraft:banner_patterns"
+                        ]
+                    },
+                    "minecraft:rarity": "uncommon",
+                    "minecraft:item_name": {
+                        "translate": "block.minecraft.ominous_banner"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1304,
+            "y": 79,
+            "z": -212
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1305,
+            "y": 79,
+            "z": -212
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1301,
+            "y": 79,
+            "z": -212
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:stick",
+                "count": 5
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:wheat",
+                "count": 2
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:sulfur",
+                "count": 2
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:leather",
+                "count": 2
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:stone_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 99
+                }
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:sugar_cane",
+                "count": 14
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:wheat_seeds",
+                "count": 4
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:iron_spear",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 242
+                }
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:oak_sapling",
+                "count": 19
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:white_wool",
+                "count": 1
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:dandelion",
+                "count": 3
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:lapis_lazuli",
+                "count": 5
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:sugar",
+                "count": 1
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:dirt",
+                "count": 28
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:gravel",
+                "count": 2
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:bone_meal",
+                "count": 3
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:cobblestone_wall",
+                "count": 54
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:stone",
+                "count": 1
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:arrow",
+                "count": 35
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:crafting_table",
+                "count": 2
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:oak_button",
+                "count": 14
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:cobblestone_stairs",
+                "count": 9
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:oak_sign",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1302,
+            "y": 79,
+            "z": -212
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1313,
+            "y": 80,
+            "z": -233
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:sand",
+                "count": 5
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:stick",
+                "count": 60
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:leaf_litter",
+                "count": 2
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:leather",
+                "count": 47
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:bone",
+                "count": 11
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:string",
+                "count": 64
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:redstone",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:shulker_box",
+                "count": 1,
+                "components": {
+                    "minecraft:container": [
+                        {
+                            "slot": 0,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 1,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 2,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 3,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 4,
+                            "item": {
+                                "id": "minecraft:cobblestone",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 5,
+                            "item": {
+                                "id": "minecraft:cobblestone",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 6,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 7,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 8,
+                            "item": {
+                                "id": "minecraft:cobblestone",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 9,
+                            "item": {
+                                "id": "minecraft:cobblestone",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 10,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 11,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 12,
+                            "item": {
+                                "id": "minecraft:cobblestone",
+                                "count": 18
+                            }
+                        },
+                        {
+                            "slot": 16,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 17,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 18,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        },
+                        {
+                            "slot": 19,
+                            "item": {
+                                "id": "minecraft:dirt",
+                                "count": 64
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:raw_gold",
+                "count": 19
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:short_grass",
+                "count": 4
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:string",
+                "count": 20
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:oak_sapling",
+                "count": 7
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:oak_fence",
+                "count": 12
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:stick",
+                "count": 27
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:redstone",
+                "count": 20
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:leather",
+                "count": 64
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:shears",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 92
+                }
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 79
+                }
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:oak_leaves",
+                "count": 2
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:shears",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 128
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1314,
+            "y": 80,
+            "z": -233
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1315,
+            "y": 80,
+            "z": -233
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1316,
+            "y": 80,
+            "z": -233
+        },
+        "items": [
+            {
+                "slot": 1,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:golden_carrot",
+                "count": 64
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:golden_carrot",
+                "count": 64
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:golden_carrot",
+                "count": 64
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:golden_carrot",
+                "count": 64
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:golden_carrot",
+                "count": 16
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:firework_rocket",
+                "count": 64
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:gunpowder",
+                "count": 40
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:iron_ingot",
+                "count": 1
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:emerald",
+                "count": 64
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:emerald",
+                "count": 64
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:totem_of_undying",
+                "count": 1
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:netherite_ingot",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1314,
+            "y": 80,
+            "z": -238
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:bone",
+                "count": 64
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:granite",
+                "count": 3
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:mutton",
+                "count": 1
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:dirt",
+                "count": 32
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:string",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:stone",
+                "count": 5
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:oak_fence",
+                "count": 1
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:sugar_cane",
+                "count": 18
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:leaf_litter",
+                "count": 10
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:bone",
+                "count": 64
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 90
+                }
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:redstone",
+                "count": 35
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:end_stone",
+                "count": 33
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:bone",
+                "count": 23
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:dandelion",
+                "count": 5
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:cobblestone",
+                "count": 51
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:stick",
+                "count": 1
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:black_wool",
+                "count": 4
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:wheat_seeds",
+                "count": 64
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:orange_dye",
+                "count": 8
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 96
+                }
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:wheat",
+                "count": 10
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:light_gray_dye",
+                "count": 4
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:wheat_seeds",
+                "count": 32
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:chicken",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1315,
+            "y": 80,
+            "z": -238
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:cobblestone",
+                "count": 64
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:wooden_spear",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 1
+                }
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:string",
+                "count": 64
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:spruce_sapling",
+                "count": 45
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:rotten_flesh",
+                "count": 57
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:furnace",
+                "count": 1
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:stone_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 98
+                }
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:diamond_block",
+                "count": 18
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:bone",
+                "count": 48
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 1
+                }
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:spider_eye",
+                "count": 1
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:stone_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 15
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:red_sand",
+                "count": 35
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:cyan_concrete",
+                "count": 18
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:copper_ingot",
+                "count": 1
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:stone_bricks",
+                "count": 64
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:torch",
+                "count": 24
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:cobblestone",
+                "count": 64
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:magma_block",
+                "count": 39
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:stick",
+                "count": 56
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:iron_spear",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1316,
+            "y": 80,
+            "z": -238
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:crafting_table",
+                "count": 8
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 94
+                }
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:stone",
+                "count": 64
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:iron_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 50
+                }
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:crying_obsidian",
+                "count": 23
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:ender_pearl",
+                "count": 9
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:piston",
+                "count": 1
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:basalt",
+                "count": 7
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:bow",
+                "count": 1
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:glowstone",
+                "count": 5
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:emerald",
+                "count": 26
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:oak_fence",
+                "count": 5
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:wooden_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 51
+                }
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:leather_boots",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 49
+                }
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:coal",
+                "count": 3
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:string",
+                "count": 63
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:sweet_berries",
+                "count": 14
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:orange_concrete",
+                "count": 4
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:soul_sand",
+                "count": 6
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:oak_door",
+                "count": 4
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1313,
+            "y": 80,
+            "z": -238
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:oak_log",
+                "count": 43
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:rotten_flesh",
+                "count": 4
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:paper",
+                "count": 35
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 238
+                }
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:stone_bricks",
+                "count": 10
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:lantern",
+                "count": 1
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:iron_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 48
+                }
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:glowstone_dust",
+                "count": 3
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:red_mushroom",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1436,
+            "y": 43,
+            "z": -235
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:netherite_block",
+                "count": 64
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1422,
+            "y": 64,
+            "z": 56
+        },
+        "items": []
+    }
+]

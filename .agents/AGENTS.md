@@ -55,8 +55,12 @@
 
 # Automatic Data Pulling Rule
 - ALWAYS pull the latest configuration/region/trade log files from the Exaroton server via `sync.py pull <filepath>` whenever the user asks for updates, status checks, region queries, or server state verification before giving an answer.
+- **Shopkeeper Pre-Edit Sync & Backup Rule (STRICT)**: ALWAYS pull/sync the latest `Shopkeepers/data/save.yml` from the Exaroton server (`python3 sync.py pull Shopkeepers/data/save.yml --force`) BEFORE making any local modifications to shop configurations, AND create 2 local backup copies of the file before applying changes.
 
-# Region Size Categorization Formula & Rules
+
+# Layer-by-Layer Region Clearing Rule (STRICT)
+- When requested to clear a region layer by layer or progressively, ALWAYS clear in **10-block height chunks** (e.g. Y=63-72, 73-82, etc.) with a 0.5s pause between chunks rather than clearing single Y-layers one by one.
+
 - Region Dimensions Calculation Formula:
   - Width (X): `(max_x - min_x) + 1`
   - Length (Z): `(max_z - min_z) + 1`
@@ -65,6 +69,7 @@
   - **Small Plot**: Up to 25x25 blocks (e.g. 22x22 falls into Small Plot)
   - **Normal Plot**: Up to 50x50 blocks
   - **Big Plot**: Up to 100x100 blocks
+- **Region Height Limit & Expansion Confirmation Rule (STRICT)**: Default max height for all regions is capped at 15 blocks. Whenever creating a new region or expanding an existing region, ALWAYS ask the user for explicit confirmation before increasing its vertical height by 15 blocks (or modifying its Y-level bounds).
 
 # Automatic Sync & Plugin Reloading Rule
 - Whenever any plugin configuration or data file (e.g. `Shopkeepers/data/save.yml`, `config.yml`, etc.) is created or modified, ALWAYS immediately upload/push the updated file to the Exaroton server via the API and execute the corresponding plugin reload command on the Exaroton server console (e.g., `shopkeeper reload`).
@@ -117,4 +122,15 @@
 
 # Vanilla Kill Command Namespace Rule (STRICT)
 - **Use Vanilla Namespaces for Entity Control Commands**: When executing entity-targeting commands (such as `/kill` to clear dropped items or entities) via the server console or scripts, ALWAYS prefix the command with the vanilla namespace (`minecraft:kill` instead of `kill`). This prevents Essentials from capturing the command, which causes execution failures like "Error: Player not found" when executed from console.
+
+# Shopkeepers Item ID Validation & Deserialization Rule (STRICT)
+- **Valid Inventory Item Stack IDs ONLY**: When adding or modifying trade recipes in `Shopkeepers/data/save.yml`, ALWAYS map block-state-only IDs to valid inventory `ItemStack` item IDs before saving:
+  - `minecraft:potted_<plant>` ➔ `minecraft:<plant>` (e.g., `potted_dead_bush` ➔ `dead_bush`, `potted_torchflower` ➔ `torchflower`)
+  - `minecraft:tripwire` ➔ `minecraft:string`
+  - `minecraft:*_wall_sign` ➔ `minecraft:*_sign`
+  - `minecraft:*_wall_fan` ➔ `minecraft:*`
+- **Deserialization Crash Recovery**: Using block-state-only IDs causes Bukkit `ItemStack` deserialization failures during data migration, which disables the Shopkeepers plugin on startup (`plugin is disabled`). If the plugin disables itself, fix `save.yml` with valid inventory IDs and request user permission to restart the server so Paper can re-enable the plugin cleanly.
+- **YAML Validation**: Always validate YAML formatting with `yaml.safe_load()` before uploading `save.yml` to Exaroton.
+
+
 

@@ -1,0 +1,584 @@
+[
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -219
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:basalt",
+                "count": 2
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:cobblestone_slab",
+                "count": 15
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:cobblestone_stairs",
+                "count": 2
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:dirt",
+                "count": 55
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:glass",
+                "count": 4
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:granite",
+                "count": 6
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:mossy_cobblestone",
+                "count": 4
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:spruce_sapling",
+                "count": 10
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:oak_slab",
+                "count": 1
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:polished_deepslate_slab",
+                "count": 1
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:torch",
+                "count": 34
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:short_grass",
+                "count": 12
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:smooth_stone",
+                "count": 1
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:polished_blackstone_bricks",
+                "count": 1
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:stone_brick_slab",
+                "count": 3
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:apple",
+                "count": 3
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:polished_blackstone_brick_slab",
+                "count": 2
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:ender_pearl",
+                "count": 15
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:blackstone_wall",
+                "count": 2
+            },
+            {
+                "slot": 22,
+                "id": "minecraft:stone_bricks",
+                "count": 41
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:white_carpet",
+                "count": 4
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:leather",
+                "count": 64
+            },
+            {
+                "slot": 25,
+                "id": "minecraft:leather",
+                "count": 32
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:oak_trapdoor",
+                "count": 5
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -219
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -219
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -218
+        },
+        "items": [
+            {
+                "slot": 0,
+                "id": "minecraft:arrow",
+                "count": 3
+            },
+            {
+                "slot": 1,
+                "id": "minecraft:blackstone",
+                "count": 25
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:dried_kelp",
+                "count": 4
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:oak_stairs",
+                "count": 64
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:orange_concrete",
+                "count": 1
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:light_gray_carpet",
+                "count": 19
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:gravel",
+                "count": 22
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:mossy_cobblestone",
+                "count": 1
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:spruce_sign",
+                "count": 1
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:soul_lantern",
+                "count": 5
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:composter",
+                "count": 4
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:crafting_table",
+                "count": 1
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:azure_bluet",
+                "count": 3
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:iron_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 44
+                }
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:leaf_litter",
+                "count": 50
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:stick",
+                "count": 25
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 12
+                }
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:gunpowder",
+                "count": 1
+            },
+            {
+                "slot": 23,
+                "id": "minecraft:oak_stairs",
+                "count": 28
+            },
+            {
+                "slot": 24,
+                "id": "minecraft:blue_orchid",
+                "count": 8
+            },
+            {
+                "slot": 26,
+                "id": "minecraft:book",
+                "count": 64
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -218
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -218
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -216
+        },
+        "items": [
+            {
+                "slot": 9,
+                "id": "minecraft:cobblestone",
+                "count": 64
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:cobblestone",
+                "count": 64
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:cobblestone",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:cobblestone",
+                "count": 46
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 15,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:ender_pearl",
+                "count": 16
+            },
+            {
+                "slot": 18,
+                "id": "minecraft:ender_pearl",
+                "count": 15
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -216
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -216
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 67,
+            "z": -214
+        },
+        "items": [
+            {
+                "slot": 1,
+                "id": "minecraft:redstone",
+                "count": 45
+            },
+            {
+                "slot": 2,
+                "id": "minecraft:stone_bricks",
+                "count": 2
+            },
+            {
+                "slot": 3,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 4,
+                "id": "minecraft:iron_block",
+                "count": 3
+            },
+            {
+                "slot": 5,
+                "id": "minecraft:black_dye",
+                "count": 11
+            },
+            {
+                "slot": 6,
+                "id": "minecraft:diamond",
+                "count": 1
+            },
+            {
+                "slot": 7,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 8,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 9,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 10,
+                "id": "minecraft:gunpowder",
+                "count": 64
+            },
+            {
+                "slot": 11,
+                "id": "minecraft:bone_meal",
+                "count": 64
+            },
+            {
+                "slot": 12,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:looting": 3,
+                        "minecraft:respiration": 3,
+                        "minecraft:piercing": 4
+                    }
+                }
+            },
+            {
+                "slot": 13,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:knockback": 2
+                    }
+                }
+            },
+            {
+                "slot": 14,
+                "id": "minecraft:enchanted_book",
+                "count": 1,
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "minecraft:fire_protection": 3
+                    }
+                }
+            },
+            {
+                "slot": 16,
+                "id": "minecraft:paper",
+                "count": 64
+            },
+            {
+                "slot": 17,
+                "id": "minecraft:paper",
+                "count": 32
+            },
+            {
+                "slot": 19,
+                "id": "minecraft:hopper",
+                "count": 2
+            },
+            {
+                "slot": 20,
+                "id": "minecraft:black_stained_glass_pane",
+                "count": 44
+            },
+            {
+                "slot": 21,
+                "id": "minecraft:ender_eye",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 66,
+            "z": -214
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -214
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -198
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 64,
+            "z": -200
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -199
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1247,
+            "y": 67,
+            "z": -198
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1245,
+            "y": 63,
+            "z": -200
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1244,
+            "y": 67,
+            "z": -199
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1116,
+            "y": 65,
+            "z": -156
+        },
+        "items": []
+    },
+    {
+        "location": {
+            "x": 1270,
+            "y": 65,
+            "z": -217
+        },
+        "items": []
+    }
+]

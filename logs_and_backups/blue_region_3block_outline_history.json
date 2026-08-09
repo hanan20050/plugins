@@ -1,0 +1,9 @@
+{
+  "applied_commands": [
+    "fill 1248 62 -219 1255 62 -217 minecraft:black_concrete",
+    "fill 1248 62 -207 1255 62 -205 minecraft:black_concrete",
+    "fill 1248 62 -219 1250 62 -205 minecraft:black_concrete",
+    "fill 1253 62 -219 1255 62 -205 minecraft:black_concrete"
+  ],
+  "block": "minecraft:black_concrete"
+}

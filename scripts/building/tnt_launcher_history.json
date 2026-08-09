@@ -1,0 +1,4 @@
+[
+  "fill 1192 62 -133 1200 67 -125 air",
+  "kill @e[type=item,x=1190,y=60,z=-135,distance=..15]"
+]

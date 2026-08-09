@@ -1,0 +1,6 @@
+name: WGInfoRestrictor
+version: 1.0.0
+main: me.antigravity.wginfo.WGInfoRestrictor
+api-version: '1.20'
+depend: [WorldGuard]
+author: Antigravity

@@ -99,10 +99,10 @@ def discount_item(item_id, count):
     currencies = ["minecraft:emerald", "minecraft:emerald_block", "minecraft:netherite_ingot", "minecraft:netherite_block"]
     if item_id in currencies:
         val = get_original_value(item_id, count)
-        discounted_val = max(1, round(val * 0.5))
+        discounted_val = max(1, round(val * 1.5))
         return value_to_currency(discounted_val, item_id)
     else:
-        discounted_count = max(1, round(count * 0.5))
+        discounted_count = max(1, round(count * 1.5))
         return item_id, discounted_count
 
 def apply_abuse_sale():
@@ -216,9 +216,9 @@ def broadcast_sale_status(elapsed, remaining):
     elapsed_str = f"{mins_el}m {secs_el}s" if mins_el > 0 else f"{secs_el}s"
 
     msg_json = [
-        {"text": "⚠ [ADMIN ABUSE SALE] ⚠ ", "color": "red", "bold": True},
+        {"text": "⚠ [ADMIN ABUSE TAX] ⚠ ", "color": "red", "bold": True},
         {"text": "Everything in ALL Buying Shops is ", "color": "yellow"},
-        {"text": "50% OFF", "color": "green", "bold": True},
+        {"text": "50% MORE EXPENSIVE (+50%)", "color": "red", "bold": True},
         {"text": "! | Remaining: ", "color": "aqua"},
         {"text": time_str, "color": "red", "bold": True},
         {"text": " (Passed: ", "color": "gray"},
@@ -229,51 +229,28 @@ def broadcast_sale_status(elapsed, remaining):
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "--undo":
-        print("Reverting admin abuse sale immediately...")
+        print("Reverting admin abuse price increase immediately...")
         if restore_original_trades():
             msg_json = [
-                {"text": "⏳ [ADMIN ABUSE SALE] ", "color": "red", "bold": True},
-                {"text": "Sale has been cancelled/ended! Standard shop prices restored.", "color": "yellow"}
+                {"text": "⏳ [ADMIN ABUSE TAX] ", "color": "red", "bold": True},
+                {"text": "Price increase has been ended! Standard shop prices restored.", "color": "yellow"}
             ]
             broadcast_tellraw(msg_json)
         return
 
-    duration = 90  # 1.5 minutes
-    interval = 10  # broadcast every 10 seconds
-
-    print("Starting Admin Abuse 50% Off Sale...")
+    print("Starting Admin Abuse Permanent +50% Price Increase...")
     if not apply_abuse_sale():
-        print("Failed to apply sale.")
+        print("Failed to apply price increase.")
         return
 
     # Broadcast initial message
     msg_json_start = [
-        {"text": "⚠ [ADMIN ABUSE SALE] ⚠ ", "color": "red", "bold": True},
-        {"text": "Everything in ALL Buying Shops is now ", "color": "yellow"},
-        {"text": "50% OFF", "color": "green", "bold": True},
-        {"text": " for the next ", "color": "yellow"},
-        {"text": "1.5 minutes", "color": "aqua", "bold": True},
-        {"text": "! Go go go!", "color": "yellow"}
+        {"text": "⚠ [ADMIN ABUSE TAX] ⚠ ", "color": "red", "bold": True},
+        {"text": "Everything in ALL Buying Shops is now permanently ", "color": "yellow"},
+        {"text": "50% MORE EXPENSIVE (+50%)", "color": "red", "bold": True},
+        {"text": "!", "color": "yellow"}
     ]
     broadcast_tellraw(msg_json_start)
-    broadcast_sale_status(0, duration)
-
-    elapsed = 0
-    while elapsed < duration:
-        time.sleep(interval)
-        elapsed += interval
-        remaining = duration - elapsed
-        if remaining > 0:
-            broadcast_sale_status(elapsed, remaining)
-
-    print("Ending Admin Abuse Sale...")
-    restore_original_trades()
-    
-    msg_json_end = [
-        {"text": "⏳ [ADMIN ABUSE SALE] ", "color": "red", "bold": True},
-        {"text": "Admin Abuse Sale has ended! Standard shop prices restored to normal.", "color": "yellow"}
-    ]
-    broadcast_tellraw(msg_json_end)
 
 if __name__ == "__main__":
     main()

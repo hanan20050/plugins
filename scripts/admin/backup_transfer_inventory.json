@@ -1,0 +1,10 @@
+{
+    "player": "NightmareDady",
+    "chest_coords": [
+        1307,
+        80,
+        -238
+    ],
+    "original_player_inventory": "[{Slot: 0b, id: \"minecraft:diamond_sword\", count: 1, components: {\"minecraft:damage\": 191}}, {Slot: 2b, id: \"minecraft:golden_carrot\", count: 63}, {Slot: 3b, id: \"minecraft:cobbled_deepslate\", count: 64}, {Slot: 4b, id: \"minecraft:emerald\", count: 64}, {Slot: 5b, id: \"minecraft:emerald\", count: 64}, {Slot: 6b, id: \"minecraft:emerald\", count: 60}, {Slot: 7b, id: \"minecraft:emerald\", count: 64}, {Slot: 8b, id: \"minecraft:emerald\", count: 64}, {Slot: 9b, id: \"minecraft:white_banner\", count: 15}, {Slot: 10b, id: \"minecraft:emerald\", count: 64}, {Slot: 11b, id: \"minecraft:emerald\", count: 64}, {Slot: 12b, id: \"minecraft:emerald\", count: 64}, {Slot: 13b, id: \"minecraft:emerald\", count: 64}, {Slot: 14b, id: \"minecraft:emerald\", count: 64}, {Slot: 15b, id: \"minecraft:emerald\", count: 64}, {Slot: 16b, id: \"minecraft:emerald\", count: 64}, {Slot: 17b, id: \"minecraft:emerald\", count: 64}, {Slot: 18b, id: \"minecraft:golden_carrot\", count: 58}, {Slot: 19b, id: \"minecraft:emerald\", count: 64}, {Slot: 20b, id: \"minecraft:emerald\", count: 64}, {Slot: 21b, id: \"minecraft:emerald\", count: 64}, {Slot: 22b, id: \"minecraft:emerald\", count: 64}, {Slot: 23b, id: \"minecraft:emerald\", count: 64}, {Slot: 24b, id: \"minecraft:emerald\", count: 64}, {Slot: 25b, id: \"minecraft:emerald\", count: 64}, {Slot: 26b, id: \"minecraft:emerald\", count: 64}, {Slot: 27b, id: \"minecraft:iron_pickaxe\", count: 1, components: {\"minecraft:damage\": 24}}, {Slot: 28b, id: \"minecraft:emerald\", count: 64}, {Slot: 29b, id: \"minecraft:emerald\", count: 64}, {Slot: 30b, id: \"minecraft:emerald\", count: 64}, {Slot: 31b, id: \"minecraft:emerald\", count: 64}, {Slot: 32b, id: \"minecraft:emerald\", count: 64}, {Slot: 33b, id: \"minecraft:emerald\", count: 64}, {Slot: 34b, id: \"minecraft:emerald\", count: 64}, {Slot: 35b, id: \"minecraft:emerald\", count: 64}]",
+    "original_chest_data": "{z: -238, id: \"minecraft:chest\", y: 80, x: 1307, Items: [], components: {}}"
+}

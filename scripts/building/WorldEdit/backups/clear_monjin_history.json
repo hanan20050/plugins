@@ -1,0 +1,27 @@
+{
+    "timestamp": 1784920936.0696251,
+    "bounds": {
+        "min_x": 1264,
+        "max_x": 1271,
+        "min_y": 63,
+        "max_y": 319,
+        "min_z": -191,
+        "max_z": -183
+    },
+    "dimension": "minecraft:overworld",
+    "commands_run": [
+        "execute in minecraft:overworld run fill 1264 63 -191 1271 82 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 83 -191 1271 102 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 103 -191 1271 122 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 123 -191 1271 142 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 143 -191 1271 162 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 163 -191 1271 182 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 183 -191 1271 202 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 203 -191 1271 222 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 223 -191 1271 242 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 243 -191 1271 262 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 263 -191 1271 282 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 283 -191 1271 302 -183 minecraft:air",
+        "execute in minecraft:overworld run fill 1264 303 -191 1271 319 -183 minecraft:air"
+    ]
+}

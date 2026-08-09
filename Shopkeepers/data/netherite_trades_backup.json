@@ -1,0 +1,218 @@
+{
+  "1": {
+    "name": "&eGeneral Store & Build Shop",
+    "recipes": {
+      "1": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 2,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:beacon"
+        }
+      },
+      "4": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:enchanted_golden_apple"
+        }
+      },
+      "5": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:nether_star"
+        }
+      },
+      "7": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 2,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:trident"
+        }
+      }
+    }
+  },
+  "2": {
+    "name": "&6Land & House Upgrades",
+    "recipes": {
+      "10": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 7,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:custom_name": "{bold:1b,color:\"red\",text:\"Pillager Outpost Coordinates Book\"}",
+            "minecraft:written_book_content": "{author:\"Cartographer\",pages:[{raw:\"Pillager Outpost Coordinates:\\n\\nX: 1536\\nY: 80\\nZ: -832\\n\\nDistance: ~650 blocks\"}],title:{raw:\"Pillager Outpost Guide\"}}"
+          },
+          "count": 1,
+          "id": "minecraft:written_book"
+        }
+      },
+      "7": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 2,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:custom_name": "{bold:1b,color:\"gold\",text:\"Normal Plot Expansion (15x15)\"}",
+            "minecraft:written_book_content": "{author:\"Server Admin\",pages:[{raw:\"This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (15x15). (Takes 15-30 sec to apply automatically)\"}],title:{raw:\"Normal Plot Expansion\"}}"
+          },
+          "count": 1,
+          "id": "minecraft:written_book"
+        }
+      },
+      "8": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 4,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:custom_name": "{bold:1b,color:\"dark_purple\",text:\"Big Plot Expansion (30x30)\"}",
+            "minecraft:written_book_content": "{author:\"Server Admin\",pages:[{raw:\"This document certifies that the bearer is entitled to one Big Plot Expansion (30x30). (Takes 15-30 sec to apply automatically)\"}],title:{raw:\"Big Plot Expansion\"}}"
+          },
+          "count": 1,
+          "id": "minecraft:written_book"
+        }
+      },
+      "9": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 2,
+          "id": "minecraft:netherite_block"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:custom_name": "{bold:1b,color:\"dark_purple\",text:\"Deep Dark / Ancient City Coordinates Book\"}",
+            "minecraft:written_book_content": "{author:\"Cartographer\",pages:[{raw:\"Deep Dark / Ancient City Coordinates:\\n\\nX: 3184\\nY: -51\\nZ: 2080\\n\\nDistance: ~3000 blocks\"}],title:{raw:\"Deep Dark / Ancient City Guide\"}}"
+          },
+          "count": 1,
+          "id": "minecraft:written_book"
+        }
+      }
+    }
+  },
+  "5": {
+    "name": "&6Money Exchange",
+    "recipes": {
+      "1": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 64,
+          "id": "minecraft:emerald"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        }
+      },
+      "2": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "count": 64,
+          "id": "minecraft:emerald"
+        }
+      }
+    }
+  },
+  "6": {
+    "name": "&dEnchanted Book Emporium",
+    "recipes": {
+      "25": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:stored_enchantments": "{\"minecraft:mending\": 1}"
+          },
+          "count": 1,
+          "id": "minecraft:enchanted_book"
+        }
+      },
+      "26": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 1,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:stored_enchantments": "{\"minecraft:soul_speed\": 3}"
+          },
+          "count": 1,
+          "id": "minecraft:enchanted_book"
+        }
+      },
+      "27": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 2,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:stored_enchantments": "{\"minecraft:swift_sneak\": 3}"
+          },
+          "count": 1,
+          "id": "minecraft:enchanted_book"
+        }
+      },
+      "28": {
+        "item1": {
+          "DataVersion": 4903,
+          "count": 3,
+          "id": "minecraft:netherite_ingot"
+        },
+        "resultItem": {
+          "DataVersion": 4903,
+          "components": {
+            "minecraft:stored_enchantments": "{\"minecraft:wind_burst\": 3}"
+          },
+          "count": 1,
+          "id": "minecraft:enchanted_book"
+        }
+      }
+    }
+  }
+}

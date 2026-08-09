@@ -1,0 +1,8 @@
+{
+  "applied_commands": [
+    "fill 1241 62 -219 1255 62 -205 minecraft:cyan_concrete",
+    "fill 1241 62 -204 1255 62 -191 minecraft:white_concrete"
+  ],
+  "color1": "minecraft:cyan_concrete",
+  "color2": "minecraft:white_concrete"
+}

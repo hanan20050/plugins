@@ -1,0 +1,507 @@
+=== LIVE CHEST INVENTORY CONTENTS REPORT ===
+Generated At: 2026-07-23 21:27:15
+Total Locations Checked: 54
+
+CHEST AT POSITION (1270, 67, -219):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 66, -219):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -219):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 67, -218):
+  Slot  1: 1x minecraft:white_bed
+  Slot  2: 4x minecraft:oak_log
+  Slot  3: 4x minecraft:dried_kelp
+  Slot  4: 1x minecraft:oak_stairs
+  Slot  5: 64x minecraft:dirt
+  Slot  6: 1x minecraft:orange_concrete
+  Slot  8: 2x minecraft:gravel
+  Slot  9: 1x minecraft:white_bed
+  Slot 10: 1x minecraft:mossy_cobblestone
+  Slot 11: 64x minecraft:dirt
+  Slot 12: 1x minecraft:spruce_sign
+  Slot 13: 5x minecraft:soul_lantern
+  Slot 18: 50x minecraft:leaf_litter
+  Slot 20: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 12})
+  Slot 21: 43x minecraft:cobblestone
+
+CHEST AT POSITION (1270, 66, -218):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -218):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 67, -216):
+  Slot 12: 2x minecraft:rotten_flesh
+  Slot 15: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:protection": 4}})
+  Slot 16: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:smite": 1}})
+  Slot 17: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:blast_protection": 4}})
+  Slot 25: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:luck_of_the_sea": 3, "minecraft:breach": 3}})
+  Slot 26: 1x minecraft:enchanted_book (Components: {"minecraft:stored_enchantments": {"minecraft:fire_protection": 3}})
+
+CHEST AT POSITION (1270, 66, -216):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -216):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 67, -214):
+  [Empty Chest / No items]
+
+CHEST AT POSITION (1270, 66, -214):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -214):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 63, -198):
+  Slot  0: 64x minecraft:paper
+  Slot  1: 38x minecraft:gunpowder
+  Slot  2: 2x minecraft:firework_star (Components: {"minecraft:firework_explosion": {"shape": "large_ball", "colors": [11250603]}})
+  Slot  3: 64x minecraft:fire_charge
+  Slot  4: 64x minecraft:fire_charge
+  Slot  5: 55x minecraft:fire_charge
+  Slot  6: 64x minecraft:paper
+  Slot  7: 64x minecraft:coal
+  Slot  8: 40x minecraft:paper
+  Slot  9: 8x minecraft:coal
+  Slot 10: 8x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [11250603]}], "flight_duration": 1}})
+  Slot 11: 64x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [12801229]}], "flight_duration": 1}})
+  Slot 12: 5x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [12801229]}], "flight_duration": 1}})
+  Slot 13: 24x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [2437522]}], "flight_duration": 1}})
+  Slot 14: 64x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [14602026]}], "flight_duration": 1}})
+  Slot 15: 16x minecraft:firework_rocket (Components: {"minecraft:fireworks": {"explosions": [{"shape": "large_ball", "colors": [14602026]}], "flight_duration": 1}})
+
+CHEST AT POSITION (1245, 64, -200):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 63, -199):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1247, 67, -198):
+  Slot  0: 1x minecraft:diamond_boots (Components: {"minecraft:damage": 5})
+  Slot  1: 1x minecraft:diamond_leggings (Components: {"minecraft:damage": 5})
+  Slot  2: 1x minecraft:diamond_sword (Components: {"minecraft:damage": 7})
+  Slot  3: 1x minecraft:diamond_axe (Components: {"minecraft:damage": 6})
+
+CHEST AT POSITION (1245, 63, -200):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1244, 67, -199):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1116, 65, -156):
+  Slot  0: 15x minecraft:poppy
+  Slot  1: 54x minecraft:iron_ingot
+  Slot  5: 64x minecraft:poppy
+  Slot  6: 64x minecraft:poppy
+  Slot  8: 36x minecraft:poppy
+  Slot 16: 64x minecraft:poppy
+
+CHEST AT POSITION (1270, 65, -217):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1245, 64, -199):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 65, -215):
+  Slot  0: 1x minecraft:spruce_planks
+  Slot  2: 8x minecraft:paper
+  Slot  3: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 239})
+  Slot  5: 2x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "This document certifies that the bearer is entitled to one Big Plot Expansion (30x30). (Takes 15-30 sec to apply automatically)"}], "author": "Server Admin", "title": {"raw": "Big Plot Expansion"}}, "minecraft:custom_name": {"color": "dark_purple", "bold": 1, "text": "Big Plot Expansion (30x30)"}})
+  Slot  6: 5x minecraft:stone_slab
+  Slot  7: 1x minecraft:polished_blackstone_bricks
+  Slot  8: 3x minecraft:ladder
+  Slot 13: 1x minecraft:oak_trapdoor
+  Slot 14: 18x minecraft:oak_fence
+  Slot 15: 1x minecraft:oak_boat
+  Slot 16: 4x minecraft:chest
+  Slot 17: 4x minecraft:oxeye_daisy
+  Slot 18: 63x minecraft:gravel
+
+CHEST AT POSITION (1270, 67, -217):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 66, -212):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 66, -215):
+  Slot  0: 9x minecraft:stick
+  Slot  1: 24x minecraft:dirt
+  Slot  2: 1x minecraft:torch
+  Slot  3: 16x minecraft:granite
+  Slot  4: 64x minecraft:leaf_litter
+  Slot  5: 63x minecraft:leaf_litter
+  Slot  6: 2x minecraft:spruce_planks
+  Slot  7: 2x minecraft:polished_blackstone_bricks
+  Slot  8: 1x minecraft:iron_sword (Components: {"minecraft:damage": 69})
+  Slot  9: 1x minecraft:cobbled_deepslate
+  Slot 10: 1x minecraft:blackstone
+  Slot 11: 20x minecraft:sugar_cane
+  Slot 12: 1x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (50x50)."}], "author": "Server Admin", "title": {"raw": "Normal Plot Expansion"}}, "minecraft:custom_name": {"color": "gold", "bold": 1, "text": "Normal Plot Expansion (50x50)"}})
+  Slot 13: 1x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "Redeem with an Admin to set tnt: deny on your house region."}], "author": "Server Admin", "title": {"raw": "TNT Protection Certificate"}}, "minecraft:custom_name": {"color": "red", "bold": 1, "text": "TNT Protection Certificate"}})
+  Slot 14: 15x minecraft:white_carpet
+  Slot 15: 1x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "This document certifies that the bearer is entitled to one Normal-sized Plot Expansion (15x15). (Takes 15-30 sec to apply automatically)"}], "author": "Server Admin", "title": {"raw": "Normal Plot Expansion"}}, "minecraft:custom_name": {"color": "gold", "bold": 1, "text": "Normal Plot Expansion (15x15)"}})
+  Slot 16: 21x minecraft:cyan_concrete
+  Slot 17: 1x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "Redeem with an Admin to set tnt: deny on your house region. (Takes 15-30 sec to apply automatically)"}], "author": "Server Admin", "title": {"raw": "TNT Protection Certificate"}}, "minecraft:custom_name": {"color": "red", "bold": 1, "text": "TNT Protection Certificate"}})
+  Slot 18: 1x minecraft:iron_pickaxe (Components: {"minecraft:enchantments": {"minecraft:unbreaking": 3}, "minecraft:damage": 6})
+  Slot 19: 1x minecraft:iron_sword (Components: {"minecraft:damage": 247})
+  Slot 20: 8x minecraft:lapis_lazuli
+  Slot 21: 1x minecraft:salmon
+  Slot 22: 1x minecraft:stone_sword (Components: {"minecraft:damage": 49})
+  Slot 24: 1x minecraft:written_book (Components: {"minecraft:written_book_content": {"pages": [{"raw": "Redeem with an Admin to set pvp: deny on your house region. (Takes 15-30 sec to apply automatically)"}], "author": "Server Admin", "title": {"raw": "PvP Protection Certificate"}}, "minecraft:custom_name": {"color": "gold", "bold": 1, "text": "PvP Protection Certificate"}})
+  Slot 25: 3x minecraft:obsidian
+  Slot 26: 1x minecraft:white_bed
+
+CHEST AT POSITION (1270, 66, -213):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 66, -217):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1270, 63, -187):
+  Slot  0: 1x minecraft:dirt
+  Slot  2: 1x minecraft:orange_dye
+  Slot  4: 1x minecraft:gravel
+  Slot  7: 1x minecraft:wooden_axe (Components: {"minecraft:damage": 2})
+  Slot  8: 1x minecraft:wooden_pickaxe (Components: {"minecraft:damage": 6})
+
+CHEST AT POSITION (1287, 77, -202):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1284, 77, -202):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1287, 77, -203):
+  Slot  0: 1x minecraft:copper_chestplate (Components: {"minecraft:damage": 145})
+  Slot  1: 1x minecraft:water_bucket
+  Slot  2: 37x minecraft:stick
+  Slot  3: 1x minecraft:lead
+  Slot  4: 7x minecraft:emerald
+  Slot  5: 1x minecraft:copper_helmet (Components: {"minecraft:enchantments": {"minecraft:protection": 2}, "minecraft:damage": 94})
+  Slot  6: 1x minecraft:iron_axe (Components: {"minecraft:damage": 209})
+  Slot  7: 1x minecraft:wooden_axe
+  Slot  8: 1x minecraft:wooden_pickaxe (Components: {"minecraft:damage": 10})
+  Slot  9: 1x minecraft:iron_leggings (Components: {"minecraft:damage": 137})
+  Slot 10: 1x minecraft:iron_boots (Components: {"minecraft:damage": 140})
+  Slot 11: 1x minecraft:golden_chestplate (Components: {"minecraft:damage": 92})
+  Slot 12: 1x minecraft:iron_helmet (Components: {"minecraft:damage": 142})
+  Slot 13: 1x minecraft:copper_pickaxe (Components: {"minecraft:damage": 142})
+  Slot 14: 57x minecraft:dirt
+  Slot 15: 4x minecraft:mossy_cobblestone
+  Slot 16: 1x minecraft:stone_axe
+  Slot 17: 2x minecraft:rotten_flesh
+  Slot 18: 1x minecraft:iron_axe (Components: {"minecraft:damage": 208})
+  Slot 19: 1x minecraft:copper_chestplate (Components: {"minecraft:enchantments": {"minecraft:unbreaking": 3, "minecraft:protection": 2}, "minecraft:damage": 164})
+  Slot 21: 1x minecraft:golden_helmet (Components: {"minecraft:damage": 75})
+  Slot 22: 1x minecraft:golden_helmet (Components: {"minecraft:enchantments": {"minecraft:blast_protection": 2, "minecraft:aqua_affinity": 1}, "minecraft:damage": 40})
+  Slot 23: 1x minecraft:copper_chestplate (Components: {"minecraft:enchantments": {"minecraft:projectile_protection": 2, "minecraft:unbreaking": 1}, "minecraft:damage": 171})
+  Slot 25: 12x minecraft:bone
+  Slot 26: 2x minecraft:arrow
+
+CHEST AT POSITION (1286, 77, -206):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1285, 77, -206):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1298, 79, -229):
+  Slot  0: 6x minecraft:stone_brick_slab
+  Slot  1: 1x minecraft:oak_sign
+  Slot  2: 1x minecraft:oak_door
+  Slot  3: 8x minecraft:stone_bricks
+  Slot  4: 54x minecraft:cobblestone
+  Slot  5: 2x minecraft:white_concrete
+  Slot  6: 14x minecraft:golden_carrot
+  Slot  7: 1x minecraft:dirt
+  Slot  8: 27x minecraft:emerald
+  Slot  9: 64x minecraft:spruce_planks
+  Slot 10: 18x minecraft:spruce_planks
+  Slot 11: 3x minecraft:iron_ingot
+  Slot 12: 3x minecraft:iron_block
+  Slot 13: 1x minecraft:diamond_sword
+
+CHEST AT POSITION (1310, 80, -232):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1311, 80, -232):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1304, 80, -238):
+  Slot  0: 16x minecraft:ender_pearl
+  Slot  1: 16x minecraft:ender_pearl
+  Slot  2: 16x minecraft:ender_pearl
+  Slot  3: 16x minecraft:ender_pearl
+  Slot  4: 16x minecraft:ender_pearl
+  Slot  5: 16x minecraft:ender_pearl
+  Slot  6: 16x minecraft:ender_pearl
+  Slot  7: 16x minecraft:ender_pearl
+  Slot  8: 16x minecraft:ender_pearl
+  Slot  9: 16x minecraft:ender_pearl
+  Slot 10: 16x minecraft:ender_pearl
+  Slot 11: 16x minecraft:ender_pearl
+  Slot 12: 16x minecraft:ender_pearl
+  Slot 13: 16x minecraft:ender_pearl
+  Slot 14: 16x minecraft:ender_pearl
+  Slot 15: 16x minecraft:ender_pearl
+  Slot 16: 16x minecraft:ender_pearl
+  Slot 17: 16x minecraft:ender_pearl
+  Slot 18: 16x minecraft:ender_pearl
+  Slot 19: 16x minecraft:ender_pearl
+  Slot 20: 16x minecraft:ender_pearl
+  Slot 21: 16x minecraft:ender_pearl
+  Slot 22: 16x minecraft:ender_pearl
+  Slot 23: 16x minecraft:ender_pearl
+  Slot 24: 64x minecraft:oak_leaves
+  Slot 26: 16x minecraft:ender_pearl
+
+CHEST AT POSITION (1305, 80, -238):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1307, 79, -212):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1303, 79, -212):
+  Slot  0: 1x minecraft:stone_axe (Components: {"minecraft:damage": 2})
+  Slot  1: 1x minecraft:rotten_flesh
+  Slot  2: 2x minecraft:string
+  Slot  3: 4x minecraft:spruce_button
+  Slot  4: 1x minecraft:bucket
+  Slot  5: 1x minecraft:crafting_table
+  Slot  6: 1x minecraft:ominous_bottle (Components: {"minecraft:ominous_bottle_amplifier": 2})
+  Slot  7: 1x minecraft:bow (Components: {"minecraft:damage": 6})
+  Slot 10: 64x minecraft:gunpowder
+  Slot 11: 12x minecraft:lime_concrete
+  Slot 12: 1x minecraft:golden_leggings (Components: {"minecraft:enchantments": {"minecraft:projectile_protection": 3}, "minecraft:damage": 96})
+  Slot 13: 1x minecraft:copper_hoe (Components: {"minecraft:damage": 164})
+  Slot 14: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 171})
+  Slot 15: 63x minecraft:arrow
+  Slot 16: 29x minecraft:dirt
+  Slot 17: 55x minecraft:nether_brick_stairs
+  Slot 18: 9x minecraft:cobblestone_slab
+  Slot 19: 3x minecraft:oak_trapdoor
+  Slot 20: 1x minecraft:oak_boat
+  Slot 21: 1x minecraft:stone_axe (Components: {"minecraft:damage": 128})
+  Slot 22: 1x minecraft:nether_brick_slab
+  Slot 24: 17x minecraft:oak_fence
+  Slot 25: 1x minecraft:lead
+  Slot 26: 1x minecraft:white_banner (Components: {"minecraft:banner_patterns": [{"color": "cyan", "pattern": "minecraft:rhombus"}, {"color": "light_gray", "pattern": "minecraft:stripe_bottom"}, {"color": "gray", "pattern": "minecraft:stripe_center"}, {"color": "light_gray", "pattern": "minecraft:border"}, {"color": "black", "pattern": "minecraft:stripe_middle"}, {"color": "light_gray", "pattern": "minecraft:half_horizontal"}, {"color": "light_gray", "pattern": "minecraft:circle"}, {"color": "black", "pattern": "minecraft:border"}], "minecraft:tooltip_display": {"hidden_components": ["minecraft:banner_patterns"]}, "minecraft:rarity": "uncommon", "minecraft:item_name": {"translate": "block.minecraft.ominous_banner"}})
+
+CHEST AT POSITION (1304, 79, -212):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1305, 79, -212):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1301, 79, -212):
+  Slot  0: 5x minecraft:stick
+  Slot  1: 1x minecraft:stone_pickaxe
+  Slot  2: 2x minecraft:wheat
+  Slot  3: 2x minecraft:sulfur
+  Slot  4: 2x minecraft:leather
+  Slot  5: 2x minecraft:rotten_flesh
+  Slot  6: 1x minecraft:stone_shovel (Components: {"minecraft:damage": 99})
+  Slot  7: 14x minecraft:sugar_cane
+  Slot  9: 4x minecraft:wheat_seeds
+  Slot 10: 1x minecraft:iron_spear (Components: {"minecraft:damage": 242})
+  Slot 11: 19x minecraft:oak_sapling
+  Slot 12: 1x minecraft:white_wool
+  Slot 13: 3x minecraft:dandelion
+  Slot 14: 5x minecraft:lapis_lazuli
+  Slot 15: 1x minecraft:sugar
+  Slot 16: 1x minecraft:white_bed
+  Slot 17: 28x minecraft:dirt
+  Slot 18: 2x minecraft:gravel
+  Slot 19: 3x minecraft:bone_meal
+  Slot 20: 54x minecraft:cobblestone_wall
+  Slot 21: 1x minecraft:stone
+  Slot 22: 35x minecraft:arrow
+  Slot 23: 2x minecraft:crafting_table
+  Slot 24: 14x minecraft:oak_button
+  Slot 25: 9x minecraft:cobblestone_stairs
+  Slot 26: 2x minecraft:oak_sign
+
+CHEST AT POSITION (1302, 79, -212):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1313, 80, -233):
+  Slot  0: 5x minecraft:sand
+  Slot  2: 1x minecraft:white_bed
+  Slot  3: 2x minecraft:rotten_flesh
+  Slot  4: 1x minecraft:bow
+  Slot  5: 60x minecraft:stick
+  Slot  7: 2x minecraft:leaf_litter
+  Slot  8: 47x minecraft:leather
+  Slot  9: 11x minecraft:bone
+  Slot 10: 64x minecraft:string
+  Slot 11: 64x minecraft:redstone
+  Slot 12: 1x minecraft:shulker_box (Components: {"minecraft:container": [{"slot": 0, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 1, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 2, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 3, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 4, "item": {"id": "minecraft:cobblestone", "count": 64}}, {"slot": 5, "item": {"id": "minecraft:cobblestone", "count": 64}}, {"slot": 6, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 7, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 8, "item": {"id": "minecraft:cobblestone", "count": 64}}, {"slot": 9, "item": {"id": "minecraft:cobblestone", "count": 64}}, {"slot": 10, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 11, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 12, "item": {"id": "minecraft:cobblestone", "count": 18}}, {"slot": 16, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 17, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 18, "item": {"id": "minecraft:dirt", "count": 64}}, {"slot": 19, "item": {"id": "minecraft:dirt", "count": 64}}]})
+  Slot 14: 19x minecraft:raw_gold
+  Slot 15: 4x minecraft:short_grass
+  Slot 16: 20x minecraft:string
+  Slot 17: 7x minecraft:oak_sapling
+  Slot 18: 12x minecraft:oak_fence
+  Slot 19: 27x minecraft:stick
+  Slot 20: 20x minecraft:redstone
+  Slot 21: 64x minecraft:leather
+  Slot 22: 1x minecraft:shears (Components: {"minecraft:damage": 92})
+  Slot 23: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 79})
+  Slot 24: 2x minecraft:oak_leaves
+  Slot 25: 1x minecraft:shears (Components: {"minecraft:damage": 128})
+
+CHEST AT POSITION (1314, 80, -233):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1315, 80, -233):
+  [Block data unavailable or non-chest block]
+
+CHEST AT POSITION (1316, 80, -233):
+  Slot  1: 64x minecraft:firework_rocket
+  Slot  2: 64x minecraft:firework_rocket
+  Slot  3: 64x minecraft:firework_rocket
+  Slot  4: 64x minecraft:firework_rocket
+  Slot  5: 64x minecraft:golden_carrot
+  Slot  6: 64x minecraft:golden_carrot
+  Slot  7: 64x minecraft:golden_carrot
+  Slot  8: 64x minecraft:firework_rocket
+  Slot  9: 64x minecraft:golden_carrot
+  Slot 10: 16x minecraft:golden_carrot
+  Slot 11: 64x minecraft:firework_rocket
+  Slot 12: 64x minecraft:firework_rocket
+  Slot 13: 64x minecraft:firework_rocket
+  Slot 14: 64x minecraft:firework_rocket
+  Slot 15: 64x minecraft:firework_rocket
+  Slot 16: 64x minecraft:firework_rocket
+  Slot 17: 64x minecraft:firework_rocket
+  Slot 18: 64x minecraft:gunpowder
+  Slot 19: 64x minecraft:paper
+  Slot 20: 40x minecraft:gunpowder
+  Slot 21: 1x minecraft:iron_ingot
+  Slot 22: 64x minecraft:emerald
+  Slot 23: 64x minecraft:emerald
+  Slot 25: 1x minecraft:totem_of_undying
+  Slot 26: 2x minecraft:netherite_ingot
+
+CHEST AT POSITION (1314, 80, -238):
+  Slot  0: 64x minecraft:bone
+  Slot  1: 3x minecraft:granite
+  Slot  2: 1x minecraft:mutton
+  Slot  3: 32x minecraft:dirt
+  Slot  4: 64x minecraft:string
+  Slot  5: 5x minecraft:stone
+  Slot  6: 1x minecraft:bow
+  Slot  7: 1x minecraft:oak_fence
+  Slot  8: 18x minecraft:sugar_cane
+  Slot  9: 10x minecraft:leaf_litter
+  Slot 10: 64x minecraft:bone
+  Slot 11: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 90})
+  Slot 12: 35x minecraft:redstone
+  Slot 13: 33x minecraft:end_stone
+  Slot 14: 23x minecraft:bone
+  Slot 15: 5x minecraft:dandelion
+  Slot 16: 1x minecraft:bow
+  Slot 17: 51x minecraft:cobblestone
+  Slot 18: 1x minecraft:stick
+  Slot 19: 4x minecraft:black_wool
+  Slot 20: 64x minecraft:wheat_seeds
+  Slot 21: 8x minecraft:orange_dye
+  Slot 22: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 96})
+  Slot 23: 10x minecraft:wheat
+  Slot 24: 4x minecraft:light_gray_dye
+  Slot 25: 32x minecraft:wheat_seeds
+  Slot 26: 1x minecraft:chicken
+
+CHEST AT POSITION (1315, 80, -238):
+  Slot  0: 64x minecraft:cobblestone
+  Slot  1: 1x minecraft:wooden_spear (Components: {"minecraft:damage": 1})
+  Slot  2: 64x minecraft:string
+  Slot  3: 45x minecraft:spruce_sapling
+  Slot  4: 57x minecraft:rotten_flesh
+  Slot  5: 1x minecraft:furnace
+  Slot  6: 1x minecraft:stone_shovel (Components: {"minecraft:damage": 98})
+  Slot  7: 18x minecraft:diamond_block
+  Slot  8: 48x minecraft:bone
+  Slot  9: 1x minecraft:bow
+  Slot 10: 1x minecraft:stone_pickaxe (Components: {"minecraft:damage": 1})
+  Slot 11: 1x minecraft:spider_eye
+  Slot 12: 1x minecraft:stone_sword (Components: {"minecraft:damage": 15})
+  Slot 13: 35x minecraft:red_sand
+  Slot 14: 1x minecraft:bow
+  Slot 15: 18x minecraft:cyan_concrete
+  Slot 16: 1x minecraft:copper_ingot
+  Slot 17: 64x minecraft:stone_bricks
+  Slot 18: 16x minecraft:ender_pearl
+  Slot 19: 24x minecraft:torch
+  Slot 20: 64x minecraft:cobblestone
+  Slot 21: 39x minecraft:magma_block
+  Slot 22: 56x minecraft:stick
+  Slot 23: 64x minecraft:dirt
+  Slot 24: 16x minecraft:ender_pearl
+  Slot 25: 1x minecraft:bow
+  Slot 26: 1x minecraft:iron_spear
+
+CHEST AT POSITION (1316, 80, -238):
+  Slot  0: 8x minecraft:crafting_table
+  Slot  1: 1x minecraft:copper_chestplate (Components: {"minecraft:damage": 94})
+  Slot  2: 16x minecraft:ender_pearl
+  Slot  3: 1x minecraft:bow
+  Slot  4: 64x minecraft:dirt
+  Slot  5: 64x minecraft:stone
+  Slot  6: 1x minecraft:iron_shovel (Components: {"minecraft:damage": 50})
+  Slot  7: 16x minecraft:ender_pearl
+  Slot  8: 1x minecraft:bow
+  Slot  9: 23x minecraft:crying_obsidian
+  Slot 10: 9x minecraft:ender_pearl
+  Slot 11: 1x minecraft:piston
+  Slot 12: 7x minecraft:basalt
+  Slot 13: 1x minecraft:bow
+  Slot 14: 1x minecraft:bow
+  Slot 15: 5x minecraft:glowstone
+  Slot 16: 26x minecraft:emerald
+  Slot 17: 5x minecraft:oak_fence
+  Slot 18: 1x minecraft:wooden_pickaxe (Components: {"minecraft:damage": 51})
+  Slot 19: 1x minecraft:leather_boots (Components: {"minecraft:damage": 49})
+  Slot 20: 3x minecraft:coal
+  Slot 21: 63x minecraft:string
+  Slot 22: 14x minecraft:sweet_berries
+  Slot 23: 4x minecraft:orange_concrete
+  Slot 25: 6x minecraft:soul_sand
+  Slot 26: 4x minecraft:oak_door
+
+CHEST AT POSITION (1313, 80, -238):
+  Slot  0: 16x minecraft:ender_pearl
+  Slot  1: 43x minecraft:oak_log
+  Slot  2: 16x minecraft:ender_pearl
+  Slot  3: 16x minecraft:ender_pearl
+  Slot  4: 16x minecraft:ender_pearl
+  Slot  5: 16x minecraft:ender_pearl
+  Slot  6: 16x minecraft:ender_pearl
+  Slot  7: 16x minecraft:ender_pearl
+  Slot  8: 16x minecraft:ender_pearl
+  Slot  9: 16x minecraft:ender_pearl
+  Slot 10: 16x minecraft:ender_pearl
+  Slot 11: 16x minecraft:ender_pearl
+  Slot 12: 16x minecraft:ender_pearl
+  Slot 13: 4x minecraft:rotten_flesh
+  Slot 14: 16x minecraft:ender_pearl
+  Slot 15: 64x minecraft:paper
+  Slot 16: 16x minecraft:ender_pearl
+  Slot 17: 16x minecraft:ender_pearl
+  Slot 18: 16x minecraft:ender_pearl
+  Slot 19: 35x minecraft:paper
+  Slot 20: 1x minecraft:iron_axe (Components: {"minecraft:damage": 238})
+  Slot 21: 10x minecraft:stone_bricks
+  Slot 22: 1x minecraft:lantern
+  Slot 23: 16x minecraft:ender_pearl
+  Slot 24: 1x minecraft:iron_pickaxe (Components: {"minecraft:damage": 48})
+  Slot 25: 3x minecraft:glowstone_dust
+  Slot 26: 2x minecraft:red_mushroom
+
+CHEST AT POSITION (1436, 43, -235):
+  Slot  0: 64x minecraft:netherite_block
+
+CHEST AT POSITION (1422, 64, 56):
+  [Block data unavailable or non-chest block]

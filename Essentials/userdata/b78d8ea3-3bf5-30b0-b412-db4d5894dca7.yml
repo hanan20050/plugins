@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 39.37.141.42
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1784981547003
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1785079686439
+  login: 1785125471511
+money: '2.13'
+last-account-name: hanansaleh
+logoutlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1112.8246182817816
+  y: 70.49963624867253
+  z: -146.6712195315297
+  yaw: -176.1136016845703
+  pitch: -2.937894821166992
+lastlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1267.4735936048737
+  y: 79.33113635686297
+  z: -191.5554464077005
+  yaw: 14.54931640625
+  pitch: 11.850085258483887

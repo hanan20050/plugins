@@ -1,0 +1,546 @@
+{
+  "timestamp": "2026-07-23T20:46:38.076899",
+  "total_records": 882,
+  "total_players_audited": 6,
+  "total_shops_audited": 6,
+  "total_regions_audited": 16,
+  "total_anomalies_detected": 30,
+  "player_stats": {
+    "rayan saleh": {
+      "raw_names": [
+        "NightmareDady"
+      ],
+      "uuids": [
+        "d413c28e-64bb-32af-9661-3e901bc6e22b"
+      ],
+      "total_trades": 2365,
+      "items_given": {
+        "STICK": 576,
+        "EMERALD": 3949,
+        "TORCH": 96,
+        "OAK_PLANKS": 27,
+        "BOW": 723,
+        "NETHERITE_INGOT": 12,
+        "DIAMOND": 383
+      },
+      "items_received": {
+        "EMERALD": 2806,
+        "GOLDEN_CARROT": 1104,
+        "SOUL_SAND": 16,
+        "NETHER_WART": 16,
+        "VILLAGER_SPAWN_EGG": 6,
+        "WHITE_BED": 9,
+        "STRING": 2544,
+        "TORCH": 1184,
+        "QUARTZ": 8,
+        "OAK_LOG": 189,
+        "WRITTEN_BOOK": 7,
+        "NETHER_BRICKS": 4032,
+        "STICK": 2496,
+        "NETHERITE_INGOT": 13,
+        "STONE": 704,
+        "GLASS": 104,
+        "GLOWSTONE": 24,
+        "DIAMOND_CHESTPLATE": 1,
+        "DIAMOND": 20,
+        "BOW": 1,
+        "IRON_INGOT": 2,
+        "ARROW": 32,
+        "ENDER_EYE": 7,
+        "ENDER_PEARL": 2,
+        "CRYING_OBSIDIAN": 32,
+        "MAGMA_BLOCK": 48,
+        "OBSIDIAN": 4,
+        "LEATHER": 296,
+        "PAPER": 1032,
+        "LAPIS_LAZULI": 80,
+        "ENCHANTED_BOOK": 27,
+        "ELYTRA": 1,
+        "TOTEM_OF_UNDYING": 2,
+        "GUNPOWDER": 424
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-21T06:27:24.246342226Z",
+      "last_trade": "2026-07-22T10:35:48.369960634Z",
+      "shops_used": [
+        "(1297,80,-216)",
+        "(1299,80,-218)",
+        "(1299,80,-220)",
+        "(1297,80,-218)",
+        "(1297,80,-220)"
+      ]
+    },
+    "omer saleh": {
+      "raw_names": [
+        ".WiryCircle3938"
+      ],
+      "uuids": [
+        "00000000-0000-0000-0009-01f0a3b317d4"
+      ],
+      "total_trades": 28,
+      "items_given": {
+        "BOW": 12,
+        "STICK": 64,
+        "EMERALD": 12,
+        "IRON_CHESTPLATE": 2
+      },
+      "items_received": {
+        "EMERALD": 20,
+        "POTATO": 192
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-21T06:29:27.799383043Z",
+      "last_trade": "2026-07-21T17:11:02.411170532Z",
+      "shops_used": [
+        "(1297,80,-220)",
+        "(1297,80,-218)"
+      ]
+    },
+    "hanan saleh": {
+      "raw_names": [
+        "hanansaleh"
+      ],
+      "uuids": [
+        "b78d8ea3-3bf5-30b0-b412-db4d5894dca7"
+      ],
+      "total_trades": 545,
+      "items_given": {
+        "BOW": 203,
+        "EMERALD": 1457,
+        "NETHERITE_INGOT": 4,
+        "EMERALD_BLOCK": 18,
+        "SADDLE": 16,
+        "OAK_PLANKS": 6,
+        "OBSIDIAN": 296,
+        "ENDER_PEARL": 112
+      },
+      "items_received": {
+        "EMERALD": 681,
+        "ALLAY_SPAWN_EGG": 6,
+        "STRING": 1416,
+        "GOLDEN_CARROT": 144,
+        "POTATO": 224,
+        "WRITTEN_BOOK": 17,
+        "ROTTEN_FLESH": 1344,
+        "NETHERITE_INGOT": 1,
+        "WHITE_WOOL": 96,
+        "LAPIS_LAZULI": 96,
+        "COBBLESTONE": 64,
+        "EMERALD_BLOCK": 6,
+        "LEATHER": 48,
+        "IRON_INGOT": 20,
+        "WHITE_BED": 2,
+        "OAK_LOG": 12,
+        "DIAMOND_SWORD": 1,
+        "BARRIER": 1
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-21T06:45:32.105420895Z",
+      "last_trade": "2026-07-22T12:27:53.152319720Z",
+      "shops_used": [
+        "(1297,80,-220)",
+        "(1297,80,-218)",
+        "(1297,80,-216)",
+        "(1299,80,-218)"
+      ]
+    },
+    "manansaleh2007": {
+      "raw_names": [
+        "manansaleh2007"
+      ],
+      "uuids": [
+        "95204d3f-ea6c-3dfa-929d-9180927184f8"
+      ],
+      "total_trades": 2233,
+      "items_given": {
+        "EMERALD": 2718,
+        "BOW": 792,
+        "IRON_INGOT": 352,
+        "CLAY_BALL": 550,
+        "SADDLE": 37,
+        "EMERALD_BLOCK": 48,
+        "OBSIDIAN": 23,
+        "ENDER_PEARL": 1833,
+        "ENDER_EYE": 4,
+        "NETHERITE_INGOT": 14
+      },
+      "items_received": {
+        "BLACKSTONE": 2464,
+        "WRITTEN_BOOK": 10,
+        "NETHER_BRICKS": 3040,
+        "EMERALD": 2184,
+        "GOLDEN_CARROT": 584,
+        "ENDER_PEARL": 14,
+        "STRING": 2496,
+        "SHULKER_SHELL": 20,
+        "GLASS": 12,
+        "LEATHER": 248,
+        "DIAMOND_CHESTPLATE": 2,
+        "DIAMOND": 37,
+        "END_PORTAL_FRAME": 12,
+        "ENDER_EYE": 5,
+        "NETHERITE_INGOT": 17,
+        "IRON_INGOT": 76,
+        "NAME_TAG": 2,
+        "WHITE_WOOL": 144,
+        "BLAZE_ROD": 2,
+        "OBSIDIAN": 4,
+        "PAPER": 624,
+        "REDSTONE": 128,
+        "LAPIS_LAZULI": 128,
+        "ELYTRA": 1,
+        "ENCHANTED_BOOK": 6,
+        "GUNPOWDER": 232
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-21T06:54:06.390920280Z",
+      "last_trade": "2026-07-22T11:37:34.239523414Z",
+      "shops_used": [
+        "(1297,80,-216)",
+        "(1299,80,-218)",
+        "(1299,80,-220)",
+        "(1297,80,-218)",
+        "(1297,80,-220)"
+      ]
+    },
+    "mustafa": {
+      "raw_names": [
+        ".MUSTAFAhacker67"
+      ],
+      "uuids": [
+        "00000000-0000-0000-0009-01f9433f6353"
+      ],
+      "total_trades": 509,
+      "items_given": {
+        "EMERALD": 410,
+        "NETHERITE_INGOT": 4,
+        "BOW": 14,
+        "STICK": 7008,
+        "ENDER_PEARL": 3228
+      },
+      "items_received": {
+        "RAW_IRON": 56,
+        "BREAD": 36,
+        "NETHERITE_INGOT": 4,
+        "WRITTEN_BOOK": 4,
+        "EMERALD": 447,
+        "OAK_LOG": 6,
+        "SHULKER_SHELL": 6,
+        "COOKED_BEEF": 75
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-21T09:18:55.694160714Z",
+      "last_trade": "2026-07-22T07:07:14.424341826Z",
+      "shops_used": [
+        "(1297,80,-220)",
+        "(1297,80,-218)",
+        "(1297,80,-216)"
+      ]
+    },
+    "azan saleh": {
+      "raw_names": [
+        "azansalehhh"
+      ],
+      "uuids": [
+        "2d5bf9b3-5a85-3026-a136-4680097f11f1"
+      ],
+      "total_trades": 1319,
+      "items_given": {
+        "EMERALD": 1325,
+        "BOW": 375,
+        "OAK_PLANKS": 18,
+        "DIAMOND": 131
+      },
+      "items_received": {
+        "STRING": 1680,
+        "STICK": 1088,
+        "EMERALD": 1030,
+        "OAK_LOG": 507,
+        "COAL": 315,
+        "TORCH": 176,
+        "BUCKET": 6,
+        "GOLDEN_CARROT": 352,
+        "WRITTEN_BOOK": 6,
+        "IRON_INGOT": 256,
+        "BONE": 216,
+        "STONE": 736,
+        "WHITE_WOOL": 80,
+        "WHITE_BED": 6,
+        "SHULKER_SHELL": 2,
+        "IRON_PICKAXE": 1,
+        "SHEARS": 1,
+        "SADDLE": 1,
+        "BREAD": 42,
+        "LEATHER": 24,
+        "WHEAT": 192,
+        "LEAD": 17,
+        "COOKED_BEEF": 165,
+        "GUNPOWDER": 296,
+        "PAPER": 264,
+        "BLAZE_ROD": 42,
+        "CARROT": 32
+      },
+      "emeralds_spent": 0,
+      "emeralds_gained": 0,
+      "net_emerald_balance": 0,
+      "first_trade": "2026-07-22T07:58:20.720958043Z",
+      "last_trade": "2026-07-22T11:01:46.272806957Z",
+      "shops_used": [
+        "(1297,80,-220)",
+        "(1297,80,-218)",
+        "(1297,80,-216)"
+      ]
+    }
+  },
+  "anomalies": [
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "2",
+      "shop_name": "&6Land & House Upgrades",
+      "recipe_id": "2",
+      "details": "Duplicate trade recipe found in Shop #2 (&6Land & House Upgrades): minecraft:emerald:48|:0->minecraft:written_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "2",
+      "shop_name": "&6Land & House Upgrades",
+      "recipe_id": "4",
+      "details": "Duplicate trade recipe found in Shop #2 (&6Land & House Upgrades): minecraft:emerald:64|:0->minecraft:written_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "2",
+      "shop_name": "&6Land & House Upgrades",
+      "recipe_id": "6",
+      "details": "Duplicate trade recipe found in Shop #2 (&6Land & House Upgrades): minecraft:emerald:48|:0->minecraft:written_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "2",
+      "shop_name": "&6Land & House Upgrades",
+      "recipe_id": "7",
+      "details": "Duplicate trade recipe found in Shop #2 (&6Land & House Upgrades): minecraft:emerald:64|:0->minecraft:written_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "2",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "3",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "4",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "5",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "6",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "7",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "8",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "9",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "10",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "11",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "12",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "13",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "14",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "15",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "16",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "17",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "18",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "19",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "20",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "21",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "22",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "23",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "24",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:emerald:64|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "6",
+      "shop_name": "&dEnchanted Book Emporium",
+      "recipe_id": "26",
+      "details": "Duplicate trade recipe found in Shop #6 (&dEnchanted Book Emporium): minecraft:netherite_ingot:3|:0->minecraft:enchanted_book:1"
+    },
+    {
+      "type": "DUPLICATE_RECIPE",
+      "severity": "LOW",
+      "shop_id": "7",
+      "shop_name": "&bBiome Coordinates & Explorer",
+      "recipe_id": "6",
+      "details": "Duplicate trade recipe found in Shop #7 (&bBiome Coordinates & Explorer): minecraft:emerald:24|:0->minecraft:written_book:1"
+    },
+    {
+      "type": "REGION_MISSING_UUID_OWNER",
+      "severity": "HIGH",
+      "world": "world",
+      "region": "ww",
+      "details": "Region 'ww' in world 'world' defines owners but is missing UUIDs under 'owners.unique-ids'."
+    }
+  ]
+}

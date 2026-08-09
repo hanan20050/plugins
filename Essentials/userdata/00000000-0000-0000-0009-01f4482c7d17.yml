@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 156.70.178.235
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1785125900707
+  login: 1785126079562
+money: '0'
+last-account-name: .HastyBag7675
+logoutlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1094.1666
+  y: 64.0
+  z: -133.19902
+  yaw: 178.47409057617188
+  pitch: 31.12255859375

@@ -1,0 +1,11 @@
+{
+    "bounds": {
+        "min_x": -56,
+        "max_x": 43,
+        "min_z": 185,
+        "max_z": 284,
+        "y": 23
+    },
+    "material": "minecraft:cobbled_deepslate_slab",
+    "dimension": "minecraft:the_end"
+}

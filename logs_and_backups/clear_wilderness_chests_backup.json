@@ -1,0 +1,675 @@
+[
+    {
+        "type": "minecraft:chest",
+        "x": 1287,
+        "y": 77,
+        "z": -202,
+        "items_count": 21,
+        "items": [
+            {
+                "Slot": 0,
+                "id": "minecraft:string",
+                "count": 2
+            },
+            {
+                "Slot": 1,
+                "id": "minecraft:iron_ingot",
+                "count": 18
+            },
+            {
+                "Slot": 2,
+                "id": "minecraft:bone",
+                "count": 4
+            },
+            {
+                "Slot": 3,
+                "id": "minecraft:arrow",
+                "count": 64
+            },
+            {
+                "Slot": 4,
+                "id": "minecraft:rotten_flesh",
+                "count": 64
+            },
+            {
+                "Slot": 7,
+                "id": "minecraft:blackstone_wall",
+                "count": 2
+            },
+            {
+                "Slot": 8,
+                "id": "minecraft:wheat_seeds",
+                "count": 14
+            },
+            {
+                "Slot": 9,
+                "id": "minecraft:poppy",
+                "count": 3
+            },
+            {
+                "Slot": 11,
+                "id": "minecraft:wooden_shovel",
+                "count": 1
+            },
+            {
+                "Slot": 13,
+                "id": "minecraft:quartz",
+                "count": 11
+            },
+            {
+                "Slot": 14,
+                "id": "minecraft:stone_axe",
+                "count": 1
+            },
+            {
+                "Slot": 15,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 171
+                }
+            },
+            {
+                "Slot": 16,
+                "id": "minecraft:egg",
+                "count": 1
+            },
+            {
+                "Slot": 17,
+                "id": "minecraft:stone_axe",
+                "count": 1
+            },
+            {
+                "Slot": 19,
+                "id": "minecraft:copper_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:unbreaking": 3
+                    },
+                    "minecraft:damage": 53
+                }
+            },
+            {
+                "Slot": 20,
+                "id": "minecraft:oak_sapling",
+                "count": 2
+            },
+            {
+                "Slot": 21,
+                "id": "minecraft:flint",
+                "count": 1
+            },
+            {
+                "Slot": 22,
+                "id": "minecraft:white_bed",
+                "count": 1
+            },
+            {
+                "Slot": 23,
+                "id": "minecraft:rotten_flesh",
+                "count": 4
+            },
+            {
+                "Slot": 24,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 9
+                }
+            },
+            {
+                "Slot": 25,
+                "id": "minecraft:iron_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 55
+                }
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1284,
+        "y": 77,
+        "z": -202,
+        "items_count": 12,
+        "items": [
+            {
+                "Slot": 0,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "Slot": 1,
+                "id": "minecraft:cobblestone",
+                "count": 12
+            },
+            {
+                "Slot": 2,
+                "id": "minecraft:lapis_lazuli",
+                "count": 25
+            },
+            {
+                "Slot": 3,
+                "id": "minecraft:raw_copper",
+                "count": 13
+            },
+            {
+                "Slot": 4,
+                "id": "minecraft:cobblestone",
+                "count": 4
+            },
+            {
+                "Slot": 5,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "Slot": 6,
+                "id": "minecraft:bow",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 262
+                }
+            },
+            {
+                "Slot": 7,
+                "id": "minecraft:arrow",
+                "count": 2
+            },
+            {
+                "Slot": 9,
+                "id": "minecraft:cobblestone",
+                "count": 9
+            },
+            {
+                "Slot": 10,
+                "id": "minecraft:arrow",
+                "count": 2
+            },
+            {
+                "Slot": 11,
+                "id": "minecraft:bone_meal",
+                "count": 3
+            },
+            {
+                "Slot": 12,
+                "id": "minecraft:stick",
+                "count": 40
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1287,
+        "y": 77,
+        "z": -203,
+        "items_count": 25,
+        "items": [
+            {
+                "Slot": 0,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 145
+                }
+            },
+            {
+                "Slot": 1,
+                "id": "minecraft:water_bucket",
+                "count": 1
+            },
+            {
+                "Slot": 2,
+                "id": "minecraft:stick",
+                "count": 37
+            },
+            {
+                "Slot": 3,
+                "id": "minecraft:lead",
+                "count": 1
+            },
+            {
+                "Slot": 4,
+                "id": "minecraft:emerald",
+                "count": 7
+            },
+            {
+                "Slot": 5,
+                "id": "minecraft:copper_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:protection": 2
+                    },
+                    "minecraft:damage": 94
+                }
+            },
+            {
+                "Slot": 6,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 209
+                }
+            },
+            {
+                "Slot": 7,
+                "id": "minecraft:wooden_axe",
+                "count": 1
+            },
+            {
+                "Slot": 8,
+                "id": "minecraft:wooden_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 10
+                }
+            },
+            {
+                "Slot": 9,
+                "id": "minecraft:iron_leggings",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 137
+                }
+            },
+            {
+                "Slot": 10,
+                "id": "minecraft:iron_boots",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 140
+                }
+            },
+            {
+                "Slot": 11,
+                "id": "minecraft:golden_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 92
+                }
+            },
+            {
+                "Slot": 12,
+                "id": "minecraft:iron_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 142
+                }
+            },
+            {
+                "Slot": 13,
+                "id": "minecraft:copper_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 142
+                }
+            },
+            {
+                "Slot": 14,
+                "id": "minecraft:dirt",
+                "count": 57
+            },
+            {
+                "Slot": 15,
+                "id": "minecraft:mossy_cobblestone",
+                "count": 4
+            },
+            {
+                "Slot": 16,
+                "id": "minecraft:stone_axe",
+                "count": 1
+            },
+            {
+                "Slot": 17,
+                "id": "minecraft:rotten_flesh",
+                "count": 2
+            },
+            {
+                "Slot": 18,
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 208
+                }
+            },
+            {
+                "Slot": 19,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:protection": 2
+                    },
+                    "minecraft:damage": 164
+                }
+            },
+            {
+                "Slot": 21,
+                "id": "minecraft:golden_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 75
+                }
+            },
+            {
+                "Slot": 22,
+                "id": "minecraft:golden_helmet",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:blast_protection": 2,
+                        "minecraft:aqua_affinity": 1
+                    },
+                    "minecraft:damage": 40
+                }
+            },
+            {
+                "Slot": 23,
+                "id": "minecraft:copper_chestplate",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:projectile_protection": 2,
+                        "minecraft:unbreaking": 1
+                    },
+                    "minecraft:damage": 171
+                }
+            },
+            {
+                "Slot": 25,
+                "id": "minecraft:bone",
+                "count": 12
+            },
+            {
+                "Slot": 26,
+                "id": "minecraft:arrow",
+                "count": 2
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1286,
+        "y": 77,
+        "z": -206,
+        "items_count": 13,
+        "items": [
+            {
+                "Slot": 1,
+                "id": "minecraft:stone_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 40
+                }
+            },
+            {
+                "Slot": 2,
+                "id": "minecraft:grass_block",
+                "count": 1
+            },
+            {
+                "Slot": 3,
+                "id": "minecraft:stick",
+                "count": 4
+            },
+            {
+                "Slot": 6,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 64
+                }
+            },
+            {
+                "Slot": 8,
+                "id": "minecraft:stone_hoe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 34
+                }
+            },
+            {
+                "Slot": 9,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 4
+                }
+            },
+            {
+                "Slot": 11,
+                "id": "minecraft:stone_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 63
+                }
+            },
+            {
+                "Slot": 12,
+                "id": "minecraft:wheat_seeds",
+                "count": 64
+            },
+            {
+                "Slot": 13,
+                "id": "minecraft:spider_eye",
+                "count": 3
+            },
+            {
+                "Slot": 14,
+                "id": "minecraft:sand",
+                "count": 3
+            },
+            {
+                "Slot": 15,
+                "id": "minecraft:stone_axe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 40
+                }
+            },
+            {
+                "Slot": 16,
+                "id": "minecraft:dirt",
+                "count": 64
+            },
+            {
+                "Slot": 17,
+                "id": "minecraft:dirt",
+                "count": 6
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1285,
+        "y": 77,
+        "z": -206,
+        "items_count": 24,
+        "items": [
+            {
+                "Slot": 0,
+                "id": "minecraft:diamond",
+                "count": 1
+            },
+            {
+                "Slot": 1,
+                "id": "minecraft:wheat_seeds",
+                "count": 5
+            },
+            {
+                "Slot": 2,
+                "id": "minecraft:glass",
+                "count": 1
+            },
+            {
+                "Slot": 3,
+                "id": "minecraft:arrow",
+                "count": 4
+            },
+            {
+                "Slot": 4,
+                "id": "minecraft:andesite",
+                "count": 2
+            },
+            {
+                "Slot": 6,
+                "id": "minecraft:white_wool",
+                "count": 3
+            },
+            {
+                "Slot": 7,
+                "id": "minecraft:oak_door",
+                "count": 2
+            },
+            {
+                "Slot": 8,
+                "id": "minecraft:copper_leggings",
+                "count": 1,
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:blast_protection": 3
+                    },
+                    "minecraft:damage": 159
+                }
+            },
+            {
+                "Slot": 9,
+                "id": "minecraft:bone_meal",
+                "count": 14
+            },
+            {
+                "Slot": 10,
+                "id": "minecraft:gravel",
+                "count": 8
+            },
+            {
+                "Slot": 11,
+                "id": "minecraft:granite",
+                "count": 3
+            },
+            {
+                "Slot": 12,
+                "id": "minecraft:lapis_lazuli",
+                "count": 30
+            },
+            {
+                "Slot": 13,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 87
+                }
+            },
+            {
+                "Slot": 15,
+                "id": "minecraft:stone_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 31
+                }
+            },
+            {
+                "Slot": 16,
+                "id": "minecraft:oak_sapling",
+                "count": 22
+            },
+            {
+                "Slot": 18,
+                "id": "minecraft:oak_door",
+                "count": 1
+            },
+            {
+                "Slot": 19,
+                "id": "minecraft:cobblestone",
+                "count": 2
+            },
+            {
+                "Slot": 20,
+                "id": "minecraft:cobbled_deepslate",
+                "count": 34
+            },
+            {
+                "Slot": 21,
+                "id": "minecraft:iron_sword",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 248
+                }
+            },
+            {
+                "Slot": 22,
+                "id": "minecraft:copper_ingot",
+                "count": 49
+            },
+            {
+                "Slot": 23,
+                "id": "minecraft:stone_shovel",
+                "count": 1,
+                "components": {
+                    "minecraft:damage": 13
+                }
+            },
+            {
+                "Slot": 24,
+                "id": "minecraft:feather",
+                "count": 2
+            },
+            {
+                "Slot": 25,
+                "id": "minecraft:diorite",
+                "count": 17
+            },
+            {
+                "Slot": 26,
+                "id": "minecraft:oak_fence",
+                "count": 8
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1436,
+        "y": 43,
+        "z": -235,
+        "items_count": 1,
+        "items": [
+            {
+                "Slot": 2,
+                "id": "minecraft:netherite_block",
+                "count": 64
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.-1.mca"
+    },
+    {
+        "type": "minecraft:chest",
+        "x": 1422,
+        "y": 64,
+        "z": 56,
+        "items_count": 1,
+        "items": [
+            {
+                "Slot": 0,
+                "id": "minecraft:raw_iron",
+                "count": 8
+            }
+        ],
+        "regions": [],
+        "mca": "r.2.0.mca"
+    }
+]

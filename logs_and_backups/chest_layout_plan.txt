@@ -1,0 +1,70 @@
+=== PROPOSED SORTED CHEST LAYOUT PLAN ===
+
+CHEST #1 AT POSITION (1270, 67, -219) — [Building Blocks & Materials]:
+  Slot  0: 64x minecraft:dirt                   [Building Blocks]
+  Slot  1: 64x minecraft:dirt                   [Building Blocks]
+  Slot  2: 54x minecraft:dirt                   [Building Blocks]
+  Slot  3:  2x minecraft:basalt                 [Building Blocks]
+  Slot  4: 15x minecraft:cobblestone_slab       [Building Blocks]
+  Slot  5:  2x minecraft:cobblestone_stairs     [Building Blocks]
+  Slot  6:  1x minecraft:glass                  [Building Blocks]
+  Slot  7:  5x minecraft:granite                [Building Blocks]
+  Slot  8:  2x minecraft:gravel                 [Building Blocks]
+  Slot  9:  5x minecraft:mossy_cobblestone      [Building Blocks]
+  Slot 10: 14x minecraft:nether_brick_slab      [Building Blocks]
+  Slot 11:  1x minecraft:oak_slab               [Building Blocks]
+  Slot 12:  1x minecraft:oak_stairs             [Building Blocks]
+  Slot 13:  1x minecraft:orange_concrete        [Building Blocks]
+  Slot 14:  1x minecraft:polished_deepslate_slab [Building Blocks]
+  Slot 15:  6x minecraft:soul_sand              [Building Blocks]
+
+CHEST #2 AT POSITION (1270, 66, -219) — [Ores, Valuables & Tools]:
+  Slot  0: 58x minecraft:emerald_block          [Ingots, Ores & Valuables]
+  Slot  1: 64x minecraft:iron_ingot             [Ingots, Ores & Valuables]
+  Slot  2: 23x minecraft:iron_ingot             [Ingots, Ores & Valuables]
+  Slot  3: 48x minecraft:lapis_lazuli           [Ingots, Ores & Valuables]
+  Slot  4:  2x minecraft:redstone               [Ingots, Ores & Valuables]
+  Slot  5:  1x minecraft:diamond_pickaxe        [Tools & Weapons] (Components: {"minecraft:damage": 2})
+  Slot  6:  1x minecraft:iron_pickaxe           [Tools & Weapons]
+  Slot  7:  1x minecraft:iron_pickaxe           [Tools & Weapons]
+  Slot  8:  1x minecraft:iron_pickaxe           [Tools & Weapons]
+  Slot  9:  1x minecraft:iron_sword             [Tools & Weapons] (Components: {"minecraft:damage": 10})
+  Slot 10:  1x minecraft:iron_sword             [Tools & Weapons] (Components: {"minecraft:damage": 37})
+  Slot 11:  1x minecraft:iron_sword             [Tools & Weapons]
+  Slot 12:  1x minecraft:iron_sword             [Tools & Weapons]
+  Slot 13:  1x minecraft:iron_hoe               [Tools & Weapons]
+  Slot 14:  1x minecraft:iron_hoe               [Tools & Weapons]
+  Slot 15:  1x minecraft:iron_shovel            [Tools & Weapons] (Components: {"minecraft:damage": 239})
+  Slot 16:  1x minecraft:stone_pickaxe          [Tools & Weapons] (Components: {"minecraft:damage": 12})
+  Slot 17:  1x minecraft:stone_pickaxe          [Tools & Weapons]
+  Slot 18:  1x minecraft:stone_pickaxe          [Tools & Weapons]
+  Slot 19:  1x minecraft:golden_chestplate      [Armors & Gear] (Components: {"minecraft:damage": 70, "minecraft:enchantments": {"minecraft:blast_protection": 1}})
+
+CHEST #3 AT POSITION (1270, 65, -219) — [Nature, Food & Misc]:
+  Slot  0:  3x minecraft:apple                  [Nature & Food]
+  Slot  1:  3x minecraft:beef                   [Nature & Food]
+  Slot  2: 10x minecraft:bone                   [Nature & Food]
+  Slot  3: 18x minecraft:bone_meal              [Nature & Food]
+  Slot  4:  1x minecraft:cornflower             [Nature & Food]
+  Slot  5:  1x minecraft:dried_kelp             [Nature & Food]
+  Slot  6: 18x minecraft:glow_ink_sac           [Nature & Food]
+  Slot  7: 50x minecraft:leather                [Nature & Food]
+  Slot  8:  1x minecraft:lily_of_the_valley     [Nature & Food]
+  Slot  9:  3x minecraft:mutton                 [Nature & Food]
+  Slot 10: 12x minecraft:oak_sapling            [Nature & Food]
+  Slot 11: 10x minecraft:rotten_flesh           [Nature & Food]
+  Slot 12:  1x minecraft:spider_eye             [Nature & Food]
+  Slot 13:  8x minecraft:sweet_berries          [Nature & Food]
+  Slot 14: 64x minecraft:wheat_seeds            [Nature & Food]
+  Slot 15: 34x minecraft:arrow                  [Functional & Misc]
+  Slot 16:  4x minecraft:crafting_table         [Functional & Misc]
+  Slot 17:  2x minecraft:fletching_table        [Functional & Misc]
+  Slot 18:  3x minecraft:furnace                [Functional & Misc]
+  Slot 19:  2x minecraft:oak_sign               [Functional & Misc]
+  Slot 20:  1x minecraft:shulker_box            [Functional & Misc]
+  Slot 21:  1x minecraft:spruce_sign            [Functional & Misc]
+  Slot 22:  3x minecraft:stick                  [Functional & Misc]
+  Slot 23:  1x minecraft:white_bed              [Functional & Misc]
+
+CHESTS #4 THROUGH #12 — [Available / Empty]:
+  (Chests at positions 1270 67 -218, 1270 66 -218, 1270 65 -218, 1270 67 -216, 1270 66 -216, 1270 65 -216, 1270 67 -214, 1270 66 -214, 1270 65 -214 are currently empty and reserved for expansion)

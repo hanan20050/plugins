@@ -1,0 +1,6 @@
+[
+  {
+    "action": "fill_dirt",
+    "command": "fill 1292 76 -230 1299 76 -222 minecraft:dirt"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "action": "fill_west_dirt_and_restore_concrete",
+    "command": "fill 1292 76 -230 1292 78 -222 minecraft:dirt | fill 1293 78 -230 1300 78 -222 minecraft:white_concrete"
+  }
+]
