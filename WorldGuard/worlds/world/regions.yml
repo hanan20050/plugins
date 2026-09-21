@@ -34,7 +34,7 @@ regions:
         members: {}
         flags: {other-explosion: deny, creeper-explosion: deny, tnt: deny, pvp: deny}
         owners:
-            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8]
+            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8, 00000000-0000-0000-0009-01f4482c7d17]
         type: cuboid
         priority: 0
     nightmaredady_expand:
@@ -61,7 +61,7 @@ regions:
         max: {x: 1271, y: 76, z: -183}
         members: {}
         flags: {other-explosion: deny, creeper-explosion: deny, item-pickup: deny,
-            item-pickup-group: NON_OWNERS, tnt: deny, pvp: deny, pvp-group: NON_OWNERS}
+            item-pickup-group: NON_OWNERS, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
         owners:
             unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1]
         type: cuboid
@@ -90,7 +90,7 @@ regions:
         min: {x: 1196, y: 63, z: -133}
         max: {x: 1255, y: 77, z: -74}
         members: {}
-        flags: {other-explosion: deny, creeper-explosion: deny, tnt: deny, pvp: deny,
+        flags: {other-explosion: deny, creeper-explosion: deny, pvp: deny, tnt: deny,
             pvp-group: NON_OWNERS, mob-spawning: deny, fire-spread: deny}
         owners:
             unique-ids: [d413c28e-64bb-32af-9661-3e901bc6e22b]
@@ -110,9 +110,9 @@ regions:
         members:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
         flags: {other-explosion: deny, creeper-explosion: deny, item-pickup: deny,
-            item-pickup-group: NON_OWNERS, tnt: deny, pvp: deny, pvp-group: NON_OWNERS}
+            item-pickup-group: NON_OWNERS, pvp: deny, tnt: deny, pvp-group: NON_OWNERS}
         owners:
-            unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1]
+            unique-ids: [2d5bf9b3-5a85-3026-a136-4680097f11f1, 00000000-0000-0000-0009-01f9433f6353]
         type: cuboid
         priority: 0
     mustafahacker67:
@@ -141,6 +141,16 @@ regions:
         flags: {other-explosion: deny, creeper-explosion: deny, tnt: deny, pvp: allow}
         owners:
             unique-ids: [00000000-0000-0000-0009-01f9433f6353]
+        type: cuboid
+        priority: 0
+    manan3:
+        min: {x: 930, y: 71, z: -98}
+        max: {x: 1019, y: 85, z: -9}
+        members: {}
+        flags: {pvp: allow}
+        owners:
+            unique-ids: [95204d3f-ea6c-3dfa-929d-9180927184f8, 00000000-0000-0000-0009-01f4482c7d17]
+            players: [manansaleh2007]
         type: cuboid
         priority: 0
     __global__:

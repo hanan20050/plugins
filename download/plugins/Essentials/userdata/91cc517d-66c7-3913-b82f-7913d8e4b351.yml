@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 103.191.122.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1785002276163
+  login: 1785002158278
+money: '0'
+last-account-name: goonerman3000
+logoutlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1283.2635343890295
+  y: 78.23152379758702
+  z: -233.30000001192093
+  yaw: 97.8000717163086
+  pitch: 25.350000381469727

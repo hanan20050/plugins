@@ -1,0 +1,65 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:white_bed": 1,
+      "minecraft:blue_bed": 1,
+      "minecraft:blue_dye": 1,
+      "minecraft:oak_planks": 64
+    },
+    "minecraft:used": {
+      "minecraft:apple": 3,
+      "minecraft:oak_sapling": 3
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:time_since_rest": 13449,
+      "minecraft:walk_one_cm": 102216,
+      "minecraft:mob_kills": 4,
+      "minecraft:walk_under_water_one_cm": 87803,
+      "minecraft:damage_taken": 1474,
+      "minecraft:damage_dealt": 586,
+      "minecraft:play_time": 29899,
+      "minecraft:jump": 277,
+      "minecraft:time_since_death": 13429,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 122116,
+      "minecraft:open_chest": 4,
+      "minecraft:fall_one_cm": 14198,
+      "minecraft:swim_one_cm": 32432,
+      "minecraft:total_world_time": 29899,
+      "minecraft:fly_one_cm": 24715,
+      "minecraft:walk_on_water_one_cm": 27092,
+      "minecraft:crouch_one_cm": 596,
+      "minecraft:sneak_time": 508,
+      "minecraft:climb_one_cm": 3270,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:bone": 3
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 11,
+      "minecraft:oak_leaves": 10,
+      "minecraft:cornflower": 1,
+      "minecraft:oak_log": 22
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 4
+    },
+    "minecraft:picked_up": {
+      "minecraft:apple": 5,
+      "minecraft:oak_log": 22,
+      "minecraft:stick": 5,
+      "minecraft:white_wool": 4,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:mutton": 6,
+      "minecraft:cornflower": 1,
+      "minecraft:bone": 3,
+      "minecraft:oak_sapling": 6
+    }
+  },
+  "DataVersion": 4903
+}

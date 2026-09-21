@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 182.185.175.207
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1785515354890
+  login: 1785514519355
+money: '0'
+last-account-name: azansalehhh
+logoutlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1260.1499259610628
+  y: 71.0
+  z: -213.54090485710134
+  yaw: 17.84765625
+  pitch: 24.600008010864258
+lastlocation:
+  world: 65a1c074-a3ae-473e-a1e6-97a874f6fa65
+  world-name: world
+  x: 1250.5246948361869
+  y: 63.0
+  z: -196.49612337335432
+  yaw: 116.10003662109375
+  pitch: 18.450000762939453

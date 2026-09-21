@@ -1,0 +1,62 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:oak_trapdoor": 2,
+      "minecraft:shears": 6,
+      "minecraft:water_bucket": 2,
+      "minecraft:string": 15,
+      "minecraft:lever": 1,
+      "minecraft:bucket": 2,
+      "minecraft:tripwire_hook": 8,
+      "minecraft:iron_pickaxe": 3,
+      "minecraft:gray_concrete": 10,
+      "minecraft:dirt": 10
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:torch": 1,
+      "minecraft:dirt": 1,
+      "minecraft:tripwire": 8,
+      "minecraft:grass_block": 2,
+      "minecraft:gray_concrete": 3
+    },
+    "minecraft:dropped": {
+      "minecraft:shears": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 36,
+      "minecraft:oak_trapdoor": 2,
+      "minecraft:oak_planks": 24,
+      "minecraft:shears": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 7055,
+      "minecraft:walk_one_cm": 29839,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 90,
+      "minecraft:play_time": 7055,
+      "minecraft:jump": 44,
+      "minecraft:time_since_death": 7055,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 8733,
+      "minecraft:open_chest": 6,
+      "minecraft:fall_one_cm": 2546,
+      "minecraft:total_world_time": 7055,
+      "minecraft:fly_one_cm": 12708,
+      "minecraft:walk_on_water_one_cm": 1627,
+      "minecraft:crouch_one_cm": 661,
+      "minecraft:sneak_time": 343
+    },
+    "minecraft:picked_up": {
+      "minecraft:gray_concrete": 3,
+      "minecraft:dirt": 12,
+      "minecraft:string": 14,
+      "minecraft:shears": 1,
+      "minecraft:tripwire_hook": 8,
+      "minecraft:nether_brick_stairs": 1,
+      "minecraft:torch": 1
+    }
+  },
+  "DataVersion": 4903
+}
